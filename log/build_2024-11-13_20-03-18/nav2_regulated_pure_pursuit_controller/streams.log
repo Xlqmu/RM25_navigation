@@ -1,0 +1,15 @@
+[1.006s] Invoking command in '/home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller -- -j20 -l20
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.052s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[1.052s] [ 25%] Built target gtest_main
+[1.056s] [ 41%] Built target gtest
+[1.078s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_path_utils.dir/path_utils/test_path_utils.cpp.o[0m
+[1.079s] [ 58%] [32mBuilding CXX object test/CMakeFiles/test_path_utils.dir/path_utils/path_utils.cpp.o[0m
+[206.892s] [ 66%] [32m[1mLinking CXX executable test_path_utils[0m
+[207.524s] [ 66%] Built target test_path_utils
+[416.168s] [ 75%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[417.588s] [ 75%] Built target nav2_regulated_pure_pursuit_controller
+[417.635s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[428.609s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/path_utils/path_utils.cpp.o[0m
+[431.668s] [100%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[432.546s] [100%] Built target test_regulated_pp

@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

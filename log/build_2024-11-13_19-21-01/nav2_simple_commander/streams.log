@@ -1,0 +1,43 @@
+[0.754s] Invoking command in '/home/aurora/RM25/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp PYTHONPATH=/home/aurora/RM25/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/RM25/install/nav2_simple_commander/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aurora/RM25/build/nav2_simple_commander/build --no-deps symlink_data
+[0.892s] running develop
+[0.892s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.892s]   warnings.warn(
+[0.966s] running egg_info
+[0.966s] creating nav2_simple_commander.egg-info
+[0.966s] writing nav2_simple_commander.egg-info/PKG-INFO
+[0.966s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[0.966s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[0.967s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[0.967s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[0.967s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.968s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.968s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.969s] running build_ext
+[0.969s] Creating /home/aurora/RM25/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[0.970s] Installing demo_inspection script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing demo_picking script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing demo_recoveries script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing demo_security script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing example_assisted_teleop script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing example_follow_path script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing example_nav_through_poses script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing example_nav_to_pose script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] Installing example_waypoint_follower script to /home/aurora/RM25/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.970s] 
+[0.970s] Installed /home/aurora/RM25/build/nav2_simple_commander
+[0.971s] running symlink_data
+[0.971s] creating /home/aurora/RM25/install/nav2_simple_commander/share/ament_index
+[0.971s] creating /home/aurora/RM25/install/nav2_simple_commander/share/ament_index/resource_index
+[0.971s] creating /home/aurora/RM25/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/resource/nav2_simple_commander -> /home/aurora/RM25/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/package.xml -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/inspection_demo_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/recoveries_example_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/nav_to_pose_example_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/security_demo_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.971s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/waypoint_follower_example_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.972s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/follow_path_example_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.972s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/assisted_teleop_example_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.972s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/nav_through_poses_example_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.972s] symbolically linking /home/aurora/RM25/build/nav2_simple_commander/launch/picking_demo_launch.py -> /home/aurora/RM25/install/nav2_simple_commander/share/nav2_simple_commander
+[0.988s] Invoked command in '/home/aurora/RM25/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp PYTHONPATH=/home/aurora/RM25/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/RM25/install/nav2_simple_commander/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aurora/RM25/build/nav2_simple_commander/build --no-deps symlink_data

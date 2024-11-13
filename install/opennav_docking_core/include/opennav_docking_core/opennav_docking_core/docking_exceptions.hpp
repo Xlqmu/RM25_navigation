@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/rm_navigation2/nav2_docking/opennav_docking_core/include/opennav_docking_core/docking_exceptions.hpp

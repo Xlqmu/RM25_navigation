@@ -1,0 +1,479 @@
+[0.000000] (-) TimerEvent: {}
+[0.000700] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000747] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000773] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000796] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000819] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000841] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000864] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000876] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000899] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000922] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000945] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000969] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000992] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001015] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001039] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001062] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001085] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001108] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001132] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001156] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001179] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001202] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001226] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001253] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001277] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001310] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001335] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001359] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001382] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001406] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001429] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001453] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001476] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001499] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001522] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001546] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001569] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001592] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001616] (-) JobUnselected: {'identifier': 'rm_robot_description'}
+[0.001642] (nav2_planner) JobQueued: {'identifier': 'nav2_planner', 'dependencies': OrderedDict([('nav2_common', '/home/aurora/RM25/install/nav2_common'), ('nav2_msgs', '/home/aurora/RM25/install/nav2_msgs'), ('nav2_voxel_grid', '/home/aurora/RM25/install/nav2_voxel_grid'), ('nav2_util', '/home/aurora/RM25/install/nav2_util'), ('nav2_lifecycle_manager', '/home/aurora/RM25/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/aurora/RM25/install/nav2_map_server'), ('nav2_costmap_2d', '/home/aurora/RM25/install/nav2_costmap_2d'), ('nav2_core', '/home/aurora/RM25/install/nav2_core')])}
+[0.001680] (nav2_planner) JobStarted: {'identifier': 'nav2_planner'}
+[0.099611] (-) TimerEvent: {}
+[0.199911] (-) TimerEvent: {}
+[0.300205] (-) TimerEvent: {}
+[0.400490] (-) TimerEvent: {}
+[0.500771] (-) TimerEvent: {}
+[0.601747] (-) TimerEvent: {}
+[0.702124] (-) TimerEvent: {}
+[0.802465] (-) TimerEvent: {}
+[0.902773] (-) TimerEvent: {}
+[1.003063] (-) TimerEvent: {}
+[1.103360] (-) TimerEvent: {}
+[1.203690] (-) TimerEvent: {}
+[1.233649] (nav2_planner) JobProgress: {'identifier': 'nav2_planner', 'progress': 'cmake'}
+[1.234744] (nav2_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/RM25/src/rm_navigation2/nav2_planner', '-DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_planner'], 'cwd': '/home/aurora/RM25/build/nav2_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('OLDPWD', '/home/aurora/RM25/src'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3a2267d6-6f45-4057-80f8-b9f8be53c954.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/256250_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a2c12495b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/RM25/install/nav2_common:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/nav2_planner'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/build/nav2_simple_commander:/home/aurora/RM25/install/nav2_simple_commander/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/build/nav2_loopback_sim:/home/aurora/RM25/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[1.248772] (nav2_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.303801] (-) TimerEvent: {}
+[1.337906] (nav2_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.342682] (nav2_planner) StdoutLine: {'line': b'-- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[1.343007] (nav2_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.403883] (-) TimerEvent: {}
+[1.504170] (-) TimerEvent: {}
+[1.604556] (-) TimerEvent: {}
+[1.611687] (nav2_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.613050] (nav2_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.617734] (nav2_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.626159] (nav2_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.634944] (nav2_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.658748] (nav2_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.659803] (nav2_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.704674] (-) TimerEvent: {}
+[1.805109] (-) TimerEvent: {}
+[1.905480] (-) TimerEvent: {}
+[2.005725] (-) TimerEvent: {}
+[2.106039] (-) TimerEvent: {}
+[2.206376] (-) TimerEvent: {}
+[2.306686] (-) TimerEvent: {}
+[2.407025] (-) TimerEvent: {}
+[2.507271] (-) TimerEvent: {}
+[2.609280] (-) TimerEvent: {}
+[2.709617] (-) TimerEvent: {}
+[2.810054] (-) TimerEvent: {}
+[2.910310] (-) TimerEvent: {}
+[3.010560] (-) TimerEvent: {}
+[3.110886] (-) TimerEvent: {}
+[3.211196] (-) TimerEvent: {}
+[3.311544] (-) TimerEvent: {}
+[3.411917] (-) TimerEvent: {}
+[3.512226] (-) TimerEvent: {}
+[3.612551] (-) TimerEvent: {}
+[3.712912] (-) TimerEvent: {}
+[3.813329] (-) TimerEvent: {}
+[3.913676] (-) TimerEvent: {}
+[4.013992] (-) TimerEvent: {}
+[4.114373] (-) TimerEvent: {}
+[4.214646] (-) TimerEvent: {}
+[4.314893] (-) TimerEvent: {}
+[4.415153] (-) TimerEvent: {}
+[4.515488] (-) TimerEvent: {}
+[4.615774] (-) TimerEvent: {}
+[4.716110] (-) TimerEvent: {}
+[4.816368] (-) TimerEvent: {}
+[4.916653] (-) TimerEvent: {}
+[5.017001] (-) TimerEvent: {}
+[5.117360] (-) TimerEvent: {}
+[5.217682] (-) TimerEvent: {}
+[5.318014] (-) TimerEvent: {}
+[5.418458] (-) TimerEvent: {}
+[5.518736] (-) TimerEvent: {}
+[5.619531] (-) TimerEvent: {}
+[5.720300] (-) TimerEvent: {}
+[5.820723] (-) TimerEvent: {}
+[5.921012] (-) TimerEvent: {}
+[6.021326] (-) TimerEvent: {}
+[6.121773] (-) TimerEvent: {}
+[6.222127] (-) TimerEvent: {}
+[6.322490] (-) TimerEvent: {}
+[6.422782] (-) TimerEvent: {}
+[6.523086] (-) TimerEvent: {}
+[6.623410] (-) TimerEvent: {}
+[6.723697] (-) TimerEvent: {}
+[6.824024] (-) TimerEvent: {}
+[6.924346] (-) TimerEvent: {}
+[7.024686] (-) TimerEvent: {}
+[7.124986] (-) TimerEvent: {}
+[7.227636] (-) TimerEvent: {}
+[7.327940] (-) TimerEvent: {}
+[7.428222] (-) TimerEvent: {}
+[7.528533] (-) TimerEvent: {}
+[7.628838] (-) TimerEvent: {}
+[7.729101] (-) TimerEvent: {}
+[7.829357] (-) TimerEvent: {}
+[7.929618] (-) TimerEvent: {}
+[8.029919] (-) TimerEvent: {}
+[8.130170] (-) TimerEvent: {}
+[8.231277] (-) TimerEvent: {}
+[8.331706] (-) TimerEvent: {}
+[8.432040] (-) TimerEvent: {}
+[8.532271] (-) TimerEvent: {}
+[8.632495] (-) TimerEvent: {}
+[8.732753] (-) TimerEvent: {}
+[8.833024] (-) TimerEvent: {}
+[8.933285] (-) TimerEvent: {}
+[9.033550] (-) TimerEvent: {}
+[9.133832] (-) TimerEvent: {}
+[9.234120] (-) TimerEvent: {}
+[9.334363] (-) TimerEvent: {}
+[9.434619] (-) TimerEvent: {}
+[9.534901] (-) TimerEvent: {}
+[9.635248] (-) TimerEvent: {}
+[9.735537] (-) TimerEvent: {}
+[9.835797] (-) TimerEvent: {}
+[9.936032] (-) TimerEvent: {}
+[10.036275] (-) TimerEvent: {}
+[10.136556] (-) TimerEvent: {}
+[10.236861] (-) TimerEvent: {}
+[10.337131] (-) TimerEvent: {}
+[10.437432] (-) TimerEvent: {}
+[10.537668] (-) TimerEvent: {}
+[10.637959] (-) TimerEvent: {}
+[10.738225] (-) TimerEvent: {}
+[10.838511] (-) TimerEvent: {}
+[10.938845] (-) TimerEvent: {}
+[11.039171] (-) TimerEvent: {}
+[11.139483] (-) TimerEvent: {}
+[11.239801] (-) TimerEvent: {}
+[11.340156] (-) TimerEvent: {}
+[11.440546] (-) TimerEvent: {}
+[11.540909] (-) TimerEvent: {}
+[11.641225] (-) TimerEvent: {}
+[11.741520] (-) TimerEvent: {}
+[11.841821] (-) TimerEvent: {}
+[11.942146] (-) TimerEvent: {}
+[12.042454] (-) TimerEvent: {}
+[12.142790] (-) TimerEvent: {}
+[12.243100] (-) TimerEvent: {}
+[12.343407] (-) TimerEvent: {}
+[12.443712] (-) TimerEvent: {}
+[12.544037] (-) TimerEvent: {}
+[12.644426] (-) TimerEvent: {}
+[12.744665] (-) TimerEvent: {}
+[12.844942] (-) TimerEvent: {}
+[12.945243] (-) TimerEvent: {}
+[13.045546] (-) TimerEvent: {}
+[13.145835] (-) TimerEvent: {}
+[13.178979] (nav2_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.206769] (nav2_planner) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[13.224026] (nav2_planner) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[13.231800] (nav2_planner) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[13.242745] (nav2_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[13.245916] (-) TimerEvent: {}
+[13.274945] (nav2_planner) StdoutLine: {'line': b'-- Found nav2_util: 1.1.17 (/home/aurora/RM25/install/nav2_util/share/nav2_util/cmake)\n'}
+[13.320799] (nav2_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.321590] (nav2_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.341748] (nav2_planner) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.17 (/home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)\n'}
+[13.346383] (-) TimerEvent: {}
+[13.446730] (-) TimerEvent: {}
+[13.547145] (-) TimerEvent: {}
+[13.649681] (-) TimerEvent: {}
+[13.749973] (-) TimerEvent: {}
+[13.850258] (-) TimerEvent: {}
+[13.950533] (-) TimerEvent: {}
+[14.050824] (-) TimerEvent: {}
+[14.151122] (-) TimerEvent: {}
+[14.251462] (-) TimerEvent: {}
+[14.351728] (-) TimerEvent: {}
+[14.452004] (-) TimerEvent: {}
+[14.552311] (-) TimerEvent: {}
+[14.652583] (-) TimerEvent: {}
+[14.752890] (-) TimerEvent: {}
+[14.853210] (-) TimerEvent: {}
+[14.954090] (-) TimerEvent: {}
+[15.054379] (-) TimerEvent: {}
+[15.154674] (-) TimerEvent: {}
+[15.254946] (-) TimerEvent: {}
+[15.355249] (-) TimerEvent: {}
+[15.455552] (-) TimerEvent: {}
+[15.555869] (-) TimerEvent: {}
+[15.656157] (-) TimerEvent: {}
+[15.756432] (-) TimerEvent: {}
+[15.856714] (-) TimerEvent: {}
+[15.957014] (-) TimerEvent: {}
+[16.057320] (-) TimerEvent: {}
+[16.157699] (-) TimerEvent: {}
+[16.171347] (nav2_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.17 (/home/aurora/RM25/install/nav2_core/share/nav2_core/cmake)\n'}
+[16.257809] (-) TimerEvent: {}
+[16.265042] (nav2_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.265426] (nav2_planner) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[16.313710] (nav2_planner) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[16.357909] (-) TimerEvent: {}
+[16.394129] (nav2_planner) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.394739] (nav2_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.395100] (nav2_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_navigation2/nav2_planner/include\n'}
+[16.395170] (nav2_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.395626] (nav2_planner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[16.395718] (nav2_planner) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[16.395864] (nav2_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.396323] (nav2_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.396366] (nav2_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.396442] (nav2_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.398972] (nav2_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.458010] (-) TimerEvent: {}
+[16.488356] (nav2_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[16.490323] (nav2_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/aurora/RM25/build/nav2_planner\n'}
+[16.498803] (nav2_planner) CommandEnded: {'returncode': 0}
+[16.499332] (nav2_planner) JobProgress: {'identifier': 'nav2_planner', 'progress': 'build'}
+[16.499871] (nav2_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aurora/RM25/build/nav2_planner', '--', '-j20', '-l20'], 'cwd': '/home/aurora/RM25/build/nav2_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('OLDPWD', '/home/aurora/RM25/src'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3a2267d6-6f45-4057-80f8-b9f8be53c954.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/256250_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a2c12495b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/RM25/install/nav2_common:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/nav2_planner'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/build/nav2_simple_commander:/home/aurora/RM25/install/nav2_simple_commander/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/build/nav2_loopback_sim:/home/aurora/RM25/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[16.527398] (nav2_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[16.528153] (nav2_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planner_server_core\x1b[0m\n'}
+[16.528227] (nav2_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[16.535887] (nav2_planner) StdoutLine: {'line': b'[ 40%] Built target gtest\n'}
+[16.536031] (nav2_planner) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[16.542720] (nav2_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/planner_server_core.dir/src/planner_server.cpp.o\x1b[0m\n'}
+[16.558069] (-) TimerEvent: {}
+[16.658458] (-) TimerEvent: {}
+[16.758791] (-) TimerEvent: {}
+[16.859074] (-) TimerEvent: {}
+[16.959343] (-) TimerEvent: {}
+[17.059588] (-) TimerEvent: {}
+[17.159870] (-) TimerEvent: {}
+[17.260253] (-) TimerEvent: {}
+[17.360574] (-) TimerEvent: {}
+[17.460811] (-) TimerEvent: {}
+[17.561212] (-) TimerEvent: {}
+[17.661554] (-) TimerEvent: {}
+[17.761859] (-) TimerEvent: {}
+[17.862179] (-) TimerEvent: {}
+[17.962460] (-) TimerEvent: {}
+[18.062796] (-) TimerEvent: {}
+[18.163102] (-) TimerEvent: {}
+[18.263404] (-) TimerEvent: {}
+[18.363745] (-) TimerEvent: {}
+[18.464170] (-) TimerEvent: {}
+[18.564557] (-) TimerEvent: {}
+[18.664994] (-) TimerEvent: {}
+[18.765414] (-) TimerEvent: {}
+[18.865828] (-) TimerEvent: {}
+[18.966152] (-) TimerEvent: {}
+[19.066589] (-) TimerEvent: {}
+[19.166925] (-) TimerEvent: {}
+[19.267401] (-) TimerEvent: {}
+[19.367800] (-) TimerEvent: {}
+[19.468211] (-) TimerEvent: {}
+[19.568606] (-) TimerEvent: {}
+[19.668984] (-) TimerEvent: {}
+[19.769352] (-) TimerEvent: {}
+[19.869680] (-) TimerEvent: {}
+[19.970038] (-) TimerEvent: {}
+[20.070409] (-) TimerEvent: {}
+[20.170760] (-) TimerEvent: {}
+[20.271041] (-) TimerEvent: {}
+[20.371412] (-) TimerEvent: {}
+[20.471739] (-) TimerEvent: {}
+[20.571970] (-) TimerEvent: {}
+[20.672214] (-) TimerEvent: {}
+[20.772539] (-) TimerEvent: {}
+[20.872809] (-) TimerEvent: {}
+[20.973129] (-) TimerEvent: {}
+[21.073415] (-) TimerEvent: {}
+[21.173798] (-) TimerEvent: {}
+[21.274229] (-) TimerEvent: {}
+[21.374575] (-) TimerEvent: {}
+[21.474826] (-) TimerEvent: {}
+[21.575132] (-) TimerEvent: {}
+[21.675519] (-) TimerEvent: {}
+[21.775848] (-) TimerEvent: {}
+[21.876145] (-) TimerEvent: {}
+[21.976443] (-) TimerEvent: {}
+[22.076788] (-) TimerEvent: {}
+[22.177063] (-) TimerEvent: {}
+[22.277343] (-) TimerEvent: {}
+[22.377776] (-) TimerEvent: {}
+[22.478110] (-) TimerEvent: {}
+[22.578357] (-) TimerEvent: {}
+[22.678715] (-) TimerEvent: {}
+[22.779236] (-) TimerEvent: {}
+[22.879590] (-) TimerEvent: {}
+[22.979880] (-) TimerEvent: {}
+[23.080142] (-) TimerEvent: {}
+[23.180401] (-) TimerEvent: {}
+[23.280805] (-) TimerEvent: {}
+[23.381088] (-) TimerEvent: {}
+[23.481552] (-) TimerEvent: {}
+[23.581958] (-) TimerEvent: {}
+[23.682244] (-) TimerEvent: {}
+[23.782578] (-) TimerEvent: {}
+[23.882994] (-) TimerEvent: {}
+[23.983281] (-) TimerEvent: {}
+[24.083565] (-) TimerEvent: {}
+[24.183968] (-) TimerEvent: {}
+[24.284265] (-) TimerEvent: {}
+[24.384516] (-) TimerEvent: {}
+[24.484799] (-) TimerEvent: {}
+[24.585102] (-) TimerEvent: {}
+[24.685371] (-) TimerEvent: {}
+[24.785674] (-) TimerEvent: {}
+[24.885907] (-) TimerEvent: {}
+[24.986210] (-) TimerEvent: {}
+[25.086460] (-) TimerEvent: {}
+[25.186731] (-) TimerEvent: {}
+[25.286955] (-) TimerEvent: {}
+[25.387238] (-) TimerEvent: {}
+[25.487537] (-) TimerEvent: {}
+[25.587889] (-) TimerEvent: {}
+[25.688162] (-) TimerEvent: {}
+[25.788375] (-) TimerEvent: {}
+[25.888653] (-) TimerEvent: {}
+[25.988951] (-) TimerEvent: {}
+[26.089270] (-) TimerEvent: {}
+[26.189671] (-) TimerEvent: {}
+[26.290002] (-) TimerEvent: {}
+[26.390399] (-) TimerEvent: {}
+[26.490753] (-) TimerEvent: {}
+[26.591199] (-) TimerEvent: {}
+[26.691657] (-) TimerEvent: {}
+[26.792438] (-) TimerEvent: {}
+[26.892792] (-) TimerEvent: {}
+[26.993162] (-) TimerEvent: {}
+[27.093539] (-) TimerEvent: {}
+[27.194077] (-) TimerEvent: {}
+[27.294508] (-) TimerEvent: {}
+[27.394833] (-) TimerEvent: {}
+[27.495227] (-) TimerEvent: {}
+[27.595565] (-) TimerEvent: {}
+[27.695893] (-) TimerEvent: {}
+[27.796246] (-) TimerEvent: {}
+[27.896573] (-) TimerEvent: {}
+[27.996971] (-) TimerEvent: {}
+[28.097436] (-) TimerEvent: {}
+[28.197819] (-) TimerEvent: {}
+[28.298115] (-) TimerEvent: {}
+[28.398411] (-) TimerEvent: {}
+[28.498684] (-) TimerEvent: {}
+[28.598976] (-) TimerEvent: {}
+[28.699246] (-) TimerEvent: {}
+[28.800469] (-) TimerEvent: {}
+[28.900819] (-) TimerEvent: {}
+[29.001086] (-) TimerEvent: {}
+[29.101403] (-) TimerEvent: {}
+[29.189987] (nav2_planner) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libplanner_server_core.so\x1b[0m\n'}
+[29.201513] (-) TimerEvent: {}
+[29.301797] (-) TimerEvent: {}
+[29.402091] (-) TimerEvent: {}
+[29.502378] (-) TimerEvent: {}
+[29.602677] (-) TimerEvent: {}
+[29.665233] (nav2_planner) StdoutLine: {'line': b'[ 60%] Built target planner_server_core\n'}
+[29.674162] (nav2_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_dynamic_parameters\x1b[0m\n'}
+[29.675203] (nav2_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planner_server\x1b[0m\n'}
+[29.688486] (nav2_planner) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o\x1b[0m\n'}
+[29.690549] (nav2_planner) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/planner_server.dir/src/main.cpp.o\x1b[0m\n'}
+[29.704311] (-) TimerEvent: {}
+[29.804690] (-) TimerEvent: {}
+[29.905100] (-) TimerEvent: {}
+[30.005385] (-) TimerEvent: {}
+[30.105679] (-) TimerEvent: {}
+[30.205996] (-) TimerEvent: {}
+[30.306443] (-) TimerEvent: {}
+[30.406805] (-) TimerEvent: {}
+[30.507214] (-) TimerEvent: {}
+[30.607552] (-) TimerEvent: {}
+[30.707875] (-) TimerEvent: {}
+[30.808162] (-) TimerEvent: {}
+[30.908503] (-) TimerEvent: {}
+[31.008758] (-) TimerEvent: {}
+[31.109010] (-) TimerEvent: {}
+[31.209295] (-) TimerEvent: {}
+[31.309690] (-) TimerEvent: {}
+[31.410182] (-) TimerEvent: {}
+[31.510676] (-) TimerEvent: {}
+[31.611046] (-) TimerEvent: {}
+[31.711342] (-) TimerEvent: {}
+[31.811573] (-) TimerEvent: {}
+[31.911852] (-) TimerEvent: {}
+[32.012182] (-) TimerEvent: {}
+[32.112483] (-) TimerEvent: {}
+[32.212810] (-) TimerEvent: {}
+[32.313195] (-) TimerEvent: {}
+[32.413540] (-) TimerEvent: {}
+[32.513902] (-) TimerEvent: {}
+[32.614222] (-) TimerEvent: {}
+[32.714492] (-) TimerEvent: {}
+[32.814785] (-) TimerEvent: {}
+[32.915107] (-) TimerEvent: {}
+[33.015540] (-) TimerEvent: {}
+[33.115835] (-) TimerEvent: {}
+[33.216675] (-) TimerEvent: {}
+[33.291378] (nav2_planner) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable planner_server\x1b[0m\n'}
+[33.316787] (-) TimerEvent: {}
+[33.417201] (-) TimerEvent: {}
+[33.517489] (-) TimerEvent: {}
+[33.617731] (-) TimerEvent: {}
+[33.650170] (nav2_planner) StdoutLine: {'line': b'[ 90%] Built target planner_server\n'}
+[33.717834] (-) TimerEvent: {}
+[33.819095] (-) TimerEvent: {}
+[33.919363] (-) TimerEvent: {}
+[34.019689] (-) TimerEvent: {}
+[34.120007] (-) TimerEvent: {}
+[34.218600] (nav2_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_dynamic_parameters\x1b[0m\n'}
+[34.220066] (-) TimerEvent: {}
+[34.320333] (-) TimerEvent: {}
+[34.420634] (-) TimerEvent: {}
+[34.521013] (-) TimerEvent: {}
+[34.608266] (nav2_planner) StdoutLine: {'line': b'[100%] Built target test_dynamic_parameters\n'}
+[34.616304] (nav2_planner) CommandEnded: {'returncode': 0}
+[34.621164] (-) TimerEvent: {}
+[34.636871] (nav2_planner) JobProgress: {'identifier': 'nav2_planner', 'progress': 'install'}
+[34.643581] (nav2_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aurora/RM25/build/nav2_planner'], 'cwd': '/home/aurora/RM25/build/nav2_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('OLDPWD', '/home/aurora/RM25/src'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3a2267d6-6f45-4057-80f8-b9f8be53c954.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/256250_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a2c12495b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/RM25/install/nav2_common:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/nav2_planner'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/build/nav2_simple_commander:/home/aurora/RM25/install/nav2_simple_commander/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/aurora/RM25/build/nav2_loopback_sim:/home/aurora/RM25/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[34.648310] (nav2_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[34.648592] (nav2_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[34.649275] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/lib/libplanner_server_core.so\n'}
+[34.655152] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/lib/nav2_planner/planner_server\n'}
+[34.660698] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/include//nav2_planner/planner_server.hpp\n'}
+[34.666634] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/environment/library_path.sh\n'}
+[34.671854] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/environment/library_path.dsv\n'}
+[34.678230] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/ament_index/resource_index/package_run_dependencies/nav2_planner\n'}
+[34.683577] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/ament_index/resource_index/parent_prefix_path/nav2_planner\n'}
+[34.688585] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.sh\n'}
+[34.695813] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.dsv\n'}
+[34.701050] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/environment/path.sh\n'}
+[34.707782] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/environment/path.dsv\n'}
+[34.713638] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/local_setup.bash\n'}
+[34.719827] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/local_setup.sh\n'}
+[34.721268] (-) TimerEvent: {}
+[34.725297] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/local_setup.zsh\n'}
+[34.732083] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/local_setup.dsv\n'}
+[34.740070] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/package.dsv\n'}
+[34.746856] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/ament_index/resource_index/packages/nav2_planner\n'}
+[34.754275] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/ament_index/resource_index/rclcpp_components/nav2_planner\n'}
+[34.760088] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.766220] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.771947] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.777856] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig.cmake\n'}
+[34.784544] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig-version.cmake\n'}
+[34.790174] (nav2_planner) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/nav2_planner/share/nav2_planner/package.xml\n'}
+[34.797374] (nav2_planner) CommandEnded: {'returncode': 0}
+[34.821475] (-) TimerEvent: {}
+[34.834222] (nav2_planner) JobEnded: {'identifier': 'nav2_planner', 'rc': 0}
+[34.835464] (-) EventReactorShutdown: {}

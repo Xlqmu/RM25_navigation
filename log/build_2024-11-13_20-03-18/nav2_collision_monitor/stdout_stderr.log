@@ -1,0 +1,13 @@
+[  8%] Built target gtest_main
+[ 17%] Built target gtest
+[ 56%] Built target collision_monitor_core
+[ 60%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[ 69%] Built target polygons_test
+[ 86%] Built target kinematics_test
+[ 86%] Built target collision_monitor
+[ 95%] Built target sources_test
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [test/CMakeFiles/collision_monitor_node_test.dir/build.make:76: test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:318: test/CMakeFiles/collision_monitor_node_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

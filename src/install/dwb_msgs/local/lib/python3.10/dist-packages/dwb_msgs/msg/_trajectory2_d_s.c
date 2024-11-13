@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/build/dwb_msgs/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c

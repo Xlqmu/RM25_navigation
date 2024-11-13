@@ -1,0 +1,25 @@
+[  5%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/savitzky_golay_smoother.dir/src/savitzky_golay_smoother.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 27%] Built target gtest_main
+[ 38%] Built target gtest
+[ 44%] [32m[1mLinking CXX shared library libsavitzky_golay_smoother.so[0m
+[ 44%] Built target savitzky_golay_smoother
+[ 50%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[ 50%] Built target simple_smoother
+[ 55%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[ 55%] Built target smoother_server_core
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test_simple_smoother.dir/test_simple_smoother.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_simple_smoother[0m
+[ 66%] Built target test_simple_smoother
+[ 72%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test_smoother_server[0m
+[ 77%] Built target test_smoother_server
+[ 83%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable smoother_server[0m
+[ 88%] Built target smoother_server
+[ 94%] [32mBuilding CXX object test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_savitzky_golay_smoother[0m
+[100%] Built target test_savitzky_golay_smoother

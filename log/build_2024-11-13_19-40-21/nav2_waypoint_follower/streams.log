@@ -1,0 +1,89 @@
+[2.175s] Invoking command in '/home/aurora/RM25/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_waypoint_follower
+[2.443s] -- The C compiler identification is GNU 11.4.0
+[3.500s] -- The CXX compiler identification is GNU 11.4.0
+[4.539s] -- Detecting C compiler ABI info
+[4.839s] -- Detecting C compiler ABI info - done
+[4.845s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.845s] -- Detecting C compile features
+[4.846s] -- Detecting C compile features - done
+[4.855s] -- Detecting CXX compiler ABI info
+[5.127s] -- Detecting CXX compiler ABI info - done
+[5.137s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.137s] -- Detecting CXX compile features
+[5.137s] -- Detecting CXX compile features - done
+[5.151s] -- Found OpenCV version 4.5.4
+[5.156s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[5.376s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.483s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.894s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.900s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.913s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.935s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.020s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.025s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.912s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.614s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.756s] -- Looking for pthread.h
+[15.013s] -- Looking for pthread.h - found
+[15.013s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.286s] -- Found Threads: TRUE  
+[17.806s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[17.809s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[17.810s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[17.843s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[17.859s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[17.872s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[17.883s] -- Found nav2_msgs: 1.1.17 (/home/aurora/RM25/install/nav2_msgs/share/nav2_msgs/cmake)
+[17.898s] -- Found nav2_util: 1.1.17 (/home/aurora/RM25/install/nav2_util/share/nav2_util/cmake)
+[18.047s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[18.048s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[18.048s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.079s] -- Found nav2_core: 1.1.17 (/home/aurora/RM25/install/nav2_core/share/nav2_core/cmake)
+[18.177s] -- Setting build type to Release as none was specified.
+[18.463s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.466s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[18.572s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.753s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.756s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.759s] -- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_navigation2/nav2_waypoint_follower/include
+[18.759s] -- Configured cppcheck exclude dirs and/or files: 
+[18.760s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.761s] -- Configured cpplint exclude dirs and/or files: 
+[18.762s] -- Added test 'lint_cmake' to check CMake code style
+[18.764s] -- Added test 'uncrustify' to check C / C++ code style
+[18.764s] -- Configured uncrustify additional arguments: 
+[18.765s] -- Added test 'xmllint' to check XML markup files
+[18.771s] -- Configuring done
+[19.200s] -- Generating done
+[19.205s] -- Build files have been written to: /home/aurora/RM25/build/nav2_waypoint_follower
+[19.234s] Invoked command in '/home/aurora/RM25/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_waypoint_follower
+[19.237s] Invoking command in '/home/aurora/RM25/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_waypoint_follower -- -j20 -l20
+[20.472s] [  5%] [32mBuilding CXX object CMakeFiles/wait_at_waypoint.dir/plugins/wait_at_waypoint.cpp.o[0m
+[20.472s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[20.472s] [ 16%] [32mBuilding CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o[0m
+[20.472s] [ 22%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[20.473s] [ 27%] [32mBuilding CXX object CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o[0m
+[20.473s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[21.259s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.452s] [ 38%] Built target gtest_main
+[50.683s] [ 44%] [32m[1mLinking CXX shared library libwait_at_waypoint.so[0m
+[57.339s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[57.341s] compilation terminated.
+[57.347s] gmake[2]: *** [CMakeFiles/photo_at_waypoint.dir/build.make:76: CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o] Error 1
+[57.369s] gmake[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/photo_at_waypoint.dir/all] Error 2
+[57.371s] gmake[1]: *** Waiting for unfinished jobs....
+[68.472s] [ 44%] Built target wait_at_waypoint
+[83.900s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[83.900s] compilation terminated.
+[83.902s] gmake[2]: *** [CMakeFiles/waypoint_follower_core.dir/build.make:76: CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o] Error 1
+[83.942s] gmake[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/waypoint_follower_core.dir/all] Error 2
+[96.502s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[96.503s] compilation terminated.
+[96.510s] gmake[2]: *** [CMakeFiles/input_at_waypoint.dir/build.make:76: CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o] Error 1
+[96.521s] gmake[1]: *** [CMakeFiles/Makefile2:286: CMakeFiles/input_at_waypoint.dir/all] Error 2
+[222.159s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[222.269s] [ 50%] Built target gtest
+[222.292s] gmake: *** [Makefile:146: all] Error 2

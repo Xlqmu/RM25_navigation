@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/build/nav2_common/ament_cmake_environment_hooks/local_setup.bash

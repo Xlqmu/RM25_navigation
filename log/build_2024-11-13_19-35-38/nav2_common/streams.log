@@ -1,0 +1,57 @@
+[0.015s] Invoking command in '/home/aurora/RM25/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/build/nav2_common -- -j20 -l20
+[0.053s] -- Found ament_cmake_core: 1.3.10 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found ament_cmake_python: 1.3.10 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.245s] -- Configuring done
+[0.249s] -- Generating done
+[0.249s] -- Build files have been written to: /home/aurora/RM25/build/nav2_common
+[0.269s] Built target ament_cmake_python_symlink_nav2_common
+[0.415s] running egg_info
+[0.416s] writing nav2_common.egg-info/PKG-INFO
+[0.416s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.416s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.419s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.419s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.436s] Built target ament_cmake_python_build_nav2_common_egg
+[0.444s] Invoked command in '/home/aurora/RM25/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/build/nav2_common -- -j20 -l20
+[0.455s] Invoking command in '/home/aurora/RM25/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/aurora/RM25/build/nav2_common
+[0.459s] -- Install configuration: ""
+[0.459s] -- Execute custom install script
+[0.460s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.460s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.460s] -- Symlinking: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/PKG-INFO
+[0.465s] -- Symlinking: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/SOURCES.txt
+[0.470s] -- Symlinking: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/dependency_links.txt
+[0.474s] -- Symlinking: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/top_level.txt
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.479s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/environment/path.sh
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/local_setup.bash
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/local_setup.sh
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.480s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.480s] -- Symlinking: /home/aurora/RM25/install/nav2_common/share/nav2_common/package.dsv
+[0.484s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.484s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.484s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.484s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.484s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/package.xml
+[0.484s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.506s] Listing '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[0.506s] Compiling '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py'...
+[0.507s] Listing '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[0.507s] Compiling '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py'...
+[0.507s] Compiling '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py'...
+[0.507s] Compiling '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[0.507s] Compiling '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py'...
+[0.507s] Compiling '/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py'...
+[0.511s] Invoked command in '/home/aurora/RM25/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/aurora/RM25/build/nav2_common

@@ -1,0 +1,99 @@
+[0.696s] Invoking command in '/home/aurora/RM25/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/nav2_costmap_2d -- -j20 -l20
+[0.726s] [  2%] Built target gtest_main
+[0.727s] [  4%] Built target gtest
+[0.739s] [ 21%] Built target nav2_costmap_2d_core
+[0.757s] [ 24%] Built target array_parser_test
+[0.760s] [ 26%] Built target nav2_costmap_2d_markers
+[0.761s] [ 29%] Built target nav2_costmap_2d_cloud
+[0.762s] [ 31%] Built target costmap_convesion_test
+[0.762s] [ 36%] Built target filters
+[0.762s] [ 41%] Built target nav2_costmap_2d_client
+[0.763s] [ 43%] Built target collision_footprint_test
+[0.765s] [ 46%] Built target copy_window_test
+[0.765s] [ 48%] Built target costmap_filter_test
+[0.766s] [ 51%] Built target costmap_bresenham_2d
+[0.768s] [ 53%] Built target plugin_api_order
+[0.768s] [ 56%] Built target order_layer
+[0.769s] [ 58%] Built target dyn_params_tests
+[0.769s] [ 60%] Built target costmap_filter_service_test
+[0.771s] [ 65%] Built target declare_parameter_test
+[0.771s] [ 73%] Built target layers
+[0.780s] [ 75%] Built target keepout_filter_test
+[0.781s] [ 78%] Built target speed_filter_test
+[0.782s] [ 80%] Built target binary_filter_test
+[0.789s] [ 85%] Built target footprint_tests_exec
+[0.789s] [ 85%] Built target nav2_costmap_2d
+[0.790s] [ 90%] Built target denoise_layer_test
+[0.792s] [ 92%] Built target inflation_tests_exec
+[0.792s] [ 95%] Built target obstacle_tests_exec
+[0.793s] [ 97%] Built target test_collision_checker_exec
+[0.796s] [100%] Built target range_tests_exec
+[0.804s] Invoked command in '/home/aurora/RM25/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/nav2_costmap_2d -- -j20 -l20
+[0.878s] Invoking command in '/home/aurora/RM25/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/nav2_costmap_2d
+[0.882s] -- Install configuration: "Release"
+[0.882s] -- Execute custom install script
+[0.882s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[0.882s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[0.882s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[0.882s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.883s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+[0.883s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[0.883s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[0.883s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[0.883s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[0.883s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[0.884s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[0.885s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/lib/liborder_layer.so
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[0.886s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[0.886s] -- Symlinking: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[0.890s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[0.890s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[0.890s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[0.891s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.891s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[0.891s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[0.891s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[0.891s] -- Up-to-date: /home/aurora/RM25/install/nav2_costmap_2d/lib/liblayers.so
+[0.891s] -- Up-to-date: /home/aurora/RM25/install/nav2_costmap_2d/lib/libfilters.so
+[0.891s] -- Up-to-date: /home/aurora/RM25/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[0.891s] -- Up-to-date: /home/aurora/RM25/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[0.891s] -- Up-to-date: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[0.891s] -- Up-to-date: /home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[0.893s] Invoked command in '/home/aurora/RM25/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/nav2_costmap_2d

@@ -1,0 +1,122 @@
+[1.143s] Invoking command in '/home/aurora/RM25/build/nav2_behaviors': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_behaviors
+[1.156s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.279s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[1.281s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.513s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.514s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.517s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.550s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.552s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.707s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.725s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[8.733s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[8.745s] -- Found nav2_behavior_tree: 1.1.17 (/home/aurora/RM25/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[8.815s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.815s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.843s] -- Found nav2_costmap_2d: 1.1.17 (/home/aurora/RM25/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[12.721s] -- Found nav2_core: 1.1.17 (/home/aurora/RM25/install/nav2_core/share/nav2_core/cmake)
+[13.280s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.332s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.435s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.436s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.438s] -- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_navigation2/nav2_behaviors/include
+[13.438s] -- Configured cppcheck exclude dirs and/or files: 
+[13.438s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.438s] -- Configured cpplint exclude dirs and/or files: 
+[13.439s] -- Added test 'lint_cmake' to check CMake code style
+[13.439s] -- Added test 'uncrustify' to check C / C++ code style
+[13.440s] -- Configured uncrustify additional arguments: 
+[13.440s] -- Added test 'xmllint' to check XML markup files
+[13.443s] -- Configuring done
+[13.682s] -- Generating done
+[13.684s] -- Build files have been written to: /home/aurora/RM25/build/nav2_behaviors
+[13.693s] Invoked command in '/home/aurora/RM25/build/nav2_behaviors' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_behaviors
+[13.695s] Invoking command in '/home/aurora/RM25/build/nav2_behaviors': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/nav2_behaviors -- -j20 -l20
+[13.722s] [35m[1mConsolidate compiler generated dependencies of target nav2_assisted_teleop_behavior[0m
+[13.723s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[13.724s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_behavior[0m
+[13.724s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[13.724s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_behavior[0m
+[13.725s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_behavior[0m
+[13.725s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_behavior[0m
+[13.726s] [35m[1mConsolidate compiler generated dependencies of target behavior_server_core[0m
+[13.736s] [ 10%] Built target gtest
+[13.738s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[13.740s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[13.740s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[13.740s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[13.742s] [ 40%] Built target gtest_main
+[13.742s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[13.743s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[13.752s] [35m[1mConsolidate compiler generated dependencies of target test_behaviors[0m
+[13.768s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[23.208s] [ 60%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[23.211s] [ 65%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[23.474s] [ 70%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[23.501s] [ 75%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[23.701s] [ 75%] Built target nav2_drive_on_heading_behavior
+[23.712s] [ 75%] Built target nav2_wait_behavior
+[23.981s] [ 75%] Built target nav2_spin_behavior
+[24.015s] [ 75%] Built target nav2_back_up_behavior
+[24.184s] [ 80%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[24.603s] [ 80%] Built target behavior_server_core
+[24.612s] [35m[1mConsolidate compiler generated dependencies of target behavior_server[0m
+[24.628s] [ 85%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[25.375s] [ 90%] [32m[1mLinking CXX executable test_behaviors[0m
+[25.861s] [ 90%] Built target test_behaviors
+[27.879s] [ 95%] [32m[1mLinking CXX executable behavior_server[0m
+[28.231s] [ 95%] Built target behavior_server
+[29.942s] [100%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[30.571s] [100%] Built target nav2_assisted_teleop_behavior
+[30.581s] Invoked command in '/home/aurora/RM25/build/nav2_behaviors' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/nav2_behaviors -- -j20 -l20
+[30.616s] Invoking command in '/home/aurora/RM25/build/nav2_behaviors': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/nav2_behaviors
+[30.620s] -- Install configuration: "Release"
+[30.620s] -- Execute custom install script
+[30.621s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors//behavior_plugin.xml
+[30.626s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/libbehavior_server_core.so
+[30.630s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[30.635s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[30.642s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[30.647s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[30.652s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[30.657s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[30.662s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[30.666s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/plugins/assisted_teleop.hpp
+[30.671s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/plugins/back_up.hpp
+[30.676s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/plugins/drive_on_heading.hpp
+[30.681s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/plugins/spin.hpp
+[30.686s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/plugins/wait.hpp
+[30.691s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[30.696s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[30.696s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[30.700s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[30.705s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[30.709s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[30.713s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[30.718s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[30.722s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[30.727s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[30.733s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[30.738s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[30.745s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[30.751s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[30.760s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[30.766s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[30.771s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[30.776s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[30.782s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[30.788s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[30.792s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[30.797s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[30.802s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[30.807s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.812s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[30.817s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.821s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[30.826s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[30.830s] -- Symlinking: /home/aurora/RM25/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[30.837s] Invoked command in '/home/aurora/RM25/build/nav2_behaviors' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_behavior_tree:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/nav2_constrained_smoother:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/opennav_docking_core:/home/aurora/RM25/install/nav_2d_utils:/home/aurora/RM25/install/dwb_msgs:/home/aurora/RM25/install/nav_2d_msgs:/home/aurora/RM25/install/costmap_queue:/home/aurora/RM25/install/nav2_velocity_smoother:/home/aurora/RM25/install/nav2_rviz_plugins:/home/aurora/RM25/install/nav2_amcl:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/RM25/install/nav2_simple_commander:/home/aurora/RM25/install/nav2_loopback_sim:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_behavior_tree/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:/home/aurora/RM25/install/nav2_msgs/lib:/home/aurora/RM25/install/nav2_constrained_smoother/lib:/home/aurora/RM25/install/nav_2d_utils/lib:/home/aurora/RM25/install/dwb_msgs/lib:/home/aurora/RM25/install/nav_2d_msgs/lib:/home/aurora/RM25/install/costmap_queue/lib:/home/aurora/RM25/install/nav2_velocity_smoother/lib:/home/aurora/RM25/install/nav2_rviz_plugins/lib:/home/aurora/RM25/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/nav2_behaviors

@@ -1,0 +1,14 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/photo_at_waypoint.dir/build.make:76: CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/photo_at_waypoint.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/waypoint_follower_core.dir/build.make:76: CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/waypoint_follower_core.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_at_waypoint.dir/build.make:76: CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:286: CMakeFiles/input_at_waypoint.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/rm_navigation2/nav2_theta_star_planner/include/nav2_theta_star_planner/theta_star.hpp

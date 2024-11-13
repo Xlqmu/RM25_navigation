@@ -1,0 +1,48 @@
+[0.337s] Invoking command in '/home/aurora/RM25/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_lifecycle_manager -- -j20 -l20
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target nav2_lifecycle_manager_core[0m
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.381s] [ 15%] Built target gtest
+[0.381s] [ 30%] Built target gtest_main
+[0.386s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[95.838s] [ 46%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[96.326s] [ 53%] Built target nav2_lifecycle_manager_core
+[96.349s] [ 61%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[96.350s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_bond_gtest.dir/test_bond.cpp.o[0m
+[96.351s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_gtest.dir/test_lifecycle_manager.cpp.o[0m
+[100.561s] [ 84%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[100.681s] [ 92%] [32m[1mLinking CXX executable test_lifecycle_gtest[0m
+[100.895s] [ 92%] Built target lifecycle_manager
+[101.066s] [ 92%] Built target test_lifecycle_gtest
+[102.137s] [100%] [32m[1mLinking CXX executable test_bond_gtest[0m
+[102.486s] [100%] Built target test_bond_gtest
+[102.598s] Invoked command in '/home/aurora/RM25/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_lifecycle_manager -- -j20 -l20
+[102.674s] Invoking command in '/home/aurora/RM25/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/build/nav2_lifecycle_manager
+[102.684s] -- Install configuration: "Release"
+[102.684s] -- Execute custom install script
+[102.684s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[102.687s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[102.694s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[102.699s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[102.707s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[102.712s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[102.718s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[102.724s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[102.731s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[102.737s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[102.742s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[102.748s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[102.754s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[102.760s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[102.767s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[102.775s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[102.782s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[102.789s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[102.796s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/ament_index/resource_index/rclcpp_components/nav2_lifecycle_manager
+[102.802s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[102.807s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[102.813s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.818s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[102.824s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[102.830s] -- Symlinking: /home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[102.840s] Invoked command in '/home/aurora/RM25/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/build/nav2_lifecycle_manager

@@ -1,0 +1,134 @@
+[0.425s] Invoking command in '/home/aurora/RM25/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_rviz_plugins
+[0.675s] -- The C compiler identification is GNU 11.4.0
+[1.566s] -- The CXX compiler identification is GNU 11.4.0
+[2.231s] -- Detecting C compiler ABI info
+[2.419s] -- Detecting C compiler ABI info - done
+[2.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.423s] -- Detecting C compile features
+[2.424s] -- Detecting C compile features - done
+[2.427s] -- Detecting CXX compiler ABI info
+[2.582s] -- Detecting CXX compiler ABI info - done
+[2.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.587s] -- Detecting CXX compile features
+[2.587s] -- Detecting CXX compile features - done
+[2.601s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.731s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.795s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.828s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.097s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.103s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.111s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.183s] -- Found nav2_util: 1.1.17 (/home/aurora/RM25/install/nav2_util/share/nav2_util/cmake)
+[3.336s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.340s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.197s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.214s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.054s] -- Looking for pthread.h
+[7.189s] -- Looking for pthread.h - found
+[7.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.322s] -- Found Threads: TRUE  
+[7.489s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.490s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.490s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.536s] -- Found nav2_lifecycle_manager: 1.1.17 (/home/aurora/RM25/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[7.578s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[8.547s] -- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)
+[8.553s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[8.561s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.564s] -- Found OGRE
+[8.564s] --   static     : OFF
+[8.564s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.564s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.564s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.564s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.564s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[8.564s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.564s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[8.564s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.564s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.564s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.564s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.940s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[12.759s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[19.504s] -- Found X11: /usr/include   
+[19.504s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[19.767s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[19.767s] -- Looking for gethostbyname
+[20.010s] -- Looking for gethostbyname - found
+[20.010s] -- Looking for connect
+[20.259s] -- Looking for connect - found
+[20.259s] -- Looking for remove
+[20.509s] -- Looking for remove - found
+[20.510s] -- Looking for shmat
+[20.728s] -- Looking for shmat - found
+[20.728s] -- Looking for IceConnectionNumber in ICE
+[20.953s] -- Looking for IceConnectionNumber in ICE - found
+[23.757s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[23.789s] -- Found rviz_default_plugins: 11.2.13 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[23.892s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.951s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.953s] -- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_navigation2/nav2_rviz_plugins/include
+[23.953s] -- Configured cppcheck exclude dirs and/or files: 
+[23.954s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.954s] -- Configured cpplint exclude dirs and/or files: 
+[23.954s] -- Added test 'lint_cmake' to check CMake code style
+[23.955s] -- Added test 'uncrustify' to check C / C++ code style
+[23.955s] -- Configured uncrustify additional arguments: 
+[23.956s] -- Added test 'xmllint' to check XML markup files
+[23.958s] -- Configuring done
+[24.003s] -- Generating done
+[24.004s] -- Build files have been written to: /home/aurora/RM25/build/nav2_rviz_plugins
+[24.017s] Invoked command in '/home/aurora/RM25/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_rviz_plugins
+[24.018s] Invoking command in '/home/aurora/RM25/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_rviz_plugins -- -j20 -l20
+[24.047s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[24.446s] [ 14%] Built target nav2_rviz_plugins_autogen
+[24.458s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[24.458s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[24.459s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[24.459s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[24.459s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[85.283s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[88.639s] [100%] Built target nav2_rviz_plugins
+[88.672s] Invoked command in '/home/aurora/RM25/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_rviz_plugins -- -j20 -l20
+[88.695s] Invoking command in '/home/aurora/RM25/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/build/nav2_rviz_plugins
+[88.699s] -- Install configuration: ""
+[88.699s] -- Execute custom install script
+[88.700s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+[88.706s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[88.713s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[88.718s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[88.723s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[88.728s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[88.733s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[88.737s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[88.741s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[88.745s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[88.750s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[88.755s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[88.759s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[88.763s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[88.768s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[88.772s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[88.776s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[88.781s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[88.785s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[88.789s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[88.793s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[88.798s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[88.802s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[88.808s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[88.812s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[88.817s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[88.822s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[88.826s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[88.831s] -- Symlinking: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[88.835s] -- Installing: /home/aurora/RM25/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[88.847s] -- Set runtime path of "/home/aurora/RM25/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[88.847s] -- Installing: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[88.847s] -- Installing: /home/aurora/RM25/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[88.850s] Invoked command in '/home/aurora/RM25/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/build/nav2_rviz_plugins

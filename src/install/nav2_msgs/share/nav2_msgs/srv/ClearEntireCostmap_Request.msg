@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/build/nav2_msgs/rosidl_cmake/srv/ClearEntireCostmap_Request.msg

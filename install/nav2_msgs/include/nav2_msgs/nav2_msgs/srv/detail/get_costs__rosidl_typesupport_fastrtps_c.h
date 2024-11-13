@@ -1,0 +1,1 @@
+/home/aurora/RM25/build/nav2_msgs/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/get_costs__rosidl_typesupport_fastrtps_c.h

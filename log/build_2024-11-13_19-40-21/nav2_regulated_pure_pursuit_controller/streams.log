@@ -1,0 +1,67 @@
+[2.162s] Invoking command in '/home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_regulated_pure_pursuit_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_regulated_pure_pursuit_controller
+[2.450s] -- The C compiler identification is GNU 11.4.0
+[3.816s] -- The CXX compiler identification is GNU 11.4.0
+[4.990s] -- Detecting C compiler ABI info
+[5.249s] -- Detecting C compiler ABI info - done
+[5.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.261s] -- Detecting C compile features
+[5.261s] -- Detecting C compile features - done
+[5.264s] -- Detecting CXX compiler ABI info
+[5.634s] -- Detecting CXX compiler ABI info - done
+[5.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.643s] -- Detecting CXX compile features
+[5.643s] -- Detecting CXX compile features - done
+[5.646s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.868s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.955s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.996s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[5.997s] -- Found nav2_core: 1.1.17 (/home/aurora/RM25/install/nav2_core/share/nav2_core/cmake)
+[6.502s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.508s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.521s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.627s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.631s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.821s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.300s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.053s] -- Looking for pthread.h
+[15.276s] -- Looking for pthread.h - found
+[15.277s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.565s] -- Found Threads: TRUE  
+[15.995s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.995s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.264s] -- Setting build type to Release as none was specified.
+[18.343s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.436s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.553s] -- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_navigation2/nav2_regulated_pure_pursuit_controller/include
+[18.553s] -- Configured cppcheck exclude dirs and/or files: 
+[18.555s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.555s] -- Configured cpplint exclude dirs and/or files: 
+[18.556s] -- Added test 'lint_cmake' to check CMake code style
+[18.558s] -- Added test 'uncrustify' to check C / C++ code style
+[18.558s] -- Configured uncrustify additional arguments: 
+[18.559s] -- Added test 'xmllint' to check XML markup files
+[18.563s] -- Configuring done
+[18.677s] -- Generating done
+[18.679s] -- Build files have been written to: /home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller
+[18.701s] Invoked command in '/home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_navigation2/nav2_regulated_pure_pursuit_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/nav2_regulated_pure_pursuit_controller
+[18.701s] Invoking command in '/home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_regulated_pure_pursuit_controller -- -j20 -l20
+[18.985s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[18.986s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.986s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[20.431s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[20.627s] [ 33%] Built target gtest_main
+[50.547s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[50.549s] compilation terminated.
+[50.549s] gmake[2]: *** [CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/build.make:76: CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o] Error 1
+[50.549s] gmake[1]: *** [CMakeFiles/Makefile2:174: CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/all] Error 2
+[50.550s] gmake[1]: *** Waiting for unfinished jobs....
+[101.799s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[101.801s] compilation terminated.
+[101.801s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Error 1
+[101.801s] gmake[1]: *** [CMakeFiles/Makefile2:255: gtest/CMakeFiles/gtest.dir/all] Error 2
+[101.801s] gmake: *** [Makefile:146: all] Error 2

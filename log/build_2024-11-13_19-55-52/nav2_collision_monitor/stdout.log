@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target collision_monitor_core[0m
+[  8%] Built target gtest
+[ 17%] Built target gtest_main
+[ 56%] Built target collision_monitor_core
+[35m[1mConsolidate compiler generated dependencies of target collision_monitor[0m
+[35m[1mConsolidate compiler generated dependencies of target sources_test[0m
+[35m[1mConsolidate compiler generated dependencies of target kinematics_test[0m
+[35m[1mConsolidate compiler generated dependencies of target polygons_test[0m
+[ 60%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[ 78%] Built target kinematics_test
+[ 78%] Built target collision_monitor
+[ 86%] Built target sources_test
+[ 95%] Built target polygons_test

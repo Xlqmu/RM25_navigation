@@ -1,0 +1,74 @@
+[0.048s] Invoking command in '/home/aurora/RM25/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_voxel_grid -- -j20 -l20
+[0.066s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.142s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[0.143s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.300s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.302s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.305s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.351s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.969s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.112s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.137s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.138s] -- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_navigation2/nav2_voxel_grid/include
+[11.139s] -- Configured cppcheck exclude dirs and/or files: 
+[11.144s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.144s] -- Configured cpplint exclude dirs and/or files: 
+[11.147s] -- Added test 'lint_cmake' to check CMake code style
+[11.149s] -- Added test 'uncrustify' to check C / C++ code style
+[11.149s] -- Configured uncrustify additional arguments: 
+[11.150s] -- Added test 'xmllint' to check XML markup files
+[11.157s] -- Configuring done
+[11.210s] -- Generating done
+[11.212s] -- Build files have been written to: /home/aurora/RM25/build/nav2_voxel_grid
+[11.237s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[11.237s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[11.238s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[11.250s] [ 20%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[11.251s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[11.251s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.906s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[11.925s] [ 40%] Built target gtest_main
+[13.208s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[13.414s] [ 50%] Built target voxel_grid
+[15.982s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.001s] [ 60%] Built target gtest
+[16.007s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[16.007s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[16.015s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[16.015s] [ 80%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[18.466s] [ 90%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[18.496s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[18.671s] [100%] Built target voxel_grid_bresenham_3d
+[18.714s] [100%] Built target voxel_grid_tests
+[18.721s] Invoked command in '/home/aurora/RM25/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_voxel_grid -- -j20 -l20
+[18.739s] Invoking command in '/home/aurora/RM25/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/build/nav2_voxel_grid
+[18.743s] -- Install configuration: "Release"
+[18.743s] -- Execute custom install script
+[18.743s] -- Symlinking: /home/aurora/RM25/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[18.748s] -- Symlinking: /home/aurora/RM25/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[18.753s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[18.754s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[18.754s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[18.754s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[18.754s] -- Symlinking: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[18.758s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[18.759s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.759s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.759s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[18.759s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[18.759s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[18.759s] -- Up-to-date symlink: /home/aurora/RM25/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[18.761s] Invoked command in '/home/aurora/RM25/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/build/nav2_voxel_grid

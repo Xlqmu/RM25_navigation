@@ -1,0 +1,1 @@
+/home/aurora/RM25/build/nav2_controller/ament_cmake_core/nav2_controllerConfig.cmake

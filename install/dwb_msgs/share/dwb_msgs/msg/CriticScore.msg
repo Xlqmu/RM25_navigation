@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/dwb_msgs/msg/CriticScore.msg

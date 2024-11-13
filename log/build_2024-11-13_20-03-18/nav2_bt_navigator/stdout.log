@@ -1,0 +1,8 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libbt_navigator_core.so[0m
+[ 66%] Built target bt_navigator_core
+[ 83%] [32mBuilding CXX object CMakeFiles/bt_navigator.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bt_navigator[0m
+[100%] Built target bt_navigator

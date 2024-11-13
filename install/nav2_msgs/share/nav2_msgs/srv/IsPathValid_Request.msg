@@ -1,0 +1,1 @@
+/home/aurora/RM25/build/nav2_msgs/rosidl_cmake/srv/IsPathValid_Request.msg

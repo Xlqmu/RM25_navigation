@@ -1,0 +1,54 @@
+[1.064s] Invoking command in '/home/aurora/RM25/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/nav2_core:/home/aurora/RM25/install/nav2_costmap_2d:/home/aurora/RM25/install/nav2_map_server:/home/aurora/RM25/install/nav2_lifecycle_manager:/home/aurora/RM25/install/nav2_util:/home/aurora/RM25/install/nav2_voxel_grid:/home/aurora/RM25/install/nav2_msgs:/home/aurora/RM25/install/nav2_common:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/nav2_bringup:/home/aurora/RM25/install/four_omniwheel_robot:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/nav2_costmap_2d/lib:/home/aurora/RM25/install/nav2_map_server/lib:/home/aurora/RM25/install/nav2_lifecycle_manager/lib:/home/aurora/RM25/install/nav2_util/lib:/home/aurora/RM25/install/nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/build/nav2_smac_planner -- -j20 -l20
+[1.097s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.105s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.105s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[1.107s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[1.107s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[1.126s] [  3%] Built target gtest_main
+[1.126s] [  6%] Built target gtest
+[1.128s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[1.130s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[1.132s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[1.134s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[1.134s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[1.138s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[1.143s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[1.143s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[1.151s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[1.154s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[1.156s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[1.161s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[1.164s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[1.164s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[1.176s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[1.181s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[1.183s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[1.198s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[1.201s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[1.206s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[98.507s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[98.513s] compilation terminated.
+[98.514s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:174: CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o] Error 1
+[98.514s] gmake[2]: *** Waiting for unfinished jobs....
+[113.935s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[113.946s] compilation terminated.
+[113.946s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:174: CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o] Error 1
+[113.946s] gmake[2]: *** Waiting for unfinished jobs....
+[120.983s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[120.987s] compilation terminated.
+[120.987s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:146: CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o] Error 1
+[128.314s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[128.315s] compilation terminated.
+[128.336s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:132: CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o] Error 1
+[135.229s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[135.230s] compilation terminated.
+[135.230s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:76: CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o] Error 1
+[147.457s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[147.473s] compilation terminated.
+[147.473s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:160: CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o] Error 1
+[159.170s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[159.180s] compilation terminated.
+[159.181s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:160: CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o] Error 1
+[199.388s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[199.403s] compilation terminated.
+[199.403s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:132: CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o] Error 1

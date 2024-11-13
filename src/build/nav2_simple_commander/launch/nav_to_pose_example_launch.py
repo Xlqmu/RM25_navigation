@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/rm_navigation2/nav2_simple_commander/launch/nav_to_pose_example_launch.py

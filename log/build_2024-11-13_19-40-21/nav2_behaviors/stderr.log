@@ -1,0 +1,26 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_assisted_teleop_behavior.dir/build.make:76: CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:288: CMakeFiles/nav2_assisted_teleop_behavior.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_back_up_behavior.dir/build.make:76: CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:262: CMakeFiles/nav2_back_up_behavior.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_spin_behavior.dir/build.make:76: CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/nav2_spin_behavior.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_wait_behavior.dir/build.make:76: CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/nav2_wait_behavior.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_drive_on_heading_behavior.dir/build.make:76: CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:236: CMakeFiles/nav2_drive_on_heading_behavior.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/behavior_server_core.dir/build.make:76: CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/behavior_server_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

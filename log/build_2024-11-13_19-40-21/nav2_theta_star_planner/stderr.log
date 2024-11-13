@@ -1,0 +1,10 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_theta_star_planner.dir/build.make:76: CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_theta_star_planner.dir/build.make:90: CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/nav2_theta_star_planner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
