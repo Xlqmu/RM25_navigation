@@ -19,7 +19,7 @@
 
 1. 2维 -> 3维
 2. ros noetic -> ros2 humble
-3. 建图算法(cartographer) ->建图过程很 (因为它没有采用loop close ，所以导致建图速度不能太快，否则会出现飘的情况) -> 考虑换一个比较新的算法或者考虑加一个loop close ？ -> 看开源
+3. 建图算法(cartographer) ->建图过程很慢 (因为它没有采用loop close ，所以导致建图速度不能太快，否则会出现飘的情况) -> 考虑换一个比较新的算法或者考虑加一个loop close ？ -> 看开源
 4. 定位算法可以尝试 amcl -> fast_lio/fast_lio2/~~amcl-3d(不太好用)~~ -> FAST_LIO_LOCALIZATION
 5. 导航算法global_planer -> 再找找(路径规划算法)
 
