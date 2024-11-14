@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/build/dwb_msgs/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__type_support.h

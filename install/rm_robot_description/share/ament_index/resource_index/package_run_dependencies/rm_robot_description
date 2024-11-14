@@ -1,1 +1,1 @@
-/home/aurora/RM25/build/rm_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rm_robot_description
+gazebo_ros_pkgs;xacro;joint_state_publisher;robot_state_publisher

@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/costmap_queue/ament_cmake_environment_hooks/local_setup.bash

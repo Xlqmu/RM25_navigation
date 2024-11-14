@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/nav2_msgs/rosidl_generator_py/nav2_msgs/srv/_reload_dock_database_s.c

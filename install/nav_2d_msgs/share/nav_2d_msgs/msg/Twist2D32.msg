@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_dwb_controller/nav_2d_msgs/msg/Twist2D32.msg

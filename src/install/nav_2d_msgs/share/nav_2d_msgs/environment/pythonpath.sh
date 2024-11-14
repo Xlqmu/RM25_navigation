@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/build/nav_2d_msgs/ament_cmake_environment_hooks/pythonpath.sh

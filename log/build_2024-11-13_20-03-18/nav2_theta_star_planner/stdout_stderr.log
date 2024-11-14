@@ -1,9 +1,0 @@
-[ 22%] Built target gtest_main
-[ 44%] Built target gtest
-[ 55%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o[0m
-[ 77%] [32m[1mLinking CXX shared library libnav2_theta_star_planner.so[0m
-[ 77%] Built target nav2_theta_star_planner
-[ 88%] [32mBuilding CXX object CMakeFiles/test_theta_star.dir/test/test_theta_star.cpp.o[0m
-[100%] [32m[1mLinking CXX executable test_theta_star[0m
-[100%] Built target test_theta_star

@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target nav2_navfn_planner[0m
-[ 22%] Built target gtest
-[ 44%] Built target gtest_main
-[ 55%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o[0m
-[ 66%] [32m[1mLinking CXX shared library libnav2_navfn_planner.so[0m
-[ 77%] Built target nav2_navfn_planner
-[ 88%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
-[100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
-[100%] Built target test_dynamic_parameters

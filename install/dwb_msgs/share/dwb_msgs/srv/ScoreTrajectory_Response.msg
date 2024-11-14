@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Response.msg

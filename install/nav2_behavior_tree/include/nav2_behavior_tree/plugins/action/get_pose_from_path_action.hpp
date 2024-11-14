@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp

@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/build/nav2_msgs/rosidl_cmake/srv/ClearCostmapAroundRobot_Response.msg

@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/nav2_collision_monitor/ament_cmake_environment_hooks/local_setup.bash

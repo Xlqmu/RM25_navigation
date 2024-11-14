@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_robot_description/launch/install/_local_setup_util_sh.py

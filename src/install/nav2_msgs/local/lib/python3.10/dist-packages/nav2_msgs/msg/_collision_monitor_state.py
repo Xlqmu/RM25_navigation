@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/build/nav2_msgs/rosidl_generator_py/nav2_msgs/msg/_collision_monitor_state.py

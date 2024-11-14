@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/opennav_docking_core/ament_cmake_environment_hooks/local_setup.sh

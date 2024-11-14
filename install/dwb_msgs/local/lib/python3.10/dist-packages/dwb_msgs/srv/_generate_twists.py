@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/dwb_msgs/rosidl_generator_py/dwb_msgs/srv/_generate_twists.py

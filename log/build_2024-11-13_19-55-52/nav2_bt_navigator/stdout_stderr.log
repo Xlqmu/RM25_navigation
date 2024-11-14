@@ -1,7 +1,0 @@
-[ 16%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o[0m
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/bt_navigator_core.dir/build.make:90: CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....

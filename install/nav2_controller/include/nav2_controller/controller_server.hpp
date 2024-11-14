@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_controller/include/nav2_controller/controller_server.hpp

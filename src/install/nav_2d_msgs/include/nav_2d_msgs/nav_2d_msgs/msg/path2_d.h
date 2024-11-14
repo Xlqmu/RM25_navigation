@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/build/nav_2d_msgs/rosidl_generator_c/nav_2d_msgs/msg/path2_d.h

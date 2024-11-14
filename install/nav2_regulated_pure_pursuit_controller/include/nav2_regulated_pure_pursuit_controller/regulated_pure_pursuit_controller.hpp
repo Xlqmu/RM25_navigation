@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp

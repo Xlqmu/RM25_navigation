@@ -2,15 +2,14 @@
 
 import os
 
-from ament_index_python.packages import get_package_share_directory, get_package_share_path
+from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.substitutions import LaunchConfiguration, Command
+from launch.substitutions import LaunchConfiguration
 from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, GroupAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
-from launch.conditions import LaunchConfigurationEquals
-from launch.conditions import IfCondition
+from launch.conditions import LaunchConfigurationEquals, IfCondition
 from launch.actions.append_environment_variable import AppendEnvironmentVariable
 
 # Enum for world types
@@ -25,14 +24,14 @@ def get_world_config(world_type):
             'y': '7.6',
             'z': '0.2',
             'yaw': '0.0',
-            'world_path': 'RMUC2024_world/RMUC2024_world.world'
+            'world_path': 'world/RMUC2024_world.world'
         },
         WorldType.RMUL: {
             'x': '4.3',
             'y': '3.35',
             'z': '1.16',
             'yaw': '0.0',
-            'world_path': 'RMUL2024_world/RMUL2024_world.world'
+            'world_path': 'world/RMUL2024_world.world'
             # 'world_path': 'RMUL2024_world/RMUL2024_world_dynamic_obstacles.world'
         }
     }
@@ -40,12 +39,11 @@ def get_world_config(world_type):
 
 def generate_launch_description():
     # Get the launch directory
-    bringup_dir = get_package_share_directory('pb_rm_simulation')
+    bringup_dir = get_package_share_directory('rm_robot_description')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     # Specify xacro path
-    default_robot_description = Command(['xacro ', os.path.join(
-    get_package_share_directory('pb_rm_simulation'), 'urdf', 'simulation_waking_robot.xacro')])
+    default_robot_description = os.path.join(get_package_share_directory('rm_robot_description'), 'urdf', 'simulation_robot.xacro')
 
     # Create the launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
@@ -53,9 +51,9 @@ def generate_launch_description():
     robot_description = LaunchConfiguration('robot_description')
 
     # Set Gazebo plugin path
-    append_enviroment = AppendEnvironmentVariable(
+    append_environment = AppendEnvironmentVariable(
         'GAZEBO_PLUGIN_PATH',
-        os.path.join(os.path.join(get_package_share_directory('pb_rm_simulation'), 'meshes', 'obstacles', 'obstacle_plugin', 'lib'))
+        os.path.join(get_package_share_directory('rm_robot_description'), 'meshes', 'obstacles', 'obstacle_plugin', 'lib')
     )
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -114,7 +112,7 @@ def generate_launch_description():
         package='rviz2',
         namespace='',
         executable='rviz2',
-        arguments=['-d' + os.path.join(bringup_dir, 'rviz', 'rviz2.rviz')]
+        arguments=['-d', os.path.join(bringup_dir, 'rviz', 'rviz2.rviz')]
     )
 
     def create_gazebo_launch_group(world_type):
@@ -139,7 +137,7 @@ def generate_launch_description():
                 ),
                 IncludeLaunchDescription(
                     PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
-                    launch_arguments={'world': os.path.join(bringup_dir, 'world', world_config['world_path'])}.items(),
+                    launch_arguments={'world': os.path.join(bringup_dir, world_config['world_path'])}.items(),
                 )
             ]
         )
@@ -151,7 +149,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     # Set environment variables
-    ld.add_action(append_enviroment)
+    ld.add_action(append_environment)
 
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_world_cmd)

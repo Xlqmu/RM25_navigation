@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/nav2_msgs/ament_cmake_core/nav2_msgsConfig-version.cmake

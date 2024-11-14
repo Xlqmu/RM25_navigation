@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/nav2_msgs/rosidl_generator_c/nav2_msgs/msg/behavior_tree_status_change.h

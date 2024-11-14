@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/nav_2d_msgs/rosidl_generator_c/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h

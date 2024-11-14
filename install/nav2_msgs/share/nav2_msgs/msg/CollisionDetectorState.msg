@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_msgs/msg/CollisionDetectorState.msg

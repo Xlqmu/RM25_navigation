@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_smac_planner/include/nav2_smac_planner/a_star.hpp

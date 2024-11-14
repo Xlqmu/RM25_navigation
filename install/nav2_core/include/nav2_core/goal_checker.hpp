@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_navigation2/nav2_core/include/nav2_core/goal_checker.hpp
