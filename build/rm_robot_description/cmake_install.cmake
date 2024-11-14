@@ -43,6 +43,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_robot_description" TYPE DIRECTORY FILES
+    "/home/aurora/RM25/src/rm_robot_description/urdf"
+    "/home/aurora/RM25/src/rm_robot_description/world"
+    "/home/aurora/RM25/src/rm_robot_description/rviz"
+    "/home/aurora/RM25/src/rm_robot_description/launch"
+    "/home/aurora/RM25/src/rm_robot_description/meshes"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_robot_description" TYPE DIRECTORY FILES "/home/aurora/RM25/src/rm_robot_description/launch")
 endif()
 

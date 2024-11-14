@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <!-- spawn_empty.py好像处理不了这种xml格式的标签 -->
-<!-- ?xml version="1.0" encoding="utf-8"? -->
+
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
      <robot
-     name="four_omniwheel_robot">
+     name="rm_robot_description">
      <link
        name="base_link">
        <inertial>
@@ -27,7 +29,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/base_link.STL" />
+             filename="package://rm_robot_description/meshes/base_link.STL" />
          </geometry>
          <material
            name="">
@@ -41,12 +43,12 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/base_link.STL" />
+             filename="package://rm_robot_description/meshes/base_link.STL" />
          </geometry>
        </collision>
      </link>
      <link
-       name="omniwheel1_Link">
+       name="omniwheel1_link">
        <inertial>
          <origin
            xyz="5.5106E-07 -0.024566 1.5467E-06"
@@ -67,7 +69,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel1_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel1_link.STL" />
          </geometry>
          <material
            name="">
@@ -81,7 +83,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel1_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel1_link.STL" />
          </geometry>
        </collision>
      </link>
@@ -94,12 +96,12 @@
        <parent
          link="base_link" />
        <child
-         link="omniwheel1_Link" />
+         link="omniwheel1_link" />
        <axis
          xyz="0 1 0" />
      </joint>
      <link
-       name="omniwheel2_Link">
+       name="omniwheel2_link">
        <inertial>
          <origin
            xyz="5.5106E-07 -0.0085 1.5467E-06"
@@ -120,7 +122,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel2_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel2_link.STL" />
          </geometry>
          <material
            name="">
@@ -134,7 +136,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel2_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel2_link.STL" />
          </geometry>
        </collision>
      </link>
@@ -147,12 +149,12 @@
        <parent
          link="base_link" />
        <child
-         link="omniwheel2_Link" />
+         link="omniwheel2_link" />
        <axis
          xyz="0 0 0" />
      </joint>
      <link
-       name="omniwheel3_Link">
+       name="omniwheel3_link">
        <inertial>
          <origin
            xyz="5.5106E-07 -0.0085 1.5467E-06"
@@ -173,7 +175,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel3_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel3_link.STL" />
          </geometry>
          <material
            name="">
@@ -187,7 +189,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel3_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel3_link.STL" />
          </geometry>
        </collision>
      </link>
@@ -200,12 +202,12 @@
        <parent
          link="base_link" />
        <child
-         link="omniwheel3_Link" />
+         link="omniwheel3_link" />
        <axis
          xyz="0 0 0" />
      </joint>
      <link
-       name="omniwheel4_Link">
+       name="omniwheel4_link">
        <inertial>
          <origin
            xyz="5.51055494374397E-07 -0.00849999999999967 1.54673931779259E-06"
@@ -226,7 +228,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel4_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel4_link.STL" />
          </geometry>
          <material
            name="">
@@ -240,7 +242,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/omniwheel4_Link.STL" />
+             filename="package://rm_robot_description/meshes/omniwheel4_link.STL" />
          </geometry>
        </collision>
      </link>
@@ -253,7 +255,7 @@
        <parent
          link="base_link" />
        <child
-         link="omniwheel4_Link" />
+         link="omniwheel4_link" />
        <axis
          xyz="0 0 0" />
      </joint>
@@ -279,7 +281,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/mid360laser_link.STL" />
+             filename="package://rm_robot_description/meshes/mid360laser_link.STL" />
          </geometry>
          <material
            name="">
@@ -293,7 +295,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/mid360laser_link.STL" />
+             filename="package://rm_robot_description/meshes/mid360laser_link.STL" />
          </geometry>
        </collision>
      </link>
@@ -311,7 +313,7 @@
          xyz="0 0 0" />
      </joint>
      <link
-       name="controller_Link">
+       name="controller_link">
        <inertial>
          <origin
            xyz="0 0 0"
@@ -332,7 +334,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/controller_Link.STL" />
+             filename="package://rm_robot_description/meshes/controller_link.STL" />
          </geometry>
          <material
            name="">
@@ -346,7 +348,7 @@
            rpy="0 0 0" />
          <geometry>
            <mesh
-             filename="package://four_omniwheel_robot/meshes/controller_Link.STL" />
+             filename="package://rm_robot_description/meshes/controller_link.STL" />
          </geometry>
        </collision>
      </link>
@@ -359,7 +361,7 @@
        <parent
          link="base_link" />
        <child
-         link="controller_Link" />
+         link="controller_link" />
        <axis
          xyz="0 0 0" />
      </joint>

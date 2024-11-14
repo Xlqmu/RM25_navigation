@@ -1,55 +1,51 @@
 import os
-from launch import LaunchDescription
-from launch_ros.actions import Node
-from launch.actions import IncludeLaunchDescription, ExecuteProcess
-from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
-from launch.substitutions import PathJoinSubstitution
+import launch
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import Command, LaunchConfiguration
+from launch_ros.actions import Node
+from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
-    # 
-    gazebo_ros_pkg = get_package_share_directory('gazebo_ros')
-    four_omniwheel_robot_pkg = get_package_share_directory('rm_robot_description')
+    # 获取默认模型路径
+    default_model_path = os.path.join(get_package_share_directory('rm_robot_description'), 'urdf', 'four_omniwheel_robot.urdf')
+    default_rviz_config_path = os.path.join(get_package_share_directory('rm_robot_description'), 'rviz', 'urdf_config.rviz')
 
-    # Gazebo 启动文件路径
-    gazebo_launch_file = PathJoinSubstitution([gazebo_ros_pkg, 'launch', 'gazebo.launch.py'])
-
-    # SDF 文件路径
-    rm_robot_description_pkg = get_package_share_directory('rm_robot_description')
-    sdf_file = os.path.join(rm_robot_description_pkg, 'sdf', 'models.sdf')
+    # 创建节点
+    joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher',
+        condition=launch.conditions.UnlessCondition(LaunchConfiguration('gui'))
+    )
+    joint_state_publisher_gui_node = Node(
+        package='joint_state_publisher_gui',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui',
+        condition=launch.conditions.IfCondition(LaunchConfiguration('gui'))
+    )
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        parameters=[{'robot_description': ParameterValue(Command(['xacro ', LaunchConfiguration('model')]), value_type=str)}],
+        output='screen'
+    )
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', LaunchConfiguration('rvizconfig')],
+    )
 
     return LaunchDescription([
-        # 启动 Gazebo
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(gazebo_launch_file)
-        ),
-
-        # 发布 static transform between base_link and base_footprint
-        Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            name='tf_footprint_base',
-            arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'base_footprint']
-        ),
-
-        # 在 Gazebo 中生成四轮全向轮小车模型
-        Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            name='spawn_model',
-            arguments=[
-                '-file', sdf_file,
-                '-entity', 'four_omniwheel_robot',
-                '-x', '0',
-                '-y', '0',
-                '-z', '0.5'
-            ],
-            output='screen'
-        ),
-
-        # 使用 ExecuteProcess 发布 /calibrated 话题
-        ExecuteProcess(
-            cmd=['ros2', 'topic', 'pub', '/calibrated', 'std_msgs/msg/Bool', '{data: true}'],
-            output='screen'
-        )
+        DeclareLaunchArgument(name='gui', default_value='True', description='Flag to enable joint_state_publisher_gui'),
+        DeclareLaunchArgument(name='model', default_value=default_model_path, description='Absolute path to robot urdf file'),
+        DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path, description='Absolute path to rviz config file'),
+        joint_state_publisher_node,
+        joint_state_publisher_gui_node,
+        robot_state_publisher_node,
+        rviz_node
     ])

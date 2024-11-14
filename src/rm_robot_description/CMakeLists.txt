@@ -17,30 +17,15 @@ if(CMAKE_EXPORT_COMPILE_COMMANDS)
   set(CMAKE_EXPORT_COMPILE_COMMANDS ${CMAKE_EXPORT_COMPILE_COMMANDS})
 endif()
 
-#######################
-## Find dependencies ##
-#######################
+
 
 find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
-###########
-## Build ##
-###########
-
-# ament_auto_add_library(${PROJECT_NAME} SHARED
-#   src/rm_serial_driver.cpp
-#   src/crc.cpp
-# )
-
-# rclcpp_components_register_node(${PROJECT_NAME}
-#   PLUGIN rm_serial_driver::RMSerialDriver
-#   EXECUTABLE ${PROJECT_NAME}_node
-# )
-
-#############
-## Testing ##
-#############
+install(DIRECTORY
+  urdf world rviz launch meshes
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
