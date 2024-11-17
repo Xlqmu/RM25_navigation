@@ -24,7 +24,7 @@ if [ $? -ne 0 ]; then
 fi
 echo "推送成功。"
 
-# 获取远程标签列表并排除本地未获取的标签
+# 获取远程标签列表并排除带有 ^{} 的标签
 echo "正在获取远程标签..."
 git fetch --tags
 if [ $? -ne 0 ]; then
@@ -32,8 +32,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# 获取远程仓库的最新标签
-latest_tag=$(git ls-remote --tags origin | awk '{print $2}' | grep -E 'refs/tags/v[0-9]+\.[0-9]+' | sort -V | tail -n1 | sed 's|refs/tags/||')
+# 获取远程仓库的最新标签，排除 ^{}
+latest_tag=$(git ls-remote --tags origin | awk '{print $2}' | grep -E 'refs/tags/v[0-9]+\.[0-9]+$' | sort -V | tail -n1 | sed 's|refs/tags/||')
 
 if [ -z "$latest_tag" ]; then
     # 如果没有标签，初始化为 v1.0
@@ -42,14 +42,14 @@ else
     echo "最新的远程标签是 $latest_tag"
     # 移除 'v' 前缀
     version=${latest_tag#v}
-    major=$(echo $version | cut -d. -f1)
-    minor=$(echo $version | cut -d. -f2)
+    major=$(echo "$version" | cut -d. -f1)
+    minor=$(echo "$version" | cut -d. -f2)
 
     # 增加次版本号
     minor=$((minor + 1))
 
     # 如果次版本号达到10，重置为0并增加主版本号
-    if [ $minor -ge 10 ]; then
+    if [ "$minor" -ge 10 ]; then
         minor=0
         major=$((major + 1))
     fi
