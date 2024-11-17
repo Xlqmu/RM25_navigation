@@ -25,14 +25,14 @@ def get_world_config(world_type):
             'y': '7.6',
             'z': '0.2',
             'yaw': '0.0',
-            'world_path': 'world/RMUC24_world.world'
+            'world_path': '/home/aurora/RM25/src/rm_robot_description/world/RMUC24_world.world'
         },
         WorldType.RMUL: {
             'x': '4.3',
             'y': '3.35',
             'z': '1.16',
             'yaw': '0.0',
-            'world_path': 'world/RMUL25.world'
+            'world_path': '/home/aurora/RM25/src/rm_robot_description/world/RMUL25.world'
             # 'world_path': 'RMUL2024_world/RMUL2024_world_dynamic_obstacles.world'
         }
     }
@@ -66,7 +66,7 @@ def generate_launch_description():
 
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value=WorldType.RMUC,
+        default_value=WorldType.RMUL,
         description='Choose <RMUC> or <RMUL>'
     )
 
