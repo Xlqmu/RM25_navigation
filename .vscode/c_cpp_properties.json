@@ -1,0 +1,19 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/include/eigen3",
+          "/usr/local/include/pcl-1.14"
+          //"/home/aurora/RM25/src/rm_driver/include"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c11",
+        "cppStandard": "c++14",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+}

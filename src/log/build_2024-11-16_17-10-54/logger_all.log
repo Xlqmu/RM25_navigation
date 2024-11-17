@@ -1,0 +1,278 @@
+[0.211s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3524cd86d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3524e49d20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3524e49d20>>)
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.416s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurora/RM25/src'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_behavior) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'ros'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/livox_ros_driver2) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'rm_driver/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/log) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/log) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_driver/log) ignored
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_localization) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_mapping) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_navigation) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm_robot_description) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'rm_robot_description' with type 'ros.ament_cmake' and name 'rm_robot_description'
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aurora/RM25/install
+[0.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/aurora/RM25/src/rm_robot_description/launch/install
+[0.461s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/aurora/ws_helloworld/install
+[0.461s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurora/RM25/src/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurora/RM25/src/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/aurora/RM25/src/rm_driver/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'rm_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurora/RM25/src/build/rm_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurora/RM25/src/install/rm_robot_description', 'merge_install': False, 'path': '/home/aurora/RM25/src/rm_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.489s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurora/RM25/src/rm_driver/livox_ros_driver2' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurora/RM25/src/rm_driver/livox_ros_driver2'
+[0.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurora/RM25/src/rm_robot_description' with build type 'ament_cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurora/RM25/src/rm_robot_description'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/src/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_driver/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/livox_ros_driver2
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/src/build/rm_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_robot_description -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/rm_robot_description
+[2.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/src/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_robot_description -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/rm_robot_description
+[2.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/src/build/rm_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/src/build/rm_robot_description -- -j20 -l20
+[2.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/src/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/src/build/rm_robot_description -- -j20 -l20
+[2.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/src/build/rm_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/aurora/RM25/src/build/rm_robot_description
+[2.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_robot_description)
+[2.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/src/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/aurora/RM25/src/build/rm_robot_description
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description' for CMake module files
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description' for CMake config files
+[2.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_robot_description', 'cmake_prefix_path')
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.sh'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/bin'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/lib/pkgconfig/rm_robot_description.pc'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/lib/python3.10/site-packages'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/bin'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.dsv'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.sh'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.bash'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.zsh'
+[2.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurora/RM25/src/install/rm_robot_description/share/colcon-core/packages/rm_robot_description)
+[2.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_robot_description)
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description' for CMake module files
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description' for CMake config files
+[2.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_robot_description', 'cmake_prefix_path')
+[2.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.ps1'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.dsv'
+[2.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.sh'
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/bin'
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/lib/pkgconfig/rm_robot_description.pc'
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/lib/python3.10/site-packages'
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/rm_robot_description/bin'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.dsv'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.sh'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/rm_robot_description/share/rm_robot_description/package.zsh'
+[2.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurora/RM25/src/install/rm_robot_description/share/colcon-core/packages/rm_robot_description)
+[40.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/src/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_driver/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/livox_ros_driver2
+[40.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/src/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/src/build/livox_ros_driver2 -- -j20 -l20
+[46.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/src/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/src/build/livox_ros_driver2 -- -j20 -l20
+[47.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/src/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/aurora/RM25/src/build/livox_ros_driver2
+[47.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[47.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/src/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake --install /home/aurora/RM25/src/build/livox_ros_driver2
+[47.054s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2' for CMake module files
+[47.054s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2' for CMake config files
+[47.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[47.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[47.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[47.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[47.056s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/lib'
+[47.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[47.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[47.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[47.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[47.056s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/bin'
+[47.056s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[47.057s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/lib/python3.10/site-packages'
+[47.057s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/bin'
+[47.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[47.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[47.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[47.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[47.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[47.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurora/RM25/src/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[47.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[47.109s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2' for CMake module files
+[47.109s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2' for CMake config files
+[47.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[47.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[47.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[47.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[47.110s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/lib'
+[47.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[47.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[47.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[47.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[47.111s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/bin'
+[47.111s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[47.111s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/lib/python3.10/site-packages'
+[47.111s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/src/install/livox_ros_driver2/bin'
+[47.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[47.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[47.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[47.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[47.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[47.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurora/RM25/src/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[47.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[47.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[47.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.275s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[47.279s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[47.279s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[47.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/src/install/local_setup.ps1'
+[47.281s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurora/RM25/src/install/_local_setup_util_ps1.py'
+[47.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/src/install/setup.ps1'
+[47.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/src/install/local_setup.sh'
+[47.285s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurora/RM25/src/install/_local_setup_util_sh.py'
+[47.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/src/install/setup.sh'
+[47.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/src/install/local_setup.bash'
+[47.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/src/install/setup.bash'
+[47.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/src/install/local_setup.zsh'
+[47.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/src/install/setup.zsh'

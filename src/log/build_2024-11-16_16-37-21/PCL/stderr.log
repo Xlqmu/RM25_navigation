@@ -1,0 +1,54 @@
+[33mCMake Warning at CMakeLists.txt:435 (find_package):
+  By not providing "FindcJSON.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "cJSON", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "cJSON" with any of
+  the following names:
+
+    cJSONConfig.cmake
+    cjson-config.cmake
+
+  Add the installation prefix of "cJSON" to CMAKE_PREFIX_PATH or set
+  "cJSON_DIR" to a directory containing one of the above files.  If "cJSON"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:439 (message):
+  It is recommended to install an up-to-date version of cJSON on your system.
+  CMake did not find one, and will instead use a cJSON version bundled with
+  the PCL source code.  However, that is an older version which may pose a
+  risk and may be removed in a future PCL release.
+
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    HUMBLE_ROS
+    ROS_EDITION
+
+[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [sample_consensus/CMakeFiles/pcl_sample_consensus.dir/build.make:272: sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_ellipse3d.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [sample_consensus/CMakeFiles/pcl_sample_consensus.dir/build.make:258: sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_sphere.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [sample_consensus/CMakeFiles/pcl_sample_consensus.dir/build.make:230: sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_plane.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [octree/CMakeFiles/pcl_octree.dir/build.make:76: octree/CMakeFiles/pcl_octree.dir/src/octree_inst.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:957: octree/CMakeFiles/pcl_octree.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [sample_consensus/CMakeFiles/pcl_sample_consensus.dir/build.make:286: sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_torus.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [sample_consensus/CMakeFiles/pcl_sample_consensus.dir/build.make:90: sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_circle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1011: sample_consensus/CMakeFiles/pcl_sample_consensus.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2

@@ -25,6 +25,7 @@ function _colcon_prefix_chain_powershell_source_script {
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aurora/ws_helloworld/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aurora/RM25/src/rm_robot_description/launch/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/aurora/RM25/src/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

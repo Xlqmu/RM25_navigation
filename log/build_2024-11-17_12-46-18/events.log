@@ -1,0 +1,662 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000359] (rm_robot_description) JobQueued: {'identifier': 'rm_robot_description', 'dependencies': OrderedDict()}
+[0.000384] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.003866] (rm_robot_description) JobStarted: {'identifier': 'rm_robot_description'}
+[0.006934] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.007363] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/RM25/src/rm_driver/livox_ros_driver2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/livox_ros_driver2'], 'cwd': '/home/aurora/RM25/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b5f1f420-a6cd-43aa-9b84-12ce188312c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/1525_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e059771e16.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/livox_ros_driver2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.010486] (rm_robot_description) JobProgress: {'identifier': 'rm_robot_description', 'progress': 'cmake'}
+[0.011240] (rm_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/RM25/src/rm_robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_robot_description'], 'cwd': '/home/aurora/RM25/build/rm_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b5f1f420-a6cd-43aa-9b84-12ce188312c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/1525_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e059771e16.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/rm_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099268] (-) TimerEvent: {}
+[0.126065] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.126229] (rm_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199439] (-) TimerEvent: {}
+[0.299718] (-) TimerEvent: {}
+[0.399924] (-) TimerEvent: {}
+[0.500191] (-) TimerEvent: {}
+[0.600751] (-) TimerEvent: {}
+[0.625168] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.627100] (rm_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.700851] (-) TimerEvent: {}
+[0.801113] (-) TimerEvent: {}
+[0.901371] (-) TimerEvent: {}
+[0.943527] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.943660] (rm_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001474] (-) TimerEvent: {}
+[1.038424] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.038549] (rm_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.042166] (rm_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.042242] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.043492] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.043586] (rm_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.043910] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.043977] (rm_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.045760] (rm_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.045805] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101574] (-) TimerEvent: {}
+[1.141465] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.141588] (rm_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.145291] (rm_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.145565] (rm_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.145832] (rm_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.146315] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.146379] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.146409] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.146435] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.4\n'}
+[1.147896] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.147971] (rm_robot_description) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.201606] (-) TimerEvent: {}
+[1.241273] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.245492] (rm_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.279231] (livox_ros_driver2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.282430] (rm_robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.301655] (-) TimerEvent: {}
+[1.338487] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.339870] (rm_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.343762] (rm_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.345109] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.345425] (rm_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.345816] (rm_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/aurora/RM25/build/rm_robot_description\n'}
+[1.348432] (rm_robot_description) CommandEnded: {'returncode': 0}
+[1.350349] (rm_robot_description) JobProgress: {'identifier': 'rm_robot_description', 'progress': 'build'}
+[1.350381] (rm_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aurora/RM25/build/rm_robot_description', '--', '-j20', '-l20'], 'cwd': '/home/aurora/RM25/build/rm_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b5f1f420-a6cd-43aa-9b84-12ce188312c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/1525_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e059771e16.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/rm_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[1.369541] (rm_robot_description) CommandEnded: {'returncode': 0}
+[1.380793] (rm_robot_description) JobProgress: {'identifier': 'rm_robot_description', 'progress': 'install'}
+[1.385593] (rm_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aurora/RM25/build/rm_robot_description'], 'cwd': '/home/aurora/RM25/build/rm_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurora'), ('GIT_ASKPASS', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b5f1f420-a6cd-43aa-9b84-12ce188312c4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/ws_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('NAME', 'DESKTOP-HO9IPL6'), ('WSL_INTEROP', '/run/WSL/1525_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aurora/gazebo_models:/home/aurora/gazebo_models:/home/aurora/gazebo_models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/GalaxySDK/GenICam/bin/Win64_x64:/mnt/e/GalaxySDK/APIDll/Win64:/mnt/e/GalaxySDK/GenICam/bin/Win32_i86:/mnt/e/GalaxySDK/APIDll/Win32:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/e/python/Scripts/:/mnt/e/python/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/e/Microsoft VS Code/bin:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/e/LaTex/texlive/2024/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/e/ANACONDA:/mnt/e/ANACONDA/Scripts:/mnt/e/ANACONDA/Library/bin:/mnt/e/Git/bin:/mnt/e/Git/cmd:/mnt/d/mingw64/bin:/mnt/d/cmake-3.30.3-windows-x86_64/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/e/node/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Xlqmu/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib:/mnt/c/Users/Xlqmu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xlqmu/AppData/Roaming/Programs/Zero Install:/mnt/e/PyCharm 2024.1/bin:/mnt/c/Users/Xlqmu/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Xlqmu/.dotnet/tools:/mnt/c/Users/Xlqmu/AppData/Roaming/npm:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/extras/CUPTI/lib64:/mnt/c/Users/Xlqmu/AppData/Local/Pandoc/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e059771e16.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/aurora/RM25/build/rm_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/ws_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/ws_helloworld/install/pkg01_helloworld_cpp:/home/aurora/ws_helloworld/install/learning_tf2_cpp:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[1.389092] (rm_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.389411] (rm_robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.389933] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/four_omniwheel_robot.urdf\n'}
+[1.394504] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/mid360.xacro\n'}
+[1.398919] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf\n'}
+[1.401754] (-) TimerEvent: {}
+[1.402958] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf.xacro\n'}
+[1.406943] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf\n'}
+[1.410841] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation.urdf\n'}
+[1.414926] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_robot.xacro\n'}
+[1.419666] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world\n'}
+[1.423793] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config\n'}
+[1.427482] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.sdf\n'}
+[1.431971] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUL25.world\n'}
+[1.435886] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/my_world.world\n'}
+[1.439878] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/RMUL25.world\n'}
+[1.443339] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.config\n'}
+[1.447270] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.sdf\n'}
+[1.451545] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/fastlio.rviz\n'}
+[1.455162] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz2.rviz\n'}
+[1.458896] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/urdf_config.rviz\n'}
+[1.463828] (rm_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[1.464004] (rm_robot_description) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[1.464191] (rm_robot_description) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[1.464227] (rm_robot_description) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.464254] (rm_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.464280] (rm_robot_description) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[1.464307] (rm_robot_description) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[1.464331] (rm_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.464353] (rm_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.464377] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/display.launch.cpython-310.pyc\n'}
+[1.468109] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/rm_simulation.launch.cpython-310.pyc\n'}
+[1.472890] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robot.launch.cpython-310.pyc\n'}
+[1.476508] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robotv2.launch.cpython-310.pyc\n'}
+[1.481093] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by\n'}
+[1.485210] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE\n'}
+[1.489226] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/display.launch.py\n'}
+[1.493481] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout\n'}
+[1.497808] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE\n'}
+[1.501727] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py\n'}
+[1.501861] (-) TimerEvent: {}
+[1.505607] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_sh.py\n'}
+[1.509866] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.bash\n'}
+[1.513682] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.ps1\n'}
+[1.517849] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.sh\n'}
+[1.521780] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.zsh\n'}
+[1.525624] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.bash\n'}
+[1.529568] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.ps1\n'}
+[1.533376] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.sh\n'}
+[1.537047] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.zsh\n'}
+[1.540939] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/COLCON_IGNORE\n'}
+[1.545195] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/events.log\n'}
+[1.549689] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/logger_all.log\n'}
+[1.554098] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/events.log\n'}
+[1.559963] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/logger_all.log\n'}
+[1.564806] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/events.log\n'}
+[1.568635] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/logger_all.log\n'}
+[1.571227] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.572647] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/events.log\n'}
+[1.577138] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/logger_all.log\n'}
+[1.580953] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py\n'}
+[1.585074] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py\n'}
+[1.589395] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py\n'}
+[1.593738] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUC_2024.stl\n'}
+[1.597868] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUL_2024.stl\n'}
+[1.601892] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/base_link.STL\n'}
+[1.602036] (-) TimerEvent: {}
+[1.606016] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/controller_link.STL\n'}
+[1.610394] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch\n'}
+[1.615805] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch.py\n'}
+[1.622753] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch\n'}
+[1.627222] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch.py\n'}
+[1.633039] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360.stl\n'}
+[1.634191] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.635947] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.637191] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360laser_link.STL\n'}
+[1.641342] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel1_link.STL\n'}
+[1.646534] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel2_link.STL\n'}
+[1.651683] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel3_link.STL\n'}
+[1.655997] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel4_link.STL\n'}
+[1.660118] (rm_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[1.660322] (rm_robot_description) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[1.660398] (rm_robot_description) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[1.660646] (rm_robot_description) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.660774] (rm_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.660842] (rm_robot_description) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_directory)\n'}
+[1.660997] (rm_robot_description) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[1.661080] (rm_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.661203] (rm_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.661282] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/display.launch.cpython-310.pyc\n'}
+[1.661359] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/rm_simulation.launch.cpython-310.pyc\n'}
+[1.661633] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robot.launch.cpython-310.pyc\n'}
+[1.661862] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robotv2.launch.cpython-310.pyc\n'}
+[1.661947] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by\n'}
+[1.662054] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE\n'}
+[1.662085] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/display.launch.py\n'}
+[1.662111] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout\n'}
+[1.662136] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE\n'}
+[1.662192] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py\n'}
+[1.662271] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_sh.py\n'}
+[1.662332] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.bash\n'}
+[1.662362] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.ps1\n'}
+[1.662442] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.sh\n'}
+[1.662522] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.zsh\n'}
+[1.662581] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.bash\n'}
+[1.662662] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.ps1\n'}
+[1.662804] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.sh\n'}
+[1.662861] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.zsh\n'}
+[1.662942] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/COLCON_IGNORE\n'}
+[1.663022] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/events.log\n'}
+[1.663173] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/logger_all.log\n'}
+[1.663262] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/events.log\n'}
+[1.663342] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/logger_all.log\n'}
+[1.663499] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/events.log\n'}
+[1.663606] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/logger_all.log\n'}
+[1.663692] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/events.log\n'}
+[1.663772] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/logger_all.log\n'}
+[1.663851] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py\n'}
+[1.663930] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py\n'}
+[1.664009] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py\n'}
+[1.664120] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/four_omniwheel_robot.urdf\n'}
+[1.664201] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/mid360.xacro\n'}
+[1.664272] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf\n'}
+[1.664435] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf.xacro\n'}
+[1.664486] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf\n'}
+[1.664513] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation.urdf\n'}
+[1.664538] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_robot.xacro\n'}
+[1.664562] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUC_2024.stl\n'}
+[1.664586] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUL_2024.stl\n'}
+[1.664610] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/base_link.STL\n'}
+[1.664635] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/controller_link.STL\n'}
+[1.664718] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch\n'}
+[1.664798] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch.py\n'}
+[1.664877] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch\n'}
+[1.664956] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch.py\n'}
+[1.665035] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360.stl\n'}
+[1.665113] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360laser_link.STL\n'}
+[1.665220] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel1_link.STL\n'}
+[1.665251] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel2_link.STL\n'}
+[1.665276] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel3_link.STL\n'}
+[1.665299] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel4_link.STL\n'}
+[1.665323] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world\n'}
+[1.665347] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config\n'}
+[1.665376] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.sdf\n'}
+[1.665400] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUL25.world\n'}
+[1.665423] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/my_world.world\n'}
+[1.665446] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/RMUL25.world\n'}
+[1.665470] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.config\n'}
+[1.665494] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.sdf\n'}
+[1.665517] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/fastlio.rviz\n'}
+[1.665541] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz2.rviz\n'}
+[1.665565] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/urdf_config.rviz\n'}
+[1.665590] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/four_omniwheel_robot.xacro\n'}
+[1.669214] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/livox_mid360.xacro\n'}
+[1.673044] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/mid360.xacro\n'}
+[1.676674] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/simulation_robot.xacro\n'}
+[1.680522] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description\n'}
+[1.684668] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description\n'}
+[1.688860] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh\n'}
+[1.692523] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.dsv\n'}
+[1.696059] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/path.sh\n'}
+[1.699918] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/path.dsv\n'}
+[1.702142] (-) TimerEvent: {}
+[1.704055] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.bash\n'}
+[1.707757] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.sh\n'}
+[1.711679] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.zsh\n'}
+[1.715985] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.dsv\n'}
+[1.719974] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/package.dsv\n'}
+[1.723771] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/packages/rm_robot_description\n'}
+[1.727462] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.731504] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig.cmake\n'}
+[1.735874] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig-version.cmake\n'}
+[1.739700] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/package.xml\n'}
+[1.744172] (rm_robot_description) CommandEnded: {'returncode': 0}
+[1.764859] (rm_robot_description) JobEnded: {'identifier': 'rm_robot_description', 'rc': 0}
+[1.802237] (-) TimerEvent: {}
+[1.902495] (-) TimerEvent: {}
+[2.002808] (-) TimerEvent: {}
+[2.103065] (-) TimerEvent: {}
+[2.203336] (-) TimerEvent: {}
+[2.303617] (-) TimerEvent: {}
+[2.403848] (-) TimerEvent: {}
+[2.504120] (-) TimerEvent: {}
+[2.604392] (-) TimerEvent: {}
+[2.704675] (-) TimerEvent: {}
+[2.804949] (-) TimerEvent: {}
+[2.905262] (-) TimerEvent: {}
+[3.005638] (-) TimerEvent: {}
+[3.105918] (-) TimerEvent: {}
+[3.206197] (-) TimerEvent: {}
+[3.216072] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.306291] (-) TimerEvent: {}
+[3.406574] (-) TimerEvent: {}
+[3.506858] (-) TimerEvent: {}
+[3.607144] (-) TimerEvent: {}
+[3.707429] (-) TimerEvent: {}
+[3.807702] (-) TimerEvent: {}
+[3.907993] (-) TimerEvent: {}
+[4.008281] (-) TimerEvent: {}
+[4.108573] (-) TimerEvent: {}
+[4.208886] (-) TimerEvent: {}
+[4.309317] (-) TimerEvent: {}
+[4.409677] (-) TimerEvent: {}
+[4.509956] (-) TimerEvent: {}
+[4.610285] (-) TimerEvent: {}
+[4.710618] (-) TimerEvent: {}
+[4.810896] (-) TimerEvent: {}
+[4.911184] (-) TimerEvent: {}
+[5.011473] (-) TimerEvent: {}
+[5.111737] (-) TimerEvent: {}
+[5.212012] (-) TimerEvent: {}
+[5.214442] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.312117] (-) TimerEvent: {}
+[5.412397] (-) TimerEvent: {}
+[5.512685] (-) TimerEvent: {}
+[5.613153] (-) TimerEvent: {}
+[5.714174] (-) TimerEvent: {}
+[5.814462] (-) TimerEvent: {}
+[5.914871] (-) TimerEvent: {}
+[6.015271] (-) TimerEvent: {}
+[6.115540] (-) TimerEvent: {}
+[6.215918] (-) TimerEvent: {}
+[6.316212] (-) TimerEvent: {}
+[6.416519] (-) TimerEvent: {}
+[6.516787] (-) TimerEvent: {}
+[6.617067] (-) TimerEvent: {}
+[6.717397] (-) TimerEvent: {}
+[6.818727] (-) TimerEvent: {}
+[6.919018] (-) TimerEvent: {}
+[7.019347] (-) TimerEvent: {}
+[7.119640] (-) TimerEvent: {}
+[7.219949] (-) TimerEvent: {}
+[7.320228] (-) TimerEvent: {}
+[7.420518] (-) TimerEvent: {}
+[7.520796] (-) TimerEvent: {}
+[7.621072] (-) TimerEvent: {}
+[7.721353] (-) TimerEvent: {}
+[7.821620] (-) TimerEvent: {}
+[7.921908] (-) TimerEvent: {}
+[8.022952] (-) TimerEvent: {}
+[8.123276] (-) TimerEvent: {}
+[8.223593] (-) TimerEvent: {}
+[8.323880] (-) TimerEvent: {}
+[8.424172] (-) TimerEvent: {}
+[8.524464] (-) TimerEvent: {}
+[8.624742] (-) TimerEvent: {}
+[8.725026] (-) TimerEvent: {}
+[8.825333] (-) TimerEvent: {}
+[8.925664] (-) TimerEvent: {}
+[8.956410] (livox_ros_driver2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.969837] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.025772] (-) TimerEvent: {}
+[9.104981] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.105189] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.125895] (-) TimerEvent: {}
+[9.226436] (-) TimerEvent: {}
+[9.304942] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.305636] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.326554] (-) TimerEvent: {}
+[9.426994] (-) TimerEvent: {}
+[9.527332] (-) TimerEvent: {}
+[9.627619] (-) TimerEvent: {}
+[9.727918] (-) TimerEvent: {}
+[9.828197] (-) TimerEvent: {}
+[9.928479] (-) TimerEvent: {}
+[10.028770] (-) TimerEvent: {}
+[10.129103] (-) TimerEvent: {}
+[10.229386] (-) TimerEvent: {}
+[10.329675] (-) TimerEvent: {}
+[10.429952] (-) TimerEvent: {}
+[10.530259] (-) TimerEvent: {}
+[10.630482] (-) TimerEvent: {}
+[10.730712] (-) TimerEvent: {}
+[10.830931] (-) TimerEvent: {}
+[10.931180] (-) TimerEvent: {}
+[11.031394] (-) TimerEvent: {}
+[11.087695] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[11.093396] (livox_ros_driver2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[11.131485] (-) TimerEvent: {}
+[11.231767] (-) TimerEvent: {}
+[11.332000] (-) TimerEvent: {}
+[11.432233] (-) TimerEvent: {}
+[11.529677] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[11.529836] (livox_ros_driver2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[11.532292] (-) TimerEvent: {}
+[11.632470] (-) TimerEvent: {}
+[11.732722] (-) TimerEvent: {}
+[11.833062] (-) TimerEvent: {}
+[11.933269] (-) TimerEvent: {}
+[11.942627] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[11.942815] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[11.966280] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[11.972299] (livox_ros_driver2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[12.033359] (-) TimerEvent: {}
+[12.073138] (livox_ros_driver2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[12.073602] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[12.133424] (-) TimerEvent: {}
+[12.233696] (-) TimerEvent: {}
+[12.276959] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[12.333802] (-) TimerEvent: {}
+[12.411975] (livox_ros_driver2) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[12.433897] (-) TimerEvent: {}
+[12.534135] (-) TimerEvent: {}
+[12.634370] (-) TimerEvent: {}
+[12.734590] (-) TimerEvent: {}
+[12.834816] (-) TimerEvent: {}
+[12.935030] (-) TimerEvent: {}
+[13.035233] (-) TimerEvent: {}
+[13.135437] (-) TimerEvent: {}
+[13.235669] (-) TimerEvent: {}
+[13.335887] (-) TimerEvent: {}
+[13.398993] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[13.435980] (-) TimerEvent: {}
+[13.536192] (-) TimerEvent: {}
+[13.636444] (-) TimerEvent: {}
+[13.736680] (-) TimerEvent: {}
+[13.837077] (-) TimerEvent: {}
+[13.937579] (-) TimerEvent: {}
+[14.037793] (-) TimerEvent: {}
+[14.138047] (-) TimerEvent: {}
+[14.238268] (-) TimerEvent: {}
+[14.338574] (-) TimerEvent: {}
+[14.438881] (-) TimerEvent: {}
+[14.539161] (-) TimerEvent: {}
+[14.639504] (-) TimerEvent: {}
+[14.739759] (-) TimerEvent: {}
+[14.839971] (-) TimerEvent: {}
+[14.940191] (-) TimerEvent: {}
+[14.962782] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[15.040288] (-) TimerEvent: {}
+[15.140545] (-) TimerEvent: {}
+[15.240782] (-) TimerEvent: {}
+[15.341068] (-) TimerEvent: {}
+[15.442551] (-) TimerEvent: {}
+[15.542845] (-) TimerEvent: {}
+[15.643049] (-) TimerEvent: {}
+[15.743320] (-) TimerEvent: {}
+[15.843529] (-) TimerEvent: {}
+[15.944093] (-) TimerEvent: {}
+[16.044316] (-) TimerEvent: {}
+[16.144546] (-) TimerEvent: {}
+[16.244763] (-) TimerEvent: {}
+[16.346197] (-) TimerEvent: {}
+[16.446423] (-) TimerEvent: {}
+[16.546799] (-) TimerEvent: {}
+[16.647057] (-) TimerEvent: {}
+[16.747299] (-) TimerEvent: {}
+[16.847504] (-) TimerEvent: {}
+[16.947738] (-) TimerEvent: {}
+[17.047972] (-) TimerEvent: {}
+[17.148286] (-) TimerEvent: {}
+[17.248543] (-) TimerEvent: {}
+[17.348831] (-) TimerEvent: {}
+[17.449124] (-) TimerEvent: {}
+[17.549383] (-) TimerEvent: {}
+[17.649594] (-) TimerEvent: {}
+[17.749843] (-) TimerEvent: {}
+[17.850091] (-) TimerEvent: {}
+[17.950324] (-) TimerEvent: {}
+[18.050567] (-) TimerEvent: {}
+[18.150837] (-) TimerEvent: {}
+[18.251103] (-) TimerEvent: {}
+[18.351308] (-) TimerEvent: {}
+[18.451580] (-) TimerEvent: {}
+[18.552071] (-) TimerEvent: {}
+[18.652330] (-) TimerEvent: {}
+[18.752546] (-) TimerEvent: {}
+[18.852781] (-) TimerEvent: {}
+[18.953179] (-) TimerEvent: {}
+[19.053390] (-) TimerEvent: {}
+[19.153600] (-) TimerEvent: {}
+[19.253815] (-) TimerEvent: {}
+[19.354026] (-) TimerEvent: {}
+[19.454277] (-) TimerEvent: {}
+[19.554478] (-) TimerEvent: {}
+[19.654724] (-) TimerEvent: {}
+[19.754974] (-) TimerEvent: {}
+[19.855194] (-) TimerEvent: {}
+[19.955403] (-) TimerEvent: {}
+[20.055635] (-) TimerEvent: {}
+[20.155847] (-) TimerEvent: {}
+[20.256051] (-) TimerEvent: {}
+[20.309648] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[20.313141] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[20.356134] (-) TimerEvent: {}
+[20.456398] (-) TimerEvent: {}
+[20.556605] (-) TimerEvent: {}
+[20.656815] (-) TimerEvent: {}
+[20.757037] (-) TimerEvent: {}
+[20.857243] (-) TimerEvent: {}
+[20.957452] (-) TimerEvent: {}
+[21.057672] (-) TimerEvent: {}
+[21.157889] (-) TimerEvent: {}
+[21.258154] (-) TimerEvent: {}
+[21.358432] (-) TimerEvent: {}
+[21.459150] (-) TimerEvent: {}
+[21.559420] (-) TimerEvent: {}
+[21.659665] (-) TimerEvent: {}
+[21.759884] (-) TimerEvent: {}
+[21.861381] (-) TimerEvent: {}
+[21.961726] (-) TimerEvent: {}
+[22.062303] (-) TimerEvent: {}
+[22.162532] (-) TimerEvent: {}
+[22.262865] (-) TimerEvent: {}
+[22.363207] (-) TimerEvent: {}
+[22.463465] (-) TimerEvent: {}
+[22.563800] (-) TimerEvent: {}
+[22.664024] (-) TimerEvent: {}
+[22.764339] (-) TimerEvent: {}
+[22.864632] (-) TimerEvent: {}
+[22.964869] (-) TimerEvent: {}
+[23.065095] (-) TimerEvent: {}
+[23.165338] (-) TimerEvent: {}
+[23.265548] (-) TimerEvent: {}
+[23.365761] (-) TimerEvent: {}
+[23.465977] (-) TimerEvent: {}
+[23.566239] (-) TimerEvent: {}
+[23.666459] (-) TimerEvent: {}
+[23.768164] (-) TimerEvent: {}
+[23.868372] (-) TimerEvent: {}
+[23.970138] (-) TimerEvent: {}
+[24.070353] (-) TimerEvent: {}
+[24.170588] (-) TimerEvent: {}
+[24.270796] (-) TimerEvent: {}
+[24.371038] (-) TimerEvent: {}
+[24.471387] (-) TimerEvent: {}
+[24.571712] (-) TimerEvent: {}
+[24.672001] (-) TimerEvent: {}
+[24.772294] (-) TimerEvent: {}
+[24.872606] (-) TimerEvent: {}
+[24.972819] (-) TimerEvent: {}
+[25.073028] (-) TimerEvent: {}
+[25.173268] (-) TimerEvent: {}
+[25.250509] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[25.273395] (-) TimerEvent: {}
+[25.373659] (-) TimerEvent: {}
+[25.473873] (-) TimerEvent: {}
+[25.574103] (-) TimerEvent: {}
+[25.674372] (-) TimerEvent: {}
+[25.774642] (-) TimerEvent: {}
+[25.874860] (-) TimerEvent: {}
+[25.975067] (-) TimerEvent: {}
+[26.075289] (-) TimerEvent: {}
+[26.175500] (-) TimerEvent: {}
+[26.275717] (-) TimerEvent: {}
+[26.375930] (-) TimerEvent: {}
+[26.476169] (-) TimerEvent: {}
+[26.576508] (-) TimerEvent: {}
+[26.676769] (-) TimerEvent: {}
+[26.776998] (-) TimerEvent: {}
+[26.877229] (-) TimerEvent: {}
+[26.977426] (-) TimerEvent: {}
+[27.077634] (-) TimerEvent: {}
+[27.177839] (-) TimerEvent: {}
+[27.278209] (-) TimerEvent: {}
+[27.378647] (-) TimerEvent: {}
+[27.478949] (-) TimerEvent: {}
+[27.579166] (-) TimerEvent: {}
+[27.679393] (-) TimerEvent: {}
+[27.779621] (-) TimerEvent: {}
+[27.879915] (-) TimerEvent: {}
+[27.980198] (-) TimerEvent: {}
+[28.080425] (-) TimerEvent: {}
+[28.180646] (-) TimerEvent: {}
+[28.280858] (-) TimerEvent: {}
+[28.381069] (-) TimerEvent: {}
+[28.481314] (-) TimerEvent: {}
+[28.581532] (-) TimerEvent: {}
+[28.681743] (-) TimerEvent: {}
+[28.782016] (-) TimerEvent: {}
+[28.882242] (-) TimerEvent: {}
+[28.982483] (-) TimerEvent: {}
+[29.082730] (-) TimerEvent: {}
+[29.182945] (-) TimerEvent: {}
+[29.283153] (-) TimerEvent: {}
+[29.383419] (-) TimerEvent: {}
+[29.483632] (-) TimerEvent: {}
+[29.583879] (-) TimerEvent: {}
+[29.683943] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  \n'}
+[29.684085] (-) TimerEvent: {}
+[29.684453] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  \n'}
+[29.684527] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  \n'}
+[29.684671] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  \n'}
+[29.684949] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  \n'}
+[29.685194] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  \n'}
+[29.685410] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/local/include/pcl-1.14  \n'}
+[29.685611] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  \n'}
+[29.685822] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/local/lib/libpcl_io.so  \n'}
+[29.686115] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  \n'}
+[29.686381] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/local/lib/libpcl_ml.so  \n'}
+[29.686618] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  \n'}
+[29.686939] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  \n'}
+[29.687300] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  \n'}
+[29.687566] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  \n'}
+[29.687907] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  \n'}
+[29.688167] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  \n'}
+[29.688434] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  \n'}
+[29.688761] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  \n'}
+[29.689135] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  \n'}
+[29.689414] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  \n'}
+[29.784147] (-) TimerEvent: {}
+[29.884361] (-) TimerEvent: {}
+[29.984576] (-) TimerEvent: {}
+[30.084783] (-) TimerEvent: {}
+[30.184985] (-) TimerEvent: {}
+[30.285360] (-) TimerEvent: {}
+[30.385734] (-) TimerEvent: {}
+[30.486018] (-) TimerEvent: {}
+[30.586293] (-) TimerEvent: {}
+[30.686530] (-) TimerEvent: {}
+[30.786738] (-) TimerEvent: {}
+[30.886937] (-) TimerEvent: {}
+[30.987153] (-) TimerEvent: {}
+[31.087357] (-) TimerEvent: {}
+[31.187569] (-) TimerEvent: {}
+[31.287791] (-) TimerEvent: {}
+[31.388177] (-) TimerEvent: {}
+[31.488552] (-) TimerEvent: {}
+[31.588773] (-) TimerEvent: {}
+[31.689007] (-) TimerEvent: {}
+[31.789217] (-) TimerEvent: {}
+[31.889441] (-) TimerEvent: {}
+[31.989672] (-) TimerEvent: {}
+[32.089882] (-) TimerEvent: {}
+[32.190144] (-) TimerEvent: {}
+[32.290349] (-) TimerEvent: {}
+[32.390596] (-) TimerEvent: {}
+[32.490819] (-) TimerEvent: {}
+[32.591030] (-) TimerEvent: {}
+[32.691235] (-) TimerEvent: {}
+[32.791488] (-) TimerEvent: {}
+[32.891697] (-) TimerEvent: {}
+[32.992078] (-) TimerEvent: {}
+[33.092462] (-) TimerEvent: {}
+[33.192748] (-) TimerEvent: {}
+[33.292966] (-) TimerEvent: {}
+[33.393184] (-) TimerEvent: {}
+[33.493438] (-) TimerEvent: {}
+[33.593682] (-) TimerEvent: {}
+[33.693935] (-) TimerEvent: {}
+[33.794279] (-) TimerEvent: {}
+[33.894545] (-) TimerEvent: {}
+[33.994854] (-) TimerEvent: {}
+[34.095093] (-) TimerEvent: {}
+[34.195351] (-) TimerEvent: {}
+[34.295596] (-) TimerEvent: {}
+[34.382321] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[34.382789] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[34.383909] (livox_ros_driver2) StdoutLine: {'line': b"--   No package 'apr-1' found\n"}
+[34.395660] (-) TimerEvent: {}
+[34.495848] (-) TimerEvent: {}
+[34.510073] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[34.595907] (-) TimerEvent: {}
+[34.634500] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.696073] (-) TimerEvent: {}
+[34.796325] (-) TimerEvent: {}
+[34.798248] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.896430] (-) TimerEvent: {}
+[34.982073] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[34.983587] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[34.996497] (-) TimerEvent: {}
+[35.096689] (-) TimerEvent: {}
+[35.196892] (-) TimerEvent: {}
+[35.297102] (-) TimerEvent: {}
+[35.395305] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[35.395467] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[35.395504] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[35.395530] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[35.397164] (-) TimerEvent: {}
+[35.407190] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[35.497235] (-) TimerEvent: {}
+[35.597441] (-) TimerEvent: {}
+[35.601745] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[35.624403] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[35.629077] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[35.629634] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/aurora/RM25/src/rm_driver/livox_ros_driver2/3rdparty;/home/aurora/RM25/src/rm_driver/livox_ros_driver2/src\n'}
+[35.629735] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[35.631868] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[35.631939] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[35.632610] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[35.634121] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[35.635133] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[35.637369] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[35.637439] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[35.638027] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[35.639889] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done\n'}
+[35.642589] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0mCMake Error: The following variables are used in this project, but they are set to NOTFOUND.\n'}
+[35.642660] (livox_ros_driver2) StderrLine: {'line': b'Please set them or make sure they are set and tested correctly in the CMake files:\n'}
+[35.642690] (livox_ros_driver2) StderrLine: {'line': b'/home/aurora/RM25/src/rm_driver/livox_ros_driver2/LIVOX_INTERFACES_INCLUDE_DIRECTORIES\n'}
+[35.642717] (livox_ros_driver2) StderrLine: {'line': b'   used as include directory in directory /home/aurora/RM25/src/rm_driver/livox_ros_driver2\n'}
+[35.642743] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[35.694540] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done\n'}
+[35.696032] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[35.697529] (-) TimerEvent: {}
+[35.708493] (livox_ros_driver2) CommandEnded: {'returncode': 1}
+[35.717838] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 1}
+[35.728299] (-) EventReactorShutdown: {}

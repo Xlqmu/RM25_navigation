@@ -47,4 +47,5 @@ ament_auto_package(
   meshes
   world
   rviz
+  xacro
 )

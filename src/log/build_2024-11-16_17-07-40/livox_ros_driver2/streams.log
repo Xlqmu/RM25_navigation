@@ -1,0 +1,45 @@
+[0.011s] Invoking command in '/home/aurora/RM25/src/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_driver/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/livox_ros_driver2
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.861s] -- The CXX compiler identification is GNU 11.4.0
+[1.686s] -- Detecting C compiler ABI info
+[1.831s] -- Detecting C compiler ABI info - done
+[1.836s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.836s] -- Detecting C compile features
+[1.836s] -- Detecting C compile features - done
+[1.838s] -- Detecting CXX compiler ABI info
+[2.004s] -- Detecting CXX compiler ABI info - done
+[2.008s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.008s] -- Detecting CXX compile features
+[2.008s] -- Detecting CXX compile features - done
+[2.009s] -- livox_ros_driver2 version: 1.2.4
+[2.010s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.105s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.200s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.465s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.468s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.123s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.846s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.301s] -- Looking for pthread.h
+[9.431s] -- Looking for pthread.h - found
+[9.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.559s] -- Found Threads: TRUE  
+[11.258s] -- Checking for module 'flann'
+[11.263s] --   Found flann, version 1.9.1
+[11.694s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[11.694s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[12.129s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[12.129s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[12.154s] -- Checking for module 'libusb-1.0'
+[12.160s] --   Found libusb-1.0, version 1.0.25
+[12.273s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[12.274s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.475s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.609s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[13.807s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[15.399s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[21.541s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.544s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)

@@ -74,7 +74,7 @@
           <visualize>false</visualize>
           <samples>${samples}</samples>
           <downsample>1</downsample>
-          <csv_file_name>$(find ros2_livox_simulation)/scan_mode/mid360.csv</csv_file_name>
+          <csv_file_name>$(find rm_robot_description)/scan_mode/mid360.csv</csv_file_name>
           <topic>${topic}</topic>
         </plugin>
       </sensor>
