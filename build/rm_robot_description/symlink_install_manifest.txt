@@ -8,6 +8,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.sdf
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUC24_world.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUL25.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/my_world.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/RMUL25.world
@@ -22,7 +23,6 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robotv2.launch.cpython-310.pyc
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/display.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py
@@ -119,7 +119,6 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robotv2.launch.cpython-310.pyc
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/display.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py
@@ -220,6 +219,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.sdf
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUC24_world.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUL25.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/my_world.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/RMUL25.world
