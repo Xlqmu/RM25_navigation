@@ -15,15 +15,6 @@ else
     echo "更改已提交。"
 fi
 
-# 推送到远程主分支
-echo "正在推送到远程主分支..."
-git push origin main
-if [ $? -ne 0 ]; then
-    echo "推送失败，请检查网络连接和远程仓库配置。"
-    exit 1
-fi
-echo "推送成功。"
-
 # 获取远程标签列表并排除带有 ^{} 的标签
 echo "正在获取远程标签..."
 git fetch --tags
@@ -46,22 +37,20 @@ else
     minor=$(echo "$version" | cut -d. -f2)
     patch=$(echo "$version" | cut -d. -f3)
 
-    # 询问用户选择增加主版本号、次版本号、还是取消操作
+    # 询问用户选择增加主版本号、次版本号，或取消操作
     echo "请选择要执行的操作："
-    echo "1) 增加主版本号 (从 v$major.$minor.$patch 到 v$((major + 1)).0.0)"
-    echo "2) 增加次版本号 (从 v$major.$minor.$patch 到 v$major.$((minor + 1)).0)"
+    echo "1) 增加主版本号 (从 v$major.$minor.$patch 到 v$major.$((minor + 1)).0)"
+    echo "2) 增加次版本号 (从 v$major.$minor.$patch 到 v$major.$minor.$((patch + 1)))"
     echo "3) 取消推送和创建标签"
     read -p "请输入选项编号 (1、2 或 3)： " choice
 
     case "$choice" in
         1)
-            major=$((major + 1))
-            minor=0
+            minor=$((minor + 1))
             patch=0
             ;;
         2)
-            minor=$((minor + 1))
-            patch=0
+            patch=$((patch + 1))
             ;;
         3)
             echo "已取消推送和创建标签。"
@@ -83,6 +72,15 @@ if git rev-parse "$new_tag" >/dev/null 2>&1; then
     echo "标签 $new_tag 已存在。"
     exit 1
 fi
+
+# 推送到远程主分支
+echo "正在推送到远程主分支..."
+git push origin main
+if [ $? -ne 0 ]; then
+    echo "推送失败，请检查网络连接和远程仓库配置。"
+    exit 1
+fi
+echo "推送成功。"
 
 # 创建新标签
 git tag -a "$new_tag" -m "$new_tag"
