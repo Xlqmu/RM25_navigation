@@ -99,10 +99,16 @@ else
             ;;
         5)
             echo "已取消推送和创建标签。"
+            # 删除本地已创建的标签
+            git tag -d "$new_tag"
+            echo "已删除本地标签 $new_tag。"
             exit 0
             ;;
         *)
             echo "无效的选项。请重新运行脚本并选择 1、2、3、4 或 5。"
+            # 删除本地已创建的标签
+            git tag -d "$new_tag"
+            echo "已删除本地标签 $new_tag。"
             exit 1
             ;;
     esac
