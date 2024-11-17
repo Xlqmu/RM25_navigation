@@ -46,11 +46,12 @@ else
     minor=$(echo "$version" | cut -d. -f2)
     patch=$(echo "$version" | cut -d. -f3)
 
-    # 询问用户选择增加主版本号还是次版本号
-    echo "请选择要增加的版本类型："
+    # 询问用户选择增加主版本号、次版本号、还是取消操作
+    echo "请选择要执行的操作："
     echo "1) 增加主版本号 (从 v$major.$minor.$patch 到 v$((major + 1)).0.0)"
     echo "2) 增加次版本号 (从 v$major.$minor.$patch 到 v$major.$((minor + 1)).0)"
-    read -p "请输入选项编号 (1 或 2)： " choice
+    echo "3) 取消推送和创建标签"
+    read -p "请输入选项编号 (1、2 或 3)： " choice
 
     case "$choice" in
         1)
@@ -62,8 +63,12 @@ else
             minor=$((minor + 1))
             patch=0
             ;;
+        3)
+            echo "已取消推送和创建标签。"
+            exit 0
+            ;;
         *)
-            echo "无效的选项。请重新运行脚本并选择 1 或 2。"
+            echo "无效的选项。请重新运行脚本并选择 1、2 或 3。"
             exit 1
             ;;
     esac
