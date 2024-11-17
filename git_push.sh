@@ -2,13 +2,30 @@
 
 # 提交更改
 git add .
-git commit -m "main"
 
-# 使用 sshpass 自动输入密码
-sshpass -p '123' git push origin main
+# 检查是否有变更需要提交
+if git diff --cached --quiet; then
+    echo "没有需要提交的更改。"
+else
+    git commit -m "main"
+    if [ $? -ne 0 ]; then
+        echo "提交失败，请检查错误信息。"
+        exit 1
+    fi
+    echo "更改已提交。"
+fi
+
+# 推送到远程主分支
+echo "正在推送到远程主分支..."
+git push origin main
+if [ $? -ne 0 ]; then
+    echo "推送失败，请检查网络连接和远程仓库配置。"
+    exit 1
+fi
+echo "推送成功。"
 
 # 获取最新的标签
-latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+latest_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
 
 if [ -z "$latest_tag" ]; then
     # 如果没有标签，初始化为 v1.0
@@ -32,7 +49,17 @@ else
 fi
 
 # 创建新标签
-git tag -a $new_tag -m "$new_tag"
+git tag -a "$new_tag" -m "$new_tag"
+if [ $? -ne 0 ]; then
+    echo "标签创建失败。"
+    exit 1
+fi
+echo "已创建标签 $new_tag。"
 
 # 推送新标签到远程仓库
-sshpass -p '123' git push origin $new_tag
+git push origin "$new_tag"
+if [ $? -ne 0 ]; then
+    echo "标签推送失败。"
+    exit 1
+fi
+echo "标签 $new_tag 已成功推送到远程仓库。"
