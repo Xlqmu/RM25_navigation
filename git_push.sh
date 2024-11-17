@@ -33,28 +33,42 @@ if [ $? -ne 0 ]; then
 fi
 
 # 获取远程仓库的最新标签，排除 ^{}
-latest_tag=$(git ls-remote --tags origin | awk '{print $2}' | grep -E 'refs/tags/v[0-9]+\.[0-9]+$' | sort -V | tail -n1 | sed 's|refs/tags/||')
+latest_tag=$(git ls-remote --tags origin | awk '{print $2}' | grep -E 'refs/tags/v[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -n1 | sed 's|refs/tags/||')
 
 if [ -z "$latest_tag" ]; then
-    # 如果没有标签，初始化为 v1.0
-    new_tag="v1.0"
+    # 如果没有标签，初始化为 v1.0.0
+    new_tag="v1.0.0"
 else
     echo "最新的远程标签是 $latest_tag"
     # 移除 'v' 前缀
     version=${latest_tag#v}
     major=$(echo "$version" | cut -d. -f1)
     minor=$(echo "$version" | cut -d. -f2)
+    patch=$(echo "$version" | cut -d. -f3)
 
-    # 增加次版本号
-    minor=$((minor + 1))
+    # 询问用户选择增加主版本号还是次版本号
+    echo "请选择要增加的版本类型："
+    echo "1) 增加主版本号 (从 v$major.$minor.$patch 到 v$((major + 1)).0.0)"
+    echo "2) 增加次版本号 (从 v$major.$minor.$patch 到 v$major.$((minor + 1)).0)"
+    read -p "请输入选项编号 (1 或 2)： " choice
 
-    # 如果次版本号达到10，重置为0并增加主版本号
-    if [ "$minor" -ge 10 ]; then
-        minor=0
-        major=$((major + 1))
-    fi
+    case "$choice" in
+        1)
+            major=$((major + 1))
+            minor=0
+            patch=0
+            ;;
+        2)
+            minor=$((minor + 1))
+            patch=0
+            ;;
+        *)
+            echo "无效的选项。请重新运行脚本并选择 1 或 2。"
+            exit 1
+            ;;
+    esac
 
-    new_tag="v${major}.${minor}"
+    new_tag="v${major}.${minor}.${patch}"
 fi
 
 echo "将创建新标签: $new_tag"
