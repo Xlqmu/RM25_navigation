@@ -125,10 +125,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_robot_description/cmake" TYPE FILE FILES "/home/aurora/RM25/src/build/rm_robot_description/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_robot_description/cmake" TYPE FILE FILES
     "/home/aurora/RM25/src/build/rm_robot_description/ament_cmake_core/rm_robot_descriptionConfig.cmake"
     "/home/aurora/RM25/src/build/rm_robot_description/ament_cmake_core/rm_robot_descriptionConfig-version.cmake"

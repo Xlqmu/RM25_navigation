@@ -1,0 +1,2 @@
+Invoking command in '/home/aurora/RM25/build/fast_lio': /usr/bin/cmake /home/aurora/RM25/src/rm_localization/fast_lio -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/fast_lio
+Invoked command in '/home/aurora/RM25/build/fast_lio' returned '1': /usr/bin/cmake /home/aurora/RM25/src/rm_localization/fast_lio -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/fast_lio
