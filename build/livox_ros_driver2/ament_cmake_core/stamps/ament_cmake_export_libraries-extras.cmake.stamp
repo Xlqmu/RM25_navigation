@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_libraries/cmake/template/ament_cmake_export_libraries.cmake.in
 
-set(_exported_libraries "livox_ros_driver2__rosidl_generator_c;livox_ros_driver2__rosidl_typesupport_c;livox_ros_driver2__rosidl_typesupport_cpp;livox_ros_driver2")
+set(_exported_libraries "livox_ros_driver2__rosidl_generator_c;livox_ros_driver2__rosidl_typesupport_c;livox_ros_driver2__rosidl_typesupport_cpp;livox_drive_lib")
 set(_exported_library_names "")
 
 # populate livox_ros_driver2_LIBRARIES

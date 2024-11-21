@@ -26,7 +26,7 @@
 
     <link name="${name}">
       <visual>
-        <origin xyz="0.025 -0.0265 -0.025" rpy="${pi/2} 0 ${pi}"/>
+        <origin xyz="0.025 -0.0265 0.0" rpy="${pi/2} 0 ${pi}"/>
         <geometry>
           <mesh filename="file:///home/aurora/RM25/src/rm_robot_description/meshes/mid360.stl" scale="0.0008 0.0008 0.0008"/>
         </geometry>
@@ -44,7 +44,10 @@
         <pose>0 0 0 0 0 0</pose>
         <visualize>true</visualize>
         <update_rate>10</update_rate>
-        <plugin name="${name}_plugin" filename="libros2_livox.so">
+        <!-- 仿真使用-->
+        <plugin name="${name}_plugin" filename="libgazebo_ros_ray_sensor.so">
+        <!-- 真实使用-->
+        <!-- plugin name="${name}_pluging" filename="libros2_livox.so"-->
           <ray>
             <scan>
               <horizontal>
@@ -71,7 +74,7 @@
               <stddev>${noise_stddev}</stddev>
             </noise>
           </ray>
-          <visualize>false</visualize>
+          <visualize>true</visualize>
           <samples>${samples}</samples>
           <downsample>1</downsample>
           <csv_file_name>$(find rm_robot_description)/scan_mode/mid360.csv</csv_file_name>

@@ -14,7 +14,6 @@
   <depend>gazebo_ros_pkgs</depend>
 
   <exec_depend>joint_state_publisher</exec_depend>
-  <exec_depend>joint_state_publisher_gui</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
@@ -28,4 +27,8 @@
       gazebo_plugin_path="${prefix}/plugins"
     />
   </export>
+  
+  <!-- 如果需要，添加以下行 -->
+  <!-- <member_of_group>rosidl_interface_packages</member_of_group> -->
+
 </package>

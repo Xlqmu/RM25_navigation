@@ -1,7 +1,0 @@
-{
-  "package_name": "livox_ros_driver2",
-  "non_idl_tuples": [
-    "/home/aurora/RM25/src/rm_driver/livox_ros_driver2:msg/CustomPoint.msg",
-    "/home/aurora/RM25/src/rm_driver/livox_ros_driver2:msg/CustomMsg.msg"
-  ]
-}

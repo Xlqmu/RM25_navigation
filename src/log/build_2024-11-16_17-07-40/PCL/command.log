@@ -1,2 +1,0 @@
-Invoking command in '/home/aurora/RM25/src/build/PCL': /usr/bin/cmake /home/aurora/RM25/src/pcl -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/PCL
-Invoked command in '/home/aurora/RM25/src/build/PCL' returned '-2': /usr/bin/cmake /home/aurora/RM25/src/pcl -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/PCL

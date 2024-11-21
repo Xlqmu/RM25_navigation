@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
   std::vector<class_loader::ClassLoader * > loaders;
   std::vector<rclcpp_components::NodeInstanceWrapper> node_wrappers;
 
-  std::string library_name = "liblivox_ros_driver2.so";
+  std::string library_name = "liblivox_drive_lib.so";
   std::string class_name = "rclcpp_components::NodeFactoryTemplate<livox_ros::DriverNode>";
 
   RCLCPP_DEBUG(logger, "Load library %s", library_name.c_str());

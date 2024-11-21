@@ -1,0 +1,214 @@
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2_node[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_drive_lib[0m
+[  1%] Built target livox_ros_driver2__cpp
+[  8%] Built target livox_ros_driver2__rosidl_generator_c
+[  8%] Built target ament_cmake_python_copy_livox_ros_driver2
+[ 12%] Built target livox_ros_driver2_node
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/livox_drive_lib.dir/src/driver_node.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/livox_drive_lib.dir/src/lddc.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/livox_drive_lib.dir/src/livox_ros_driver2.cpp.o[0m
+[ 24%] Built target livox_ros_driver2__rosidl_typesupport_c
+[ 38%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c
+[ 38%] Built target livox_ros_driver2__rosidl_typesupport_introspection_cpp
+[ 45%] Built target livox_ros_driver2__rosidl_typesupport_cpp
+[ 52%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c
+[ 59%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target livox_ros_driver2
+[ 61%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[ 61%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[ 61%] Built target livox_ros_driver2__py
+[ 64%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[ 66%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_ros_driver2__rosidl_generator_py.so[0m
+[ 66%] Built target livox_ros_driver2__rosidl_generator_py
+[ 68%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 75%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 75%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 77%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[ 78%] [32m[1mLinking CXX shared library liblivox_drive_lib.so[0m
+[100%] Built target livox_drive_lib
+-- Install configuration: ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_ros_driver2__rosidl_generator_py.so
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+Compiling '/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+Listing '/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+Compiling '/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+Compiling '/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+Compiling '/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_py.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_py.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_drive_lib.so
+-- Set runtime path of "/home/aurora/RM25/install/livox_ros_driver2/lib/liblivox_drive_lib.so" to ""
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/config
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/launch
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_HAP_launch.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_HAP_launch.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cppExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+-- Installing: /home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/package.xml

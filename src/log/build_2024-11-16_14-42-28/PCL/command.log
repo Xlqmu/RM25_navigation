@@ -1,4 +1,0 @@
-Invoking command in '/home/aurora/RM25/src/build/PCL': /usr/bin/cmake /home/aurora/RM25/src/pcl -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/PCL
-Invoked command in '/home/aurora/RM25/src/build/PCL' returned '0': /usr/bin/cmake /home/aurora/RM25/src/pcl -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/PCL
-Invoking command in '/home/aurora/RM25/src/build/PCL': /usr/bin/cmake --build /home/aurora/RM25/src/build/PCL -- -j20 -l20
-Invoked command in '/home/aurora/RM25/src/build/PCL' returned '2': /usr/bin/cmake --build /home/aurora/RM25/src/build/PCL -- -j20 -l20

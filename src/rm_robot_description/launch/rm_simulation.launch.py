@@ -117,6 +117,7 @@ def generate_launch_description():
         arguments=['-d' + os.path.join(bringup_dir, 'rviz', 'rviz2.rviz')]
     )
 
+
     def create_gazebo_launch_group(world_type):
         world_config = get_world_config(world_type)
         if world_config is None:
