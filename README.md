@@ -11,22 +11,20 @@
 
 
 
----src
-------robot_model:机器人模型（采用一个四轮的就行，全向轮后面再说）
+-src
+---rm_robot_description:机器人模型（采用一个四轮的就行，全向轮后面再说）
 ### 导航构思
 
 #### 需求：
 
-1. 2维 -> 3维
-2. ros noetic -> ros2 humble
-3. 建图算法(cartographer) ->建图过程很慢 (因为它没有采用loop close ，所以导致建图速度不能太快，否则会出现飘的情况) -> 考虑换一个比较新的算法或者考虑加一个loop close ？ -> 看开源
-4. 定位算法可以尝试 amcl -> fast_lio/fast_lio2/~~amcl-3d(不太好用)~~ -> FAST_LIO_LOCALIZATION
-5. 导航算法global_planer -> 再找找(路径规划算法)
+1. 建图算法(cartographer) ->建图过程很慢 (因为它没有采用loop close ，所以导致建图速度不能太快，否则会出现飘的情况) -> 考虑换一个比较新的算法或者考虑加一个loop close
+2. 定位算法:fast_lio
+3. 导航算法nav2为框架
 
 #### 硬件资源：
 
 1. mid360
-2. 相机？(估计要上，因为我要加自瞄模块)
+2. 大恒相机(自瞄模块)
 
 #### 初步定位：
 
@@ -36,7 +34,21 @@
 
 #### 框架：
 
-navigation2
+##### 感知：
+1. mid360
+2. 大恒相机
+##### 定位:
+amcl/fast_lio2
+##### 建图:
+fast_lio
+##### 路径规划:
+全局规划+局部动态避障
+
+Hybrid A* + DWA/TEB
+##### 导航:
+nav2
+##### 点云分割:
+point_lio
 
 -nav_bringup(启动相机程序、串口程序、自瞄程序和robot_state_publisher,参考rm_version)
 -interfaces(自定义msg和srv)
@@ -62,5 +74,9 @@ navigation2
 
 #### 仿真平台
 
-1. rviz2
-2. gazebo
+1. ros2 humble
+2. rviz2
+3. gazebo
+
+
+解决了仿真包的导入

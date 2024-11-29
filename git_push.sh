@@ -51,7 +51,7 @@ else
     echo "1) 增加主版本号 (从 v$major.$minor.$patch 到 v$((major + 1)).0.0)"
     echo "2) 增加次版本号 (从 v$major.$minor.$patch 到 v$major.$((minor + 1)).0)"
     echo "3) 增加补丁版本号 (从 v$major.$minor.$patch 到 v$major.$minor.$((patch + 1)))"
-    echo "4) 覆盖最新的标签 (覆盖 v$latest_tag)"
+    echo "4) 覆盖最新的标签 (覆盖 $latest_tag)"
     echo "5) 取消推送和创建标签"
     read -p "请输入选项编号 (1、2、3、4 或 5)： " choice
 

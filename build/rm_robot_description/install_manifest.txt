@@ -40,10 +40,6 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.sh
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/display.launch.cpython-310.pyc
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robot.launch.cpython-310.pyc
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robotv2.launch.cpython-310.pyc
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/rm_simulation.launch.cpython-310.pyc
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel1_link.STL
@@ -134,10 +130,6 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.sh
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/display.launch.cpython-310.pyc
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robot.launch.cpython-310.pyc
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/robotv2.launch.cpython-310.pyc
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/__pycache__/rm_simulation.launch.cpython-310.pyc
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf

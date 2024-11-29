@@ -1,0 +1,121 @@
+[0.016s] Invoking command in '/home/aurora/RM25/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_simulation/ros2_livox_simulation -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/ros2_livox_simulation
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.979s] -- The CXX compiler identification is GNU 11.4.0
+[1.761s] -- Detecting C compiler ABI info
+[1.915s] -- Detecting C compiler ABI info - done
+[1.919s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.919s] -- Detecting C compile features
+[1.920s] -- Detecting C compile features - done
+[1.922s] -- Detecting CXX compiler ABI info
+[2.117s] -- Detecting CXX compiler ABI info - done
+[2.126s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.126s] -- Detecting CXX compile features
+[2.127s] -- Detecting CXX compile features - done
+[2.132s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.474s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.610s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.908s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.915s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.929s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.021s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.026s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.946s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.949s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.955s] -- Looking for pthread.h
+[14.080s] -- Looking for pthread.h - found
+[14.080s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.198s] -- Found Threads: TRUE  
+[14.232s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[14.237s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[14.238s] -- Checking for module 'bullet>=2.82'
+[14.243s] --   Found bullet, version 3.05
+[14.334s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[14.356s] -- Found assimp: /usr/include (found version "5.2.0") 
+[14.370s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[14.397s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[14.833s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[14.837s] -- Looking for ignition-math6 -- found version 6.15.1
+[14.843s] -- Searching for dependencies of ignition-math6
+[14.845s] -- Looking for OGRE...
+[14.845s] -- OGRE_PREFIX_WATCH changed.
+[14.848s] -- Checking for module 'OGRE'
+[14.855s] --   Found OGRE, version 1.9.0
+[14.868s] -- Found Ogre Ghadamon (1.9.0)
+[15.429s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[15.435s] -- Looking for OGRE_Paging...
+[15.871s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[15.871s] -- Looking for OGRE_Terrain...
+[16.263s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[16.264s] -- Looking for OGRE_Property...
+[16.668s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[16.668s] -- Looking for OGRE_RTShaderSystem...
+[17.130s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[17.130s] -- Looking for OGRE_Volume...
+[17.560s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[17.560s] -- Looking for OGRE_Overlay...
+[17.978s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[45.393s] -- Looking for ignition-math6 -- found version 6.15.1
+[45.418s] -- Looking for ignition-transport8 -- found version 8.2.1
+[45.418s] -- Searching for dependencies of ignition-transport8
+[47.363s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[48.163s] -- Checking for module 'uuid'
+[48.169s] --   Found uuid, version 2.37.2
+[48.183s] -- Found UUID: TRUE  
+[48.185s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[48.185s] -- Searching for dependencies of ignition-msgs5
+[50.103s] -- Looking for ignition-math6 -- found version 6.15.1
+[50.127s] -- Checking for module 'tinyxml2'
+[50.133s] --   Found tinyxml2, version 9.0.0
+[50.148s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[50.151s] -- Looking for ignition-common3 -- found version 3.14.0
+[50.151s] -- Searching for dependencies of ignition-common3
+[50.230s] -- Looking for dlfcn.h - found
+[50.291s] -- Looking for libdl - found
+[50.292s] -- Found DL: TRUE  
+[50.418s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[50.419s] -- Searching for <ignition-common3> component [graphics]
+[50.421s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[50.421s] -- Searching for dependencies of ignition-common3-graphics
+[50.421s] -- Looking for ignition-math6 -- found version 6.15.1
+[50.425s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[50.425s] -- Searching for dependencies of ignition-fuel_tools4
+[52.383s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[52.407s] -- Checking for module 'jsoncpp'
+[52.413s] --   Found jsoncpp, version 1.9.5
+[52.427s] -- Found JSONCPP: TRUE  
+[52.431s] -- Checking for module 'libzip'
+[52.439s] --   Found libzip, version 1.7.3
+[52.455s] -- Found ZIP: TRUE  
+[52.455s] -- Looking for ignition-common3 -- found version 3.14.0
+[52.455s] -- Looking for ignition-math6 -- found version 6.15.1
+[52.455s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[52.458s] -- Gazebo version: 11.10
+[52.459s] -- Checking for module 'tbb'
+[52.465s] --   Found tbb, version 2021.5.0
+[52.480s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[52.483s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[52.501s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[54.170s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[54.170s]   By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this
+[54.170s]   project has asked CMake to find a package configuration file provided by
+[54.170s]   "livox_ros_driver2", but CMake did not find one.
+[54.170s] 
+[54.170s]   Could not find a package configuration file provided by "livox_ros_driver2"
+[54.170s]   with any of the following names:
+[54.170s] 
+[54.170s]     livox_ros_driver2Config.cmake
+[54.170s]     livox_ros_driver2-config.cmake
+[54.170s] 
+[54.170s]   Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or
+[54.170s]   set "livox_ros_driver2_DIR" to a directory containing one of the above
+[54.170s]   files.  If "livox_ros_driver2" provides a separate development package or
+[54.170s]   SDK, be sure it has been installed.
+[54.170s] 
+[54.170s] [0m
+[54.170s] -- Configuring incomplete, errors occurred!
+[54.170s] See also "/home/aurora/RM25/build/ros2_livox_simulation/CMakeFiles/CMakeOutput.log".
+[54.180s] Invoked command in '/home/aurora/RM25/build/ros2_livox_simulation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ws_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_simulation/ros2_livox_simulation -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/ros2_livox_simulation

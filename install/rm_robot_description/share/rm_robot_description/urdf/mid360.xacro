@@ -45,41 +45,17 @@
         <visualize>true</visualize>
         <update_rate>10</update_rate>
         <!-- 仿真使用-->
-        <plugin name="${name}_plugin" filename="libgazebo_ros_ray_sensor.so">
-        <!-- 真实使用-->
-        <!-- plugin name="${name}_pluging" filename="libros2_livox.so"-->
-          <ray>
-            <scan>
-              <horizontal>
-                <samples>100</samples>
-                <resolution>1</resolution>
-                <min_angle>${0}</min_angle>
-                <max_angle>${2*M_PI}</max_angle>
-              </horizontal>
-              <vertical>
-                <samples>360</samples>
-                <resolution>1</resolution>
-                <min_angle>${-7.22/180*M_PI}</min_angle>
-                <max_angle>${55.22/180*M_PI}</max_angle>
-              </vertical>
-            </scan>
-            <range>
-              <min>${laser_min_range}</min>
-              <max>${laser_max_range}</max>
-              <resolution>${resolution}</resolution>
-            </range>
-            <noise>
-              <type>gaussian</type>
-              <mean>${noise_mean}</mean>
-              <stddev>${noise_stddev}</stddev>
-            </noise>
-          </ray>
-          <visualize>true</visualize>
-          <samples>${samples}</samples>
-          <downsample>1</downsample>
-          <csv_file_name>$(find rm_robot_description)/scan_mode/mid360.csv</csv_file_name>
-          <topic>${topic}</topic>
-        </plugin>
+        <gazebo>
+  <plugin name="livox_lidar_plugin" filename="libgazebo_ros_livox.so">
+    <ros>
+      <namespace>/livox</namespace>
+      <remapping>pointcloud:=/livox/lidar/pointcloud</remapping>
+    </ros>
+    <frameName>livox_link</frameName>
+    <topic>/livox/lidar/pointcloud</topic>
+    <updateRate>10</updateRate>
+  </plugin>
+</gazebo>
       </sensor>
     </gazebo>
   </xacro:macro>

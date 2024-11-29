@@ -31,7 +31,7 @@
     />
   </export>
   
-  <!-- 如果需要，添加以下行 -->
+  <!-- 如果需要���添加以下行 -->
   <!-- <member_of_group>rosidl_interface_packages</member_of_group> -->
 
 </package>
