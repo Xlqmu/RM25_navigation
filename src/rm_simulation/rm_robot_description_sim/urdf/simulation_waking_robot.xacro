@@ -18,6 +18,16 @@
   <xacro:arg name="rpy" default="0 0 0" />
 
   <link name="dummy"/>
+  
+  <!-- 添加 odom 链接 -->
+  <link name="odom"/>
+
+  <!-- 从 odom 到 base_link 的固定关节 -->
+  <joint name="odom_to_base" type="fixed">
+    <parent link="odom"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 
   <link name="base_link">
     <visual>

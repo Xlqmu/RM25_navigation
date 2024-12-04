@@ -1,63 +1,27 @@
-#!/usr/bin/env python3
-
-import os
-
-from ament_index_python.packages import get_package_share_directory, get_package_share_path
-
 from launch import LaunchDescription
-from launch.substitutions import LaunchConfiguration, Command
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, GroupAction
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
-from launch.conditions import LaunchConfigurationEquals
-from launch.conditions import IfCondition
-from launch.actions.append_environment_variable import AppendEnvironmentVariable
-
-# Enum for world types
-class WorldType:
-    RMUC = 'RMUC'
-    RMUL = 'RMUL'
-
-def get_world_config(world_type):
-    world_configs = {
-        WorldType.RMUC: {
-            'x': '6.35',
-            'y': '7.6',
-            'z': '0.2',
-            'yaw': '0.0',
-            'world_path': '/home/aurora/RM25/src/rm_robot_description/world/RMUC24_world.world'
-        },
-        WorldType.RMUL: {
-            'x': '4.3',
-            'y': '3.35',
-            'z': '1.16',
-            'yaw': '0.0',
-            'world_path': '/home/aurora/RM25/src/rm_robot_description/world/RMUL25.world'
-            # 'world_path': 'RMUL2024_world/RMUL2024_world_dynamic_obstacles.world'
-        }
-    }
-    return world_configs.get(world_type, None)
+from launch.substitutions import Command, LaunchConfiguration
+from launch.conditions import IfCondition, LaunchConfigurationEquals
+from ament_index_python.packages import get_package_share_directory
+import os
 
 def generate_launch_description():
-    # Get the launch directory
     bringup_dir = get_package_share_directory('rm_robot_description')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
-    # Specify xacro path
-    default_robot_description = Command(['xacro ', os.path.join(
-    get_package_share_directory('rm_robot_description'), 'urdf', 'simulation_waking_robot.xacro')])
+    # 指定 xacro 路径并生成机器人描述
+    robot_description_content = Command([
+        'xacro ',
+        os.path.join(bringup_dir, 'urdf', 'simulation_waking_robot.xacro')
+    ])
 
-    # Create the launch configuration variables
+    # 创建启动配置变量
     use_sim_time = LaunchConfiguration('use_sim_time')
     use_rviz = LaunchConfiguration('rviz', default='true')
-    robot_description = LaunchConfiguration('robot_description')
 
-    # Set Gazebo plugin path
-    append_enviroment = AppendEnvironmentVariable(
-        'GAZEBO_PLUGIN_PATH',
-        os.path.join(os.path.join(get_package_share_directory('rm_robot_description'), 'meshes', 'obstacles', 'obstacle_plugin', 'lib'))
-    )
-
+    # 声明启动参数
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         'use_sim_time',
         default_value='True',
@@ -66,7 +30,7 @@ def generate_launch_description():
 
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value=WorldType.RMUL,
+        default_value='RMUL',
         description='Choose <RMUC> or <RMUL>'
     )
 
@@ -78,93 +42,94 @@ def generate_launch_description():
 
     declare_robot_description_cmd = DeclareLaunchArgument(
         'robot_description',
-        default_value=default_robot_description,
+        default_value=robot_description_content,  # 正确的默认值
         description='Robot description'
     )
 
-    # Specify the actions
+    # 包含 Gazebo 客户端启动文件
     gazebo_client_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')),
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
+        ),
     )
 
+    # 启动 joint_state_publisher 节点
     start_joint_state_publisher_cmd = Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
         name='joint_state_publisher',
         parameters=[{
             'use_sim_time': use_sim_time,
-            'robot_description': robot_description
+            'robot_description': robot_description_content
         }],
         output='screen'
     )
 
+    # 启动 robot_state_publisher 节点
     start_robot_state_publisher_cmd = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         name='robot_state_publisher',
         parameters=[{
             'use_sim_time': use_sim_time,
-            'robot_description': robot_description
+            'robot_description': robot_description_content
         }],
         output='screen'
     )
 
+    # 启动 RViz
     start_rviz_cmd = Node(
         condition=IfCondition(use_rviz),
         package='rviz2',
         namespace='',
         executable='rviz2',
-        arguments=['-d' + os.path.join(bringup_dir, 'rviz', 'rviz2.rviz')]
+        arguments=['-d', LaunchConfiguration('rviz_config_file')],
+        output='screen'
     )
 
+    # 启动 spawn_entity 节点
+    spawn_entity_cmd = Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        arguments=[
+            '-entity', 'robot',
+            '-topic', 'robot_description',
+            '-x', '0',
+            '-y', '0',
+            '-z', '0.1',
+            '-Y', '0'
+        ],
+        output='screen'
+    )
 
-    def create_gazebo_launch_group(world_type):
-        world_config = get_world_config(world_type)
-        if world_config is None:
-            return None
-
-        return GroupAction(
-            condition=LaunchConfigurationEquals('world', world_type),
-            actions=[
-                Node(
-                    package='gazebo_ros',
-                    executable='spawn_entity.py',
-                    arguments=[
-                        '-entity', 'robot',
-                        '-topic', 'robot_description',
-                        '-x', world_config['x'],
-                        '-y', world_config['y'],
-                        '-z', world_config['z'],
-                        '-Y', world_config['yaw']
-                    ],
-                ),
-                IncludeLaunchDescription(
-                    PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
-                    launch_arguments={'world': os.path.join(bringup_dir, 'world', world_config['world_path'])}.items(),
-                )
-            ]
-        )
-
-    bringup_RMUC_cmd_group = create_gazebo_launch_group(WorldType.RMUC)
-    bringup_RMUL_cmd_group = create_gazebo_launch_group(WorldType.RMUL)
-
-    # Create the launch description and populate
+    # 创建 Gazebo 启动组（示例）
+    # 您可以根据需要添加相应的 Gazebo 启动逻辑
+    # 包含 Gazebo 服务器启动文件
+    gazebo_server_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
+        ),
+        launch_arguments={'world': [os.path.join(bringup_dir, 'world', 'RMUL25.world')]}.items(),
+)
+    # 创建启动描述并添加动作
     ld = LaunchDescription()
 
-    # Set environment variables
-    ld.add_action(append_enviroment)
-
+    # 添加声明的启动参数
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_world_cmd)
     ld.add_action(declare_rviz_config_file_cmd)
     ld.add_action(declare_robot_description_cmd)
+
+    # 添加 Gazebo 客户端启动
     ld.add_action(gazebo_client_launch)
+
+    # 添加节点启动
     ld.add_action(start_joint_state_publisher_cmd)
     ld.add_action(start_robot_state_publisher_cmd)
-    ld.add_action(bringup_RMUL_cmd_group) # type: ignore
-    ld.add_action(bringup_RMUC_cmd_group) # type: ignore
 
-    # Uncomment this line if you want to start RViz
+    # 添加 RViz 启动
     ld.add_action(start_rviz_cmd)
 
+    ld.add_action(gazebo_server_launch)
+    ld.add_action(spawn_entity_cmd)
     return ld

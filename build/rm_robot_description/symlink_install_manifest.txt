@@ -15,10 +15,12 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.config
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.sdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/fastlio.rviz
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz2.rviz
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/urdf_config.rviz
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/gazebo_spawn.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py
@@ -31,6 +33,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.ps1
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.sh
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.zsh
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/joint_state_publisher.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/events.log
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/logger_all.log
@@ -42,7 +45,9 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/logger_all.log
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot_state_publisher.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rviz.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUC_2024.stl
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUL_2024.stl
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/base_link.STL
@@ -111,6 +116,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel4_link.STL
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/gazebo_spawn.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py
@@ -123,6 +129,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.ps1
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.sh
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.zsh
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/joint_state_publisher.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/events.log
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/logger_all.log
@@ -134,7 +141,9 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/logger_all.log
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot_state_publisher.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rviz.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/four_omniwheel_robot.urdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/mid360.xacro
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf
@@ -218,10 +227,9 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.config
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.sdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/fastlio.rviz
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz.launch.py
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz2.rviz
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/urdf_config.rviz
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/four_omniwheel_robot.xacro
-/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/livox_mid360.xacro
 /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description
 /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh

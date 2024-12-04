@@ -45,6 +45,7 @@
 /home/aurora/RM25/install/fast_lio/share/fast_lio/config/mid360.yaml
 /home/aurora/RM25/install/fast_lio/share/fast_lio/config/ouster64.yaml
 /home/aurora/RM25/install/fast_lio/share/fast_lio/config/velodyne.yaml
+/home/aurora/RM25/install/fast_lio/share/fast_lio/launch/fastlio.launch.py
 /home/aurora/RM25/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
 /home/aurora/RM25/install/fast_lio/share/fast_lio/launch/mapping.launch.py
 /home/aurora/RM25/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
