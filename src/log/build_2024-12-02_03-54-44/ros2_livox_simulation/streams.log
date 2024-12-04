@@ -1,0 +1,201 @@
+[0.006s] Invoking command in '/home/aurora/RM25/src/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_simulation/ros2_livox_simulation -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/ros2_livox_simulation
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.412s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.495s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.544s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.633s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.663s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.701s] -- Looking for pthread.h
+[0.762s] -- Looking for pthread.h - found
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.861s] -- Found Threads: TRUE  
+[0.901s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.906s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.906s] -- Checking for module 'bullet>=2.82'
+[0.917s] --   Found bullet, version 3.05
+[1.077s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.169s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.191s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.215s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.228s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.234s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.240s] -- Searching for dependencies of ignition-math6
+[1.241s] -- Looking for OGRE...
+[1.241s] -- OGRE_PREFIX_WATCH changed.
+[1.245s] -- Checking for module 'OGRE'
+[1.261s] --   Found OGRE, version 1.9.0
+[1.319s] -- Found Ogre Ghadamon (1.9.0)
+[1.329s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.335s] -- Looking for OGRE_Paging...
+[1.338s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.338s] -- Looking for OGRE_Terrain...
+[1.341s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.341s] -- Looking for OGRE_Property...
+[1.344s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.344s] -- Looking for OGRE_RTShaderSystem...
+[1.347s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.347s] -- Looking for OGRE_Volume...
+[1.349s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.349s] -- Looking for OGRE_Overlay...
+[1.352s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.415s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.416s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.417s] -- Searching for dependencies of ignition-transport8
+[1.427s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.433s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.436s] -- Checking for module 'libzmq >= 4'
+[1.450s] --   Found libzmq , version 4.3.4
+[1.515s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.524s] -- Checking for module 'uuid'
+[1.545s] --   Found uuid, version 2.37.2
+[1.605s] -- Found UUID: TRUE  
+[1.609s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.610s] -- Searching for dependencies of ignition-msgs5
+[1.622s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.627s] -- Checking for module 'tinyxml2'
+[1.645s] --   Found tinyxml2, version 9.0.0
+[1.704s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.708s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.708s] -- Searching for dependencies of ignition-common3
+[1.709s] -- Looking for dlfcn.h - found
+[1.710s] -- Looking for libdl - found
+[1.712s] -- Found DL: TRUE  
+[1.725s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.725s] -- Searching for <ignition-common3> component [graphics]
+[1.726s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.726s] -- Searching for dependencies of ignition-common3-graphics
+[1.727s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.728s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.728s] -- Searching for dependencies of ignition-fuel_tools4
+[1.842s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.856s] -- Checking for module 'jsoncpp'
+[1.878s] --   Found jsoncpp, version 1.9.5
+[1.943s] -- Found JSONCPP: TRUE  
+[1.950s] -- Checking for module 'libzip'
+[1.971s] --   Found libzip, version 1.7.3
+[2.032s] -- Found ZIP: TRUE  
+[2.032s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.033s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.034s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.038s] -- Gazebo version: 11.10
+[2.039s] -- Checking for module 'tbb'
+[2.061s] --   Found tbb, version 2021.5.0
+[2.120s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.127s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.147s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.203s] -- Found livox_ros_driver2: 1.0.0 (/home/aurora/RM25/src/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.230s] -- Checking for module 'eigen3'
+[2.243s] --   Found eigen3, version 3.4.0
+[2.303s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.303s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.327s] -- Checking for module 'flann'
+[2.346s] --   Found flann, version 1.9.1
+[2.416s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.416s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.451s] -- Checking for module 'libusb-1.0'
+[3.476s] --   Found libusb-1.0, version 1.0.25
+[3.540s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.542s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.645s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.755s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.760s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.766s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.867s] -- Found Qhull version 8.0.2
+[3.980s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.082s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.082s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.083s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.083s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.084s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.085s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.085s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.085s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.085s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.086s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.086s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.087s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.088s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.088s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.089s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.089s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.090s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.090s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.091s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.091s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.092s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.092s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.092s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.093s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.093s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.106s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono 
+[4.152s] -- Configuring done
+[4.164s] -- Generating done
+[4.165s] [33mCMake Warning:
+[4.165s]   Manually-specified variables were not used by the project:
+[4.165s] 
+[4.165s]     HUMBLE_ROS
+[4.165s]     ROS_EDITION
+[4.165s] 
+[4.165s] [0m
+[4.168s] -- Build files have been written to: /home/aurora/RM25/src/build/ros2_livox_simulation
+[4.180s] Invoked command in '/home/aurora/RM25/src/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurora/RM25/src/rm_simulation/ros2_livox_simulation -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/install/ros2_livox_simulation
+[4.180s] Invoking command in '/home/aurora/RM25/src/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/src/build/ros2_livox_simulation -- -j20 -l20
+[4.245s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+[4.245s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o[0m
+[12.634s] [100%] [32m[1mLinking CXX shared library libros2_livox.so[0m
+[13.085s] [100%] Built target ros2_livox
+[13.093s] Invoked command in '/home/aurora/RM25/src/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurora/RM25/src/build/ros2_livox_simulation -- -j20 -l20
+[13.094s] Invoking command in '/home/aurora/RM25/src/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/src/build/ros2_livox_simulation
+[13.100s] -- Install configuration: ""
+[13.100s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/include
+[13.100s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/include/ros2_livox
+[13.100s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[13.100s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[13.100s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[13.101s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[13.101s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[13.101s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/lib/libros2_livox.so
+[13.105s] -- Set runtime path of "/home/aurora/RM25/src/install/ros2_livox_simulation/lib/libros2_livox.so" to ""
+[13.105s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode
+[13.105s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[13.114s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[13.115s] -- Installing: /home/aurora/RM25/src/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[13.116s] Invoked command in '/home/aurora/RM25/src/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/src/install/livox_ros_driver2:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurora/RM25/src/build/ros2_livox_simulation

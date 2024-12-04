@@ -406,7 +406,7 @@ LZMA_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liblzma.so
 MPIEXEC_EXECUTABLE:FILEPATH=/usr/bin/mpiexec
 
 //Maximum number of processors available to run MPI applications.
-MPIEXEC_MAX_NUMPROCS:STRING=10
+MPIEXEC_MAX_NUMPROCS:STRING=14
 
 //Flag used by MPI to specify the number of processes for mpiexec;
 // the next option will be the number of processes.
@@ -1002,7 +1002,7 @@ Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 ROS_EDITION:UNINITIALIZED=ROS2
 
 //Name of the computer/site where compile is being run
-SITE:STRING=DESKTOP-HO9IPL6
+SITE:STRING=aurora-Predator-PHN16-71
 
 //The directory containing a CMake configuration file for Simbody.
 Simbody_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/simbody
@@ -1059,10 +1059,10 @@ X11_X11_INCLUDE_PATH:PATH=/usr/include
 X11_X11_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11.so
 
 //Path to a file.
-X11_X11_xcb_INCLUDE_PATH:PATH=/usr/include
+X11_X11_xcb_INCLUDE_PATH:PATH=X11_X11_xcb_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_X11_xcb_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11-xcb.so
+X11_X11_xcb_LIB:FILEPATH=X11_X11_xcb_LIB-NOTFOUND
 
 //Path to a file.
 X11_XRes_INCLUDE_PATH:PATH=X11_XRes_INCLUDE_PATH-NOTFOUND
@@ -1095,10 +1095,10 @@ X11_Xaw_INCLUDE_PATH:PATH=X11_Xaw_INCLUDE_PATH-NOTFOUND
 X11_Xaw_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXaw.so
 
 //Path to a file.
-X11_Xcomposite_INCLUDE_PATH:PATH=/usr/include
+X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xcomposite_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcomposite.so
+X11_Xcomposite_LIB:FILEPATH=X11_Xcomposite_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
@@ -1107,10 +1107,10 @@ X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
 X11_Xcursor_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcursor.so
 
 //Path to a file.
-X11_Xdamage_INCLUDE_PATH:PATH=/usr/include
+X11_Xdamage_INCLUDE_PATH:PATH=X11_Xdamage_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xdamage_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXdamage.so
+X11_Xdamage_LIB:FILEPATH=X11_Xdamage_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xdmcp_INCLUDE_PATH:PATH=/usr/include
@@ -1197,10 +1197,10 @@ X11_Xt_INCLUDE_PATH:PATH=/usr/include
 X11_Xt_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXt.so
 
 //Path to a file.
-X11_Xtst_INCLUDE_PATH:PATH=/usr/include
+X11_Xtst_INCLUDE_PATH:PATH=X11_Xtst_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xtst_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXtst.so
+X11_Xtst_LIB:FILEPATH=X11_Xtst_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xutil_INCLUDE_PATH:PATH=/usr/include
@@ -1284,7 +1284,10 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
 //The directory containing a CMake configuration file for ZeroMQ.
-ZeroMQ_DIR:PATH=/mnt/e/ANACONDA/Library/share/cmake/ZeroMQ
+ZeroMQ_DIR:PATH=ZeroMQ_DIR-NOTFOUND
+
+//Path to a library.
+ZeroMQ_LIBRARY_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 
 //Path to a library.
 _lib:FILEPATH=/home/aurora/RM25/src/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
@@ -1572,6 +1575,9 @@ pkgcfg_lib_UUID_uuid:FILEPATH=/usr/lib/x86_64-linux-gnu/libuuid.so
 pkgcfg_lib_ZIP_zip:FILEPATH=/usr/lib/x86_64-linux-gnu/libzip.so
 
 //Path to a library.
+pkgcfg_lib_ZeroMQ_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
+
+//Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
 //Path to a library.
@@ -1823,8 +1829,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/cmake-gui
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -2040,6 +2044,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_UUID:INTERNAL=[TRUE][v()]
 //Details about finding ZIP
 FIND_PACKAGE_MESSAGE_DETAILS_ZIP:INTERNAL=[TRUE][v()]
+//Details about finding ZeroMQ
+FIND_PACKAGE_MESSAGE_DETAILS_ZeroMQ:INTERNAL=[TRUE][v(4)]
 //Details about finding assimp
 FIND_PACKAGE_MESSAGE_DETAILS_assimp:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libassimp.so][v5.2.0()]
 //Details about finding fcl
@@ -3182,6 +3188,42 @@ ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
 ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+ZeroMQ_CFLAGS:INTERNAL=-isystem;/usr/include/mit-krb5;-I/usr/include/pgm-5.3;-I/usr/include/libxml2
+ZeroMQ_CFLAGS_I:INTERNAL=
+ZeroMQ_CFLAGS_OTHER:INTERNAL=
+ZeroMQ_INCLUDEDIR:INTERNAL=/usr/include
+ZeroMQ_INCLUDE_DIRS:INTERNAL=/usr/include/mit-krb5;/usr/include/pgm-5.3;/usr/include/libxml2
+ZeroMQ_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lzmq
+ZeroMQ_LDFLAGS_OTHER:INTERNAL=
+ZeroMQ_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+ZeroMQ_LIBRARIES:INTERNAL=zmq
+ZeroMQ_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+//ADVANCED property for variable: ZeroMQ_LIBRARY_zmq
+ZeroMQ_LIBRARY_zmq-ADVANCED:INTERNAL=1
+ZeroMQ_LIBS:INTERNAL=
+ZeroMQ_LIBS_L:INTERNAL=
+ZeroMQ_LIBS_OTHER:INTERNAL=
+ZeroMQ_LIBS_PATHS:INTERNAL=
+ZeroMQ_MODULE_NAME:INTERNAL='libzmq '
+ZeroMQ_PREFIX:INTERNAL=/usr
+ZeroMQ_STATIC_CFLAGS:INTERNAL=-isystem;/usr/include/mit-krb5;-I/usr/include/pgm-5.3;-I/usr/include/libxml2
+ZeroMQ_STATIC_CFLAGS_I:INTERNAL=
+ZeroMQ_STATIC_CFLAGS_OTHER:INTERNAL=
+ZeroMQ_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/mit-krb5;/usr/include/pgm-5.3;/usr/include/libxml2
+ZeroMQ_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-L/usr/lib/x86_64-linux-gnu;-lzmq;-lstdc++;-lpthread;-lrt;-lgssapi_krb5;-lkrb5;-lk5crypto;-lcom_err;-lkrb5support;-lsodium;-pthread;-lpgm;-lpthread;-lm;-lnorm;libprotokit.a;-lxml2;-licui18n;-licuuc;-licudata;-lz;-llzma;-lm;-lbsd;-lmd
+ZeroMQ_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;libprotokit.a
+ZeroMQ_STATIC_LIBDIR:INTERNAL=
+ZeroMQ_STATIC_LIBRARIES:INTERNAL=zmq;stdc++;pthread;rt;gssapi_krb5;krb5;k5crypto;com_err;krb5support;sodium;pgm;pthread;m;norm;xml2;icui18n;icuuc;icudata;z;lzma;m;bsd;md
+ZeroMQ_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5;/usr/lib/x86_64-linux-gnu
+ZeroMQ_STATIC_LIBS:INTERNAL=
+ZeroMQ_STATIC_LIBS_L:INTERNAL=
+ZeroMQ_STATIC_LIBS_OTHER:INTERNAL=
+ZeroMQ_STATIC_LIBS_PATHS:INTERNAL=
+ZeroMQ_VERSION:INTERNAL=4.3.4
+ZeroMQ_libzmq _INCLUDEDIR:INTERNAL=
+ZeroMQ_libzmq _LIBDIR:INTERNAL=
+ZeroMQ_libzmq _PREFIX:INTERNAL=
+ZeroMQ_libzmq _VERSION:INTERNAL=
 _OPENSSL_CFLAGS:INTERNAL=
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=
@@ -3238,6 +3280,7 @@ __pkg_config_arguments_TBB:INTERNAL=tbb
 __pkg_config_arguments_TINYXML2:INTERNAL=tinyxml2
 __pkg_config_arguments_UUID:INTERNAL=uuid
 __pkg_config_arguments_ZIP:INTERNAL=libzip
+__pkg_config_arguments_ZeroMQ:INTERNAL=libzmq >= 4
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked_BULLET:INTERNAL=1
 __pkg_config_checked_JSONCPP:INTERNAL=1
@@ -3256,6 +3299,7 @@ __pkg_config_checked_TBB:INTERNAL=1
 __pkg_config_checked_TINYXML2:INTERNAL=1
 __pkg_config_checked_UUID:INTERNAL=1
 __pkg_config_checked_ZIP:INTERNAL=1
+__pkg_config_checked_ZeroMQ:INTERNAL=1
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: boost_atomic_DIR
 boost_atomic_DIR-ADVANCED:INTERNAL=1
@@ -3341,6 +3385,8 @@ pkgcfg_lib_TINYXML2_tinyxml2-ADVANCED:INTERNAL=1
 pkgcfg_lib_UUID_uuid-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_ZIP_zip
 pkgcfg_lib_ZIP_zip-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_ZeroMQ_zmq
+pkgcfg_lib_ZeroMQ_zmq-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl

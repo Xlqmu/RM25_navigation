@@ -192,16 +192,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=livox_ros_driver2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.2.4
+CMAKE_PROJECT_VERSION:STATIC=1.0.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=2
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=4
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -277,6 +277,9 @@ EXPAT_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 EXPAT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libexpat.so
 
+//The directory containing a CMake configuration file for Eigen3.
+Eigen3_DIR:PATH=/usr/share/eigen3/cmake
+
 //Eigen include directory
 Eigen3_INCLUDE_DIR:PATH=/usr/include/eigen3
 
@@ -349,12 +352,6 @@ JsonCpp_INCLUDE_DIR:PATH=/usr/include/jsoncpp
 //jsoncpp library
 JsonCpp_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libjsoncpp.so
 
-//Path to a file.
-LIVOX_LIDAR_SDK_INCLUDE_DIR:PATH=/usr/local/include
-
-//Path to a library.
-LIVOX_LIDAR_SDK_LIBRARY:FILEPATH=/usr/local/lib/liblivox_lidar_sdk_shared.so
-
 //lz4 include directory
 LZ4_INCLUDE_DIR:PATH=/usr/include
 
@@ -371,7 +368,7 @@ LZMA_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liblzma.so
 MPIEXEC_EXECUTABLE:FILEPATH=/usr/bin/mpiexec
 
 //Maximum number of processors available to run MPI applications.
-MPIEXEC_MAX_NUMPROCS:STRING=10
+MPIEXEC_MAX_NUMPROCS:STRING=14
 
 //Flag used by MPI to specify the number of processes for mpiexec;
 // the next option will be the number of processes.
@@ -715,7 +712,7 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 //Name of the computer/site where compile is being run
-SITE:STRING=DESKTOP-HO9IPL6
+SITE:STRING=aurora-Predator-PHN16-71
 
 //The directory containing a CMake configuration file for TBB.
 TBB_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/TBB
@@ -757,10 +754,10 @@ X11_X11_INCLUDE_PATH:PATH=/usr/include
 X11_X11_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11.so
 
 //Path to a file.
-X11_X11_xcb_INCLUDE_PATH:PATH=/usr/include
+X11_X11_xcb_INCLUDE_PATH:PATH=X11_X11_xcb_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_X11_xcb_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11-xcb.so
+X11_X11_xcb_LIB:FILEPATH=X11_X11_xcb_LIB-NOTFOUND
 
 //Path to a file.
 X11_XRes_INCLUDE_PATH:PATH=X11_XRes_INCLUDE_PATH-NOTFOUND
@@ -793,10 +790,10 @@ X11_Xaw_INCLUDE_PATH:PATH=X11_Xaw_INCLUDE_PATH-NOTFOUND
 X11_Xaw_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXaw.so
 
 //Path to a file.
-X11_Xcomposite_INCLUDE_PATH:PATH=/usr/include
+X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xcomposite_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcomposite.so
+X11_Xcomposite_LIB:FILEPATH=X11_Xcomposite_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
@@ -805,10 +802,10 @@ X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
 X11_Xcursor_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcursor.so
 
 //Path to a file.
-X11_Xdamage_INCLUDE_PATH:PATH=/usr/include
+X11_Xdamage_INCLUDE_PATH:PATH=X11_Xdamage_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xdamage_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXdamage.so
+X11_Xdamage_LIB:FILEPATH=X11_Xdamage_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xdmcp_INCLUDE_PATH:PATH=/usr/include
@@ -895,10 +892,10 @@ X11_Xt_INCLUDE_PATH:PATH=/usr/include
 X11_Xt_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXt.so
 
 //Path to a file.
-X11_Xtst_INCLUDE_PATH:PATH=/usr/include
+X11_Xtst_INCLUDE_PATH:PATH=X11_Xtst_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xtst_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXtst.so
+X11_Xtst_LIB:FILEPATH=X11_Xtst_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xutil_INCLUDE_PATH:PATH=/usr/include
@@ -979,10 +976,13 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -1143,6 +1143,9 @@ double-conversion_INCLUDE_DIR:PATH=/usr/include/double-conversion
 //double-conversion library
 double-conversion_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libdouble-conversion.so
 
+//The directory containing a CMake configuration file for eigen3_cmake_module.
+eigen3_cmake_module_DIR:PATH=/opt/ros/humble/share/eigen3_cmake_module/cmake
+
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 
@@ -1166,9 +1169,6 @@ geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for git.
 git_DIR:PATH=git_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for libpcl-all-dev.
-libpcl-all-dev_DIR:PATH=libpcl-all-dev_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
@@ -1194,11 +1194,23 @@ livox_ros_driver2_SOURCE_DIR:STATIC=/home/aurora/RM25/src/rm_driver/livox_ros_dr
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
 
+//The directory containing a CMake configuration file for orocos_kdl.
+orocos_kdl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/orocos_kdl
+
+//Path to a library.
+orocos_kdl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+
+//The directory containing a CMake configuration file for orocos_kdl_vendor.
+orocos_kdl_vendor_DIR:PATH=/opt/ros/humble/share/orocos_kdl_vendor/cmake
+
 //The directory containing a CMake configuration file for pcl_conversions.
 pcl_conversions_DIR:PATH=/opt/ros/humble/share/pcl_conversions/cmake
 
 //The directory containing a CMake configuration file for pcl_msgs.
 pcl_msgs_DIR:PATH=/opt/ros/humble/share/pcl_msgs/cmake
+
+//The directory containing a CMake configuration file for pcl_ros.
+pcl_ros_DIR:PATH=/opt/ros/humble/share/pcl_ros/cmake
 
 //Path to a library.
 pkgcfg_lib_APR_apr-1:FILEPATH=/usr/lib/x86_64-linux-gnu/libapr-1.so
@@ -1245,6 +1257,9 @@ python_cmake_module_DIR:PATH=/opt/ros/humble/share/python_cmake_module/cmake
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
 
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/humble/share/rcl_action/cmake
+
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/humble/share/rcl_interfaces/cmake
 
@@ -1259,6 +1274,9 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/humble/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/humble/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rclcpp_components.
 rclcpp_components_DIR:PATH=/opt/ros/humble/share/rclcpp_components/cmake
@@ -1286,6 +1304,9 @@ rmw_implementation_DIR:PATH=/opt/ros/humble/share/rmw_implementation/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
 rmw_implementation_cmake_DIR:PATH=/opt/ros/humble/share/rmw_implementation_cmake/cmake
+
+//The directory containing a CMake configuration file for ros_environment.
+ros_environment_DIR:PATH=/opt/ros/humble/share/ros_environment/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake
@@ -1353,8 +1374,23 @@ statistics_msgs_DIR:PATH=/opt/ros/humble/share/statistics_msgs/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/humble/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_geometry_msgs.
+tf2_geometry_msgs_DIR:PATH=/opt/ros/humble/share/tf2_geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/humble/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/humble/share/tf2_ros/cmake
+
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake
 
 //utf8cpp include directory
 utf8cpp_INCLUDE_DIR:PATH=/usr/include/utf8cpp
@@ -1461,8 +1497,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/cmake-gui
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -1576,6 +1610,8 @@ EXPAT_LIBRARY-ADVANCED:INTERNAL=1
 Eigen3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding Eigen
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v(3.1)]
+//Details about finding Eigen3
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding FLANN
 FIND_PACKAGE_MESSAGE_DETAILS_FLANN:INTERNAL=[/usr/lib/x86_64-linux-gnu/libflann_cpp.so][/usr/include][v()]
 //Details about finding FastRTPS

@@ -45,7 +45,7 @@
         <visualize>true</visualize>
         <update_rate>10</update_rate>
         <!-- 仿真使用-->
-        <plugin name="${name}_plugin" filename="libgazebo_ros_ray_sensor.so">
+        <plugin name="${name}_plugin" filename="libros2_livox.so">
         <!-- 真实使用-->
         <!-- plugin name="${name}_pluging" filename="libros2_livox.so"-->
           <ray>

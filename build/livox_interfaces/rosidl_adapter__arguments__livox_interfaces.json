@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_interfaces",
+  "non_idl_tuples": [
+    "/home/aurora/RM25/src/livox_interfaces:msg/CustomPoint.msg",
+    "/home/aurora/RM25/src/livox_interfaces:msg/CustomMsg.msg"
+  ]
+}

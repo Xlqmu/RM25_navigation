@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fast_lio__py",
+		"source" : "/home/aurora/RM25/build/fast_lio/fast_lio__py"
+	}
+}

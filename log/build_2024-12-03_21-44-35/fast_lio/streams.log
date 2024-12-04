@@ -1,0 +1,301 @@
+[0.007s] Invoking command in '/home/aurora/RM25/build/fast_lio': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_localization/FAST_LIO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/fast_lio
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.163s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.228s] [0mCurrent CPU archtecture: x86_64[0m
+[0.232s] [0mProcesser number:  20[0m
+[0.232s] [0mcore for MP: 3[0m
+[0.481s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.482s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.650s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.667s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.669s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.710s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.790s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.807s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.837s] -- Looking for pthread.h
+[0.904s] -- Looking for pthread.h - found
+[0.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.971s] -- Found Threads: TRUE  
+[1.005s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.021s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.028s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.039s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.049s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.054s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.064s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.093s] -- Checking for module 'eigen3'
+[1.104s] --   Found eigen3, version 3.4.0
+[1.143s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.143s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.168s] -- Checking for module 'flann'
+[1.181s] --   Found flann, version 1.9.1
+[1.251s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.251s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.122s] -- Checking for module 'libusb-1.0'
+[2.148s] --   Found libusb-1.0, version 1.0.25
+[2.212s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.216s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.301s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.417s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.422s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.429s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.525s] -- Found Qhull version 8.0.2
+[2.630s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.730s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.730s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.731s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.731s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.732s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.732s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.732s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.732s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.733s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.733s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.734s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.734s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.735s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.736s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.736s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.737s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.737s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.738s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.738s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.739s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.739s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.739s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.740s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.740s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.741s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.753s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.754s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.754s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.790s] -- Found livox_ros_driver2: 1.0.0 (/home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.802s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.815s] [0mEigen:/usr/include/eigen3[0m
+[2.815s] -- PCL: /usr/include/pcl-1.12
+[2.982s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.284s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.284s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.299s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.299s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.299s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.299s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.317s] -- Found PythonExtra: .so  
+[3.352s] -- Configuring done
+[3.387s] -- Generating done
+[3.398s] -- Build files have been written to: /home/aurora/RM25/build/fast_lio
+[3.410s] Invoked command in '/home/aurora/RM25/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_localization/FAST_LIO -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/fast_lio
+[3.411s] Invoking command in '/home/aurora/RM25/build/fast_lio': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/fast_lio -- -j20 -l20
+[3.458s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.466s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.472s] [  5%] Built target ament_cmake_python_symlink_fast_lio
+[3.609s] running egg_info
+[3.609s] creating fast_lio.egg-info
+[3.609s] writing fast_lio.egg-info/PKG-INFO
+[3.609s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[3.609s] writing top-level names to fast_lio.egg-info/top_level.txt
+[3.609s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.610s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.611s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.631s] [  5%] Built target ament_cmake_python_build_fast_lio_egg
+[3.647s] [  8%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[3.663s] [  8%] Built target fast_lio__cpp
+[3.671s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.671s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.672s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.717s] [ 20%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[3.755s] [ 20%] Built target fast_lio__rosidl_generator_c
+[3.765s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.765s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.765s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.842s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[3.850s] [ 34%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[3.853s] [ 37%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[3.969s] [ 40%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[3.973s] [ 42%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[3.990s] [ 45%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[3.992s] [ 48%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[4.031s] [ 48%] Built target fast_lio__rosidl_typesupport_c
+[4.031s] [ 48%] Built target fast_lio__rosidl_typesupport_cpp
+[4.041s] [ 51%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[4.050s] [ 54%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[4.052s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[4.052s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[4.081s] [ 62%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.098s] [ 65%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[4.127s] [ 65%] Built target fast_lio__rosidl_typesupport_introspection_c
+[4.163s] [ 68%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[4.172s] [ 68%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[4.180s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[4.202s] [ 71%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[4.237s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[4.255s] [ 71%] Built target fast_lio
+[4.275s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.535s] [ 74%] Built target fast_lio__py
+[4.552s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[4.650s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[4.689s] [ 80%] Built target fast_lio__rosidl_generator_py
+[4.707s] [ 82%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.709s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[4.709s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.780s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.807s] [ 91%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[4.812s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.812s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.843s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[4.843s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[7.659s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[7.659s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[7.660s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[7.660s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[7.660s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[7.660s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[7.660s]                  from [01m[K/home/aurora/RM25/src/rm_localization/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[7.660s]                  from [01m[K/home/aurora/RM25/src/rm_localization/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[7.660s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[7.660s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[7.660s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[44.457s] [100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[45.133s] [100%] Built target fastlio_mapping
+[45.142s] Invoked command in '/home/aurora/RM25/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/fast_lio -- -j20 -l20
+[45.144s] Invoking command in '/home/aurora/RM25/build/fast_lio': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/fast_lio
+[45.152s] -- Install configuration: "Release"
+[45.153s] -- Execute custom install script
+[45.153s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[45.160s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[45.168s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[45.174s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[45.181s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[45.193s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[45.205s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/library_path.sh
+[45.217s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[45.229s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[45.241s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.257s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[45.268s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[45.279s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[45.289s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[45.300s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[45.309s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.318s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[45.335s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.347s] -- Symlinking: /home/aurora/RM25/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[45.353s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[45.361s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[45.369s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[45.381s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[45.392s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[45.405s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[45.418s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[45.432s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[45.447s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[45.457s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[45.470s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.482s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.495s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.505s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[45.517s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[45.528s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[45.539s] -- Symlinking: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[45.552s] -- Up-to-date symlink: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.552s] -- Up-to-date symlink: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.552s] -- Up-to-date symlink: /home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.552s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[45.558s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[45.568s] -- Symlinking: /home/aurora/RM25/install/fast_lio/lib/fast_lio/fastlio_mapping
+[45.577s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/config/avia.yaml
+[45.588s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/config/horizon.yaml
+[45.599s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/config/mid360.yaml
+[45.612s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[45.625s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[45.645s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[45.660s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[45.668s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[45.680s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[45.691s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[45.702s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[45.715s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[45.729s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/path.sh
+[45.743s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/environment/path.dsv
+[45.756s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/local_setup.bash
+[45.763s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/local_setup.sh
+[45.772s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/local_setup.zsh
+[45.783s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/local_setup.dsv
+[45.796s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/package.dsv
+[45.806s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[45.818s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[45.830s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.849s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[45.860s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[45.874s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.885s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.893s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.904s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[45.915s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[45.930s] -- Symlinking: /home/aurora/RM25/install/fast_lio/share/fast_lio/package.xml
+[45.950s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[45.950s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[45.950s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[45.951s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[45.951s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[45.952s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.953s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[45.953s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[45.953s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[45.953s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[45.953s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[45.953s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[45.953s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[45.953s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[45.980s] Listing '/home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[45.980s] Compiling '/home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...
+[45.980s] Listing '/home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[45.980s] Compiling '/home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...
+[45.980s] Compiling '/home/aurora/RM25/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...
+[45.982s] -- Installing: /home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[45.982s] -- Set runtime path of "/home/aurora/RM25/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[45.983s] -- Installing: /home/aurora/RM25/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[45.985s] Invoked command in '/home/aurora/RM25/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/fast_lio

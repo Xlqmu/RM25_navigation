@@ -589,7 +589,6 @@ CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/livox_ros_driver2.dir
 
 # All Build rule for target.
-CMakeFiles/livox_ros_driver2.dir/all: CMakeFiles/livox_interfaces2.dir/all
 CMakeFiles/livox_ros_driver2.dir/all: CMakeFiles/livox_interfaces2__cpp.dir/all
 CMakeFiles/livox_ros_driver2.dir/all: CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/livox_ros_driver2.dir/build.make CMakeFiles/livox_ros_driver2.dir/depend
@@ -599,7 +598,7 @@ CMakeFiles/livox_ros_driver2.dir/all: CMakeFiles/livox_interfaces2__rosidl_types
 
 # Build rule for subdir invocation for target.
 CMakeFiles/livox_ros_driver2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/RM25/build/livox_ros_driver2/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/RM25/build/livox_ros_driver2/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/livox_ros_driver2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/RM25/build/livox_ros_driver2/CMakeFiles 0
 .PHONY : CMakeFiles/livox_ros_driver2.dir/rule

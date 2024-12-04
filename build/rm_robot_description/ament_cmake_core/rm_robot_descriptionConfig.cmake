@@ -36,7 +36,7 @@ endif()
 set(rm_robot_description_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "")
+set(_extras "ament_cmake_export_dependencies-extras.cmake")
 foreach(_extra ${_extras})
   include("${rm_robot_description_DIR}/${_extra}")
 endforeach()

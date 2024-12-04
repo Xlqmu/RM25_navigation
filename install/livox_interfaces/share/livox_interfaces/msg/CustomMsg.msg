@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/livox_interfaces/msg/CustomMsg.msg

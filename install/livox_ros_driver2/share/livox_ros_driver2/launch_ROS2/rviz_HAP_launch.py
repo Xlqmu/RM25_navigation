@@ -1,0 +1,1 @@
+/home/aurora/RM25/src/rm_driver/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py

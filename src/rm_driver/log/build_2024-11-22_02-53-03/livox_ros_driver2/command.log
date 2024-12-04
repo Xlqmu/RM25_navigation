@@ -1,2 +1,0 @@
-Invoking command in '/home/aurora/RM25/src/rm_driver/build/livox_ros_driver2': /usr/bin/cmake /home/aurora/RM25/src/rm_driver/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/rm_driver/install/livox_ros_driver2
-Invoked command in '/home/aurora/RM25/src/rm_driver/build/livox_ros_driver2' returned '1': /usr/bin/cmake /home/aurora/RM25/src/rm_driver/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/src/rm_driver/install/livox_ros_driver2

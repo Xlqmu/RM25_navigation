@@ -1,0 +1,290 @@
+[0.011s] Invoking command in '/home/aurora/RM25/build/rm_robot_description': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_robot_description
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.332s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.580s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.832s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.838s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.847s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.961s] -- Configuring done
+[0.962s] -- Generating done
+[0.965s] -- Build files have been written to: /home/aurora/RM25/build/rm_robot_description
+[0.973s] Invoked command in '/home/aurora/RM25/build/rm_robot_description' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_robot_description
+[0.975s] Invoking command in '/home/aurora/RM25/build/rm_robot_description': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/rm_robot_description -- -j20 -l20
+[1.035s] Invoked command in '/home/aurora/RM25/build/rm_robot_description' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/rm_robot_description -- -j20 -l20
+[1.035s] Invoking command in '/home/aurora/RM25/build/rm_robot_description': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/rm_robot_description
+[1.049s] -- Install configuration: ""
+[1.052s] -- Execute custom install script
+[1.059s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/four_omniwheel_robot.urdf
+[1.077s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/mid360.xacro
+[1.095s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf
+[1.117s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf.xacro
+[1.136s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf
+[1.152s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation.urdf
+[1.171s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_waking_robot.xacro
+[1.188s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world
+[1.204s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config
+[1.222s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.sdf
+[1.249s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUC24_world.world
+[1.261s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUL25.world
+[1.275s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/my_world.world
+[1.297s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/RMUL25.world
+[1.317s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.config
+[1.335s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.sdf
+[1.353s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/fastlio.rviz
+[1.372s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz2.rviz
+[1.393s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/urdf_config.rviz
+[1.412s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[1.412s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[1.412s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[1.412s]   Use the cmake_policy command to set the policy and suppress this warning.
+[1.412s] Call Stack (most recent call first):
+[1.412s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.412s]   cmake_install.cmake:46 (include)
+[1.413s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.413s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by
+[1.413s] [0m
+[1.434s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE
+[1.457s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout
+[1.478s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE
+[1.511s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py
+[1.529s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_sh.py
+[1.546s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.bash
+[1.563s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.ps1
+[1.583s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.sh
+[1.603s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.zsh
+[1.618s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.bash
+[1.629s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.ps1
+[1.647s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.sh
+[1.669s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.zsh
+[1.684s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/COLCON_IGNORE
+[1.701s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/events.log
+[1.719s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/logger_all.log
+[1.740s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/events.log
+[1.761s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/logger_all.log
+[1.779s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/events.log
+[1.789s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/logger_all.log
+[1.798s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/events.log
+[1.808s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/logger_all.log
+[1.819s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py
+[1.829s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py
+[1.838s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py
+[1.848s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUC_2024.stl
+[1.858s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUL_2024.stl
+[1.868s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/base_link.STL
+[1.879s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/controller_link.STL
+[1.890s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch
+[1.896s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch.py
+[1.909s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch
+[1.916s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch.py
+[1.927s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360.stl
+[1.935s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360laser_link.STL
+[1.941s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle1/model.config
+[1.947s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle1/model.sdf
+[1.955s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle10/model.config
+[1.962s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle10/model.sdf
+[1.969s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle11/model.config
+[1.976s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle11/model.sdf
+[1.983s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle12/model.config
+[1.991s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle12/model.sdf
+[2.000s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle2/model.config
+[2.013s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle2/model.sdf
+[2.022s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle3/model.config
+[2.030s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle3/model.sdf
+[2.039s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle4/model.config
+[2.048s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle4/model.sdf
+[2.055s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle5/model.config
+[2.062s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle5/model.sdf
+[2.068s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle6/model.config
+[2.074s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle6/model.sdf
+[2.080s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle7/model.config
+[2.087s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle7/model.sdf
+[2.093s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle8/model.config
+[2.099s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle8/model.sdf
+[2.105s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle9/model.config
+[2.111s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle9/model.sdf
+[2.117s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/CMakeLists.txt
+[2.123s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle1.so
+[2.127s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle10.so
+[2.133s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle11.so
+[2.138s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle12.so
+[2.144s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle2.so
+[2.150s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle3.so
+[2.156s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle4.so
+[2.162s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle5.so
+[2.170s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle6.so
+[2.176s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle7.so
+[2.185s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle8.so
+[2.192s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle9.so
+[2.199s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacles.so
+[2.205s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle1.cc
+[2.214s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle10.cc
+[2.221s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle11.cc
+[2.227s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle12.cc
+[2.234s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle13.cc
+[2.242s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle2.cc
+[2.248s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle3.cc
+[2.255s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle4.cc
+[2.263s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle5.cc
+[2.271s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle6.cc
+[2.278s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle7.cc
+[2.285s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle8.cc
+[2.291s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle9.cc
+[2.297s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacles.cc
+[2.307s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel1_link.STL
+[2.313s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel2_link.STL
+[2.320s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel3_link.STL
+[2.328s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel4_link.STL
+[2.336s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[2.336s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[2.337s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[2.337s]   Use the cmake_policy command to set the policy and suppress this warning.
+[2.337s] Call Stack (most recent call first):
+[2.337s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_directory)
+[2.337s]   cmake_install.cmake:46 (include)
+[2.337s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.338s] [0m
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/.built_by
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/build/COLCON_IGNORE
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/.colcon_install_layout
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/COLCON_IGNORE
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_ps1.py
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/_local_setup_util_sh.py
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.bash
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.ps1
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.sh
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/local_setup.zsh
+[2.338s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.bash
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.ps1
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.sh
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/install/setup.zsh
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/COLCON_IGNORE
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/events.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-12_20-59-25/logger_all.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/events.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/build_2024-11-14_12-02-55/logger_all.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/events.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest/logger_all.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/events.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/log/latest_build/logger_all.log
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/rm_simulation.launch.py
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robot.launch.py
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/launch/robotv2.launch.py
+[2.339s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/four_omniwheel_robot.urdf
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/mid360.xacro
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf.xacro
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation.urdf
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_waking_robot.xacro
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUC_2024.stl
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUL_2024.stl
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/base_link.STL
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/controller_link.STL
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/display.launch.py
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch
+[2.340s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/gazebo.launch.py
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360.stl
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/mid360laser_link.STL
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle1/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle1/model.sdf
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle10/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle10/model.sdf
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle11/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle11/model.sdf
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle12/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle12/model.sdf
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle2/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle2/model.sdf
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle3/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle3/model.sdf
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle4/model.config
+[2.341s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle4/model.sdf
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle5/model.config
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle5/model.sdf
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle6/model.config
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle6/model.sdf
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle7/model.config
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle7/model.sdf
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle8/model.config
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle8/model.sdf
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle9/model.config
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle9/model.sdf
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/CMakeLists.txt
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle1.so
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle10.so
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle11.so
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle12.so
+[2.342s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle2.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle3.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle4.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle5.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle6.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle7.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle8.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacle9.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/lib/libobstacles.so
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle1.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle10.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle11.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle12.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle13.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle2.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle3.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle4.cc
+[2.343s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle5.cc
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle6.cc
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle7.cc
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle8.cc
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacle9.cc
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/obstacles/obstacle_plugin/obstacles.cc
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel1_link.STL
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel2_link.STL
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel3_link.STL
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/omniwheel4_link.STL
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.sdf
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUC24_world.world
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/RMUL25.world
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/my_world.world
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/RMUL25.world
+[2.344s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.config
+[2.345s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/rmul/model.sdf
+[2.345s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/fastlio.rviz
+[2.345s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/rviz2.rviz
+[2.345s] -- Up-to-date symlink: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/rviz/urdf_config.rviz
+[2.345s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/four_omniwheel_robot.xacro
+[2.350s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/xacro/livox_mid360.xacro
+[2.355s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description
+[2.365s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description
+[2.369s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh
+[2.377s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.dsv
+[2.385s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/path.sh
+[2.393s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/environment/path.dsv
+[2.398s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.bash
+[2.407s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.sh
+[2.416s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.zsh
+[2.425s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/local_setup.dsv
+[2.432s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/package.dsv
+[2.438s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/ament_index/resource_index/packages/rm_robot_description
+[2.444s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.449s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig.cmake
+[2.455s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig-version.cmake
+[2.463s] -- Symlinking: /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/package.xml
+[2.472s] Invoked command in '/home/aurora/RM25/build/rm_robot_description' returned '0': AMENT_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/fast_lio/lib:/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/rm_robot_description
