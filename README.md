@@ -12,7 +12,7 @@
 
 
 -src
----rm_robot_description:机器人模型（采用一个四轮的就行，全向轮后面再说）
+---rm_robot_description:机器人模型（采用一个四轮差速小车就行，全向轮后面再说）
 ### 导航构思
 
 #### 需求：
@@ -79,4 +79,5 @@ point_lio
 3. gazebo
 
 
-解决了仿真包的导入
+解决了仿真包的导入，将各个launch文件分割成子launch文件
+尝试接入fastlio接口进行定位算法开发

@@ -1,1 +1,0 @@
-/home/aurora/RM25/build/fast_lio/ament_cmake_environment_hooks/local_setup.bash

@@ -7,5 +7,6 @@
 #include "livox_interfaces/msg/detail/custom_point__struct.hpp"
 #include "livox_interfaces/msg/detail/custom_point__builder.hpp"
 #include "livox_interfaces/msg/detail/custom_point__traits.hpp"
+#include "livox_interfaces/msg/detail/custom_point__type_support.hpp"
 
 #endif  // LIVOX_INTERFACES__MSG__CUSTOM_POINT_HPP_

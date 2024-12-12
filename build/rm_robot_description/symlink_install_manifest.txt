@@ -4,6 +4,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf.xacro
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation.urdf
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_waking_robot.urdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_waking_robot.xacro
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/RMUL25.world
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/world/25UL/model.config
@@ -150,6 +151,7 @@
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/robot.urdf.xacro
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/sim_robot.urdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation.urdf
+/home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_waking_robot.urdf
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/urdf/simulation_waking_robot.xacro
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUC_2024.stl
 /home/aurora/RM25/install/rm_robot_description/share/rm_robot_description/meshes/RMUL_2024.stl

@@ -70,10 +70,13 @@ CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/cu
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__builder.hpp
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__struct.hpp
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_msg.hpp
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
 CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+CMakeFiles/livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -136,6 +139,9 @@ rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__struct.hpp: rosi
 rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__traits.hpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__traits.hpp
 
+rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.hpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+
 rosidl_generator_cpp/livox_ros_driver2/msg/custom_msg.hpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/livox_ros_driver2/msg/custom_msg.hpp
 
@@ -148,15 +154,20 @@ rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__struct.hpp: rosidl
 rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__traits.hpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
 
+rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+
 livox_interfaces2__cpp: CMakeFiles/livox_interfaces2__cpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_msg.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__builder.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__struct.hpp
 livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+livox_interfaces2__cpp: rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
 livox_interfaces2__cpp: CMakeFiles/livox_interfaces2__cpp.dir/build.make
 .PHONY : livox_interfaces2__cpp
 

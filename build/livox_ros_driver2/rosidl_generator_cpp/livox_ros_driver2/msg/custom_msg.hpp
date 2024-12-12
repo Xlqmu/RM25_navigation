@@ -7,5 +7,6 @@
 #include "livox_ros_driver2/msg/detail/custom_msg__struct.hpp"
 #include "livox_ros_driver2/msg/detail/custom_msg__builder.hpp"
 #include "livox_ros_driver2/msg/detail/custom_msg__traits.hpp"
+#include "livox_ros_driver2/msg/detail/custom_msg__type_support.hpp"
 
 #endif  // LIVOX_ROS_DRIVER2__MSG__CUSTOM_MSG_HPP_

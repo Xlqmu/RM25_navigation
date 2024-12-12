@@ -151,13 +151,14 @@ libros2_livox.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-libros2_livox.so: /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.7.0
+libros2_livox.so: /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.9.1
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 libros2_livox.so: /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.14.0
+libros2_livox.so: /usr/lib/x86_64-linux-gnu/libtbb.so.12.5
 libros2_livox.so: /opt/ros/humble/lib/libclass_loader.so
 libros2_livox.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libros2_livox.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so

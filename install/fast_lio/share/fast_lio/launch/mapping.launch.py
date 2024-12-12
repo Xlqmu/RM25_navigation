@@ -1,1 +1,0 @@
-/home/aurora/RM25/src/rm_localization/FAST_LIO/launch/mapping.launch.py

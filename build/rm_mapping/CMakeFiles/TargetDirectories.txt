@@ -1,0 +1,10 @@
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/uninstall.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/rm_mapping_uninstall.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/map_server_node.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/test.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/edit_cache.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/rebuild_cache.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/list_install_components.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/install.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/install/local.dir
+/home/aurora/RM25/build/rm_mapping/CMakeFiles/install/strip.dir

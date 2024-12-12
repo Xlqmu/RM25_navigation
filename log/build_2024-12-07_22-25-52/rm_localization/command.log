@@ -1,0 +1,6 @@
+Invoking command in '/home/aurora/RM25/build/rm_localization': /usr/bin/cmake /home/aurora/RM25/src/rm_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_localization
+Invoked command in '/home/aurora/RM25/build/rm_localization' returned '0': /usr/bin/cmake /home/aurora/RM25/src/rm_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_localization
+Invoking command in '/home/aurora/RM25/build/rm_localization': /usr/bin/cmake --build /home/aurora/RM25/build/rm_localization -- -j20 -l20
+Invoked command in '/home/aurora/RM25/build/rm_localization' returned '0': /usr/bin/cmake --build /home/aurora/RM25/build/rm_localization -- -j20 -l20
+Invoking command in '/home/aurora/RM25/build/rm_localization': /usr/bin/cmake --install /home/aurora/RM25/build/rm_localization
+Invoked command in '/home/aurora/RM25/build/rm_localization' returned '0': /usr/bin/cmake --install /home/aurora/RM25/build/rm_localization

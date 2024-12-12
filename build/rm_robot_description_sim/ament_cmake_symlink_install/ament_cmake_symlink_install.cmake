@@ -316,6 +316,9 @@ ament_cmake_symlink_install_directory("/home/aurora/RM25/src/rm_simulation/rm_ro
 # install(DIRECTORY "launch" "DESTINATION" "share/rm_robot_description_sim")
 ament_cmake_symlink_install_directory("/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim" DIRECTORY "launch" "DESTINATION" "share/rm_robot_description_sim")
 
+# install(DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim" DIRECTORY "include/" "DESTINATION" "include")
+
 # install("TARGETS" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
 include("/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
@@ -378,6 +381,9 @@ ament_cmake_symlink_install_files("/home/aurora/RM25/src/rm_simulation/rm_robot_
 
 # install(FILES "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rm_robot_description_sim/cmake")
 ament_cmake_symlink_install_files("/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim" FILES "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rm_robot_description_sim/cmake")
+
+# install(FILES "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/rm_robot_description_sim/cmake")
+ament_cmake_symlink_install_files("/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim" FILES "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/rm_robot_description_sim/cmake")
 
 # install(FILES "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_core/rm_robot_description_simConfig.cmake" "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_core/rm_robot_description_simConfig-version.cmake" "DESTINATION" "share/rm_robot_description_sim/cmake")
 ament_cmake_symlink_install_files("/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim" FILES "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_core/rm_robot_description_simConfig.cmake" "/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_core/rm_robot_description_simConfig-version.cmake" "DESTINATION" "share/rm_robot_description_sim/cmake")

@@ -247,8 +247,8 @@ CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o: \
  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
  /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
  /usr/include/boost/smart_ptr/detail/local_counted_base.hpp \
- /usr/include/sdformat-9.7/sdf/sdf.hh \
- /usr/include/sdformat-9.7/sdf/Actor.hh \
+ /usr/include/sdformat-9.9/sdf/sdf.hh \
+ /usr/include/sdformat-9.9/sdf/Actor.hh \
  /usr/include/ignition/math6/ignition/math/Pose3.hh \
  /usr/include/ignition/math6/gz/math/Pose3.hh \
  /usr/include/ignition/math6/gz/math/Quaternion.hh \
@@ -313,8 +313,8 @@ CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o: \
  /usr/include/c++/11/bits/fstream.tcc \
  /usr/include/ignition/math6/gz/math/Matrix3.hh \
  /usr/include/ignition/math6/ignition/math/config.hh \
- /usr/include/sdformat-9.7/sdf/Element.hh /usr/include/c++/11/any \
- /usr/include/sdformat-9.7/sdf/Param.hh /usr/include/c++/11/variant \
+ /usr/include/sdformat-9.9/sdf/Element.hh /usr/include/c++/11/any \
+ /usr/include/sdformat-9.9/sdf/Param.hh /usr/include/c++/11/variant \
  /usr/include/ignition/math6/ignition/math.hh \
  /usr/include/ignition/math6/gz/math.hh \
  /usr/include/ignition/math6/gz/math/graph/Edge.hh \
@@ -380,61 +380,62 @@ CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o: \
  /usr/include/ignition/math6/gz/math/Temperature.hh \
  /usr/include/ignition/math6/gz/math/Triangle.hh \
  /usr/include/ignition/math6/gz/math/Vector3Stats.hh \
- /usr/include/sdformat-9.7/sdf/Console.hh \
- /usr/include/sdformat-9.7/sdf/sdf_config.h \
- /usr/include/sdformat-9.7/sdf/system_util.hh \
- /usr/include/sdformat-9.7/sdf/Types.hh \
- /usr/include/sdformat-9.7/sdf/Error.hh \
- /usr/include/sdformat-9.7/sdf/Link.hh \
- /usr/include/sdformat-9.7/sdf/SemanticPose.hh \
- /usr/include/sdformat-9.7/sdf/Joint.hh \
- /usr/include/sdformat-9.7/sdf/AirPressure.hh \
- /usr/include/sdformat-9.7/sdf/Noise.hh \
- /usr/include/sdformat-9.7/sdf/Altimeter.hh \
- /usr/include/sdformat-9.7/sdf/Assert.hh \
- /usr/include/sdformat-9.7/sdf/Exception.hh \
- /usr/include/sdformat-9.7/sdf/Atmosphere.hh \
+ /usr/include/sdformat-9.9/sdf/Console.hh \
+ /usr/include/sdformat-9.9/sdf/sdf_config.h \
+ /usr/include/sdformat-9.9/sdf/system_util.hh \
+ /usr/include/sdformat-9.9/sdf/Types.hh \
+ /usr/include/sdformat-9.9/sdf/Error.hh \
+ /usr/include/sdformat-9.9/sdf/Link.hh \
+ /usr/include/sdformat-9.9/sdf/SemanticPose.hh \
+ /usr/include/sdformat-9.9/sdf/Joint.hh \
+ /usr/include/sdformat-9.9/sdf/AirPressure.hh \
+ /usr/include/sdformat-9.9/sdf/Noise.hh \
+ /usr/include/sdformat-9.9/sdf/Altimeter.hh \
+ /usr/include/sdformat-9.9/sdf/Assert.hh \
+ /usr/include/sdformat-9.9/sdf/Exception.hh \
+ /usr/include/sdformat-9.9/sdf/Atmosphere.hh \
  /usr/include/ignition/math6/ignition/math/Temperature.hh \
- /usr/include/sdformat-9.7/sdf/Box.hh \
+ /usr/include/sdformat-9.9/sdf/Box.hh \
  /usr/include/ignition/math6/ignition/math/Box.hh \
  /usr/include/ignition/math6/ignition/math/Vector3.hh \
- /usr/include/sdformat-9.7/sdf/Camera.hh \
- /usr/include/sdformat-9.7/sdf/Collision.hh \
- /usr/include/sdformat-9.7/sdf/Cylinder.hh \
+ /usr/include/sdformat-9.9/sdf/Camera.hh \
+ /usr/include/sdformat-9.9/sdf/Collision.hh \
+ /usr/include/sdformat-9.9/sdf/Cylinder.hh \
  /usr/include/ignition/math6/ignition/math/Cylinder.hh \
- /usr/include/sdformat-9.7/sdf/Filesystem.hh \
- /usr/include/sdformat-9.7/sdf/ForceTorque.hh \
- /usr/include/sdformat-9.7/sdf/Frame.hh \
- /usr/include/sdformat-9.7/sdf/Geometry.hh \
- /usr/include/sdformat-9.7/sdf/Gui.hh \
- /usr/include/sdformat-9.7/sdf/Heightmap.hh \
- /usr/include/sdformat-9.7/sdf/Imu.hh \
- /usr/include/sdformat-9.7/sdf/JointAxis.hh \
- /usr/include/sdformat-9.7/sdf/Lidar.hh \
+ /usr/include/sdformat-9.9/sdf/Filesystem.hh \
+ /usr/include/sdformat-9.9/sdf/ForceTorque.hh \
+ /usr/include/sdformat-9.9/sdf/Frame.hh \
+ /usr/include/sdformat-9.9/sdf/Geometry.hh \
+ /usr/include/sdformat-9.9/sdf/Gui.hh \
+ /usr/include/sdformat-9.9/sdf/Heightmap.hh \
+ /usr/include/sdformat-9.9/sdf/Imu.hh \
+ /usr/include/sdformat-9.9/sdf/JointAxis.hh \
+ /usr/include/sdformat-9.9/sdf/Lidar.hh \
  /usr/include/ignition/math6/ignition/math/Angle.hh \
- /usr/include/sdformat-9.7/sdf/Light.hh \
- /usr/include/sdformat-9.7/sdf/Magnetometer.hh \
- /usr/include/sdformat-9.7/sdf/Material.hh \
- /usr/include/sdformat-9.7/sdf/Mesh.hh \
- /usr/include/sdformat-9.7/sdf/Model.hh \
- /usr/include/sdformat-9.7/sdf/NavSat.hh \
- /usr/include/sdformat-9.7/sdf/parser.hh \
- /usr/include/sdformat-9.7/sdf/SDFImpl.hh \
- /usr/include/sdformat-9.7/sdf/Pbr.hh \
- /usr/include/sdformat-9.7/sdf/Physics.hh \
- /usr/include/sdformat-9.7/sdf/Plane.hh \
+ /usr/include/sdformat-9.9/sdf/Light.hh \
+ /usr/include/sdformat-9.9/sdf/Magnetometer.hh \
+ /usr/include/sdformat-9.9/sdf/Material.hh \
+ /usr/include/sdformat-9.9/sdf/Mesh.hh \
+ /usr/include/sdformat-9.9/sdf/Model.hh \
+ /usr/include/sdformat-9.9/sdf/NavSat.hh \
+ /usr/include/sdformat-9.9/sdf/parser.hh \
+ /usr/include/sdformat-9.9/sdf/SDFImpl.hh \
+ /usr/include/sdformat-9.9/sdf/Pbr.hh \
+ /usr/include/sdformat-9.9/sdf/Physics.hh \
+ /usr/include/sdformat-9.9/sdf/Plane.hh \
  /usr/include/ignition/math6/ignition/math/Plane.hh \
  /usr/include/ignition/math6/ignition/math/Vector2.hh \
- /usr/include/sdformat-9.7/sdf/Root.hh \
- /usr/include/sdformat-9.7/sdf/Scene.hh \
+ /usr/include/sdformat-9.9/sdf/Polyline.hh \
+ /usr/include/sdformat-9.9/sdf/Root.hh \
+ /usr/include/sdformat-9.9/sdf/Scene.hh \
  /usr/include/ignition/math6/ignition/math/Color.hh \
- /usr/include/sdformat-9.7/sdf/Sky.hh \
- /usr/include/sdformat-9.7/sdf/Sensor.hh \
- /usr/include/sdformat-9.7/sdf/Sphere.hh \
+ /usr/include/sdformat-9.9/sdf/Sky.hh \
+ /usr/include/sdformat-9.9/sdf/Sensor.hh \
+ /usr/include/sdformat-9.9/sdf/Sphere.hh \
  /usr/include/ignition/math6/ignition/math/Sphere.hh \
- /usr/include/sdformat-9.7/sdf/Surface.hh \
- /usr/include/sdformat-9.7/sdf/Visual.hh \
- /usr/include/sdformat-9.7/sdf/World.hh \
+ /usr/include/sdformat-9.9/sdf/Surface.hh \
+ /usr/include/sdformat-9.9/sdf/Visual.hh \
+ /usr/include/sdformat-9.9/sdf/World.hh \
  /usr/include/gazebo-11/gazebo/transport/TransportTypes.hh \
  /usr/include/boost/shared_ptr.hpp /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/stubs/casts.h \

@@ -1,0 +1,187 @@
+[0.018s] Invoking command in '/home/aurora/RM25/build/livox_interfaces': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 /usr/bin/cmake /home/aurora/RM25/src/livox_interfaces -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/livox_interfaces
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.140s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.160s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.200s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.399s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.785s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.785s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.785s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.811s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.820s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.821s] -- Added test 'lint_cmake' to check CMake code style
+[0.821s] -- Added test 'xmllint' to check XML markup files
+[0.825s] -- Configuring done
+[0.843s] -- Generating done
+[0.849s] -- Build files have been written to: /home/aurora/RM25/build/livox_interfaces
+[0.854s] Invoked command in '/home/aurora/RM25/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 /usr/bin/cmake /home/aurora/RM25/src/livox_interfaces -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/livox_interfaces
+[0.855s] Invoking command in '/home/aurora/RM25/build/livox_interfaces': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 /usr/bin/cmake --build /home/aurora/RM25/build/livox_interfaces -- -j20 -l20
+[0.888s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_generator_c[0m
+[0.898s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.899s] [ 12%] Built target livox_interfaces__rosidl_generator_c
+[0.905s] [ 12%] Built target ament_cmake_python_symlink_livox_interfaces
+[0.906s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_c[0m
+[0.906s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_introspection_c[0m
+[0.909s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.916s] [ 33%] Built target livox_interfaces__rosidl_typesupport_c
+[0.916s] [ 33%] Built target livox_interfaces__rosidl_typesupport_introspection_c
+[0.921s] [ 43%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c
+[1.071s] running egg_info
+[1.072s] writing livox_interfaces.egg-info/PKG-INFO
+[1.072s] writing dependency_links to livox_interfaces.egg-info/dependency_links.txt
+[1.072s] writing top-level names to livox_interfaces.egg-info/top_level.txt
+[1.077s] reading manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[1.077s] writing manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[1.098s] [ 43%] Built target ament_cmake_python_build_livox_interfaces_egg
+[1.146s] [ 43%] Built target livox_interfaces__cpp
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_cpp[0m
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.167s] [ 48%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_point__type_support.cpp.o[0m
+[1.167s] [ 48%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_point__type_support.cpp.o[0m
+[1.169s] [ 51%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[1.169s] [ 53%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_msg__type_support.cpp.o[0m
+[1.169s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[1.169s] [ 58%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__type_support.cpp.o[0m
+[1.422s] [ 61%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_cpp.so[0m
+[1.447s] [ 64%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.454s] [ 66%] Built target livox_interfaces__rosidl_typesupport_cpp
+[1.497s] [ 69%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.501s] [ 71%] Built target livox_interfaces__rosidl_typesupport_introspection_cpp
+[1.549s] [ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.565s] [ 74%] Built target livox_interfaces
+[1.582s] [ 76%] Built target livox_interfaces__py
+[1.591s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_generator_py[0m
+[1.600s] [ 84%] Built target livox_interfaces__rosidl_generator_py
+[1.610s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.610s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.610s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_c__pyext[0m
+[1.619s] [ 94%] Built target livox_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.619s] [ 94%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.620s] [100%] Built target livox_interfaces__rosidl_typesupport_c__pyext
+[1.630s] Invoked command in '/home/aurora/RM25/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 /usr/bin/cmake --build /home/aurora/RM25/build/livox_interfaces -- -j20 -l20
+[1.632s] Invoking command in '/home/aurora/RM25/build/livox_interfaces': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 /usr/bin/cmake --install /home/aurora/RM25/build/livox_interfaces
+[1.637s] -- Install configuration: ""
+[1.638s] -- Execute custom install script
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_msg.h
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_point.h
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__functions.h
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__struct.h
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.h
+[1.638s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__functions.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__struct.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/library_path.sh
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/library_path.dsv
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_msg.hpp
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_point.hpp
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__builder.hpp
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__struct.hpp
+[1.639s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__traits.hpp
+[1.639s] -- Symlinking: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.hpp
+[1.646s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__builder.hpp
+[1.646s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__struct.hpp
+[1.646s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__traits.hpp
+[1.646s] -- Symlinking: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.hpp
+[1.653s] -- Symlinking: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.659s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.sh
+[1.660s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.dsv
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/__init__.py
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c
+[1.661s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/liblivox_interfaces__rosidl_generator_py.so
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/__init__.py
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg.py
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg_s.c
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point.py
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point_s.c
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.662s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.idl
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.idl
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.msg
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.msg
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/ament_index/resource_index/package_run_dependencies/livox_interfaces
+[1.663s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/ament_index/resource_index/parent_prefix_path/livox_interfaces
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.sh
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.dsv
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/path.sh
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/environment/path.dsv
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/local_setup.bash
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/local_setup.sh
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/local_setup.zsh
+[1.664s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/local_setup.dsv
+[1.664s] -- Symlinking: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/package.dsv
+[1.671s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/ament_index/resource_index/packages/livox_interfaces
+[1.671s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.671s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.671s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig-version.cmake
+[1.672s] -- Up-to-date symlink: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/package.xml
+[1.672s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so
+[1.672s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.672s] -- Installing: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.673s] -- Set runtime path of "/home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.673s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so
+[1.673s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so
+[1.673s] -- Installing: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.673s] -- Set runtime path of "/home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[1.673s] -- Installing: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so
+[1.673s] -- Set runtime path of "/home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so" to ""
+[1.698s] Listing '/home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces'...
+[1.698s] Compiling '/home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/__init__.py'...
+[1.698s] Listing '/home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg'...
+[1.700s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_py.so
+[1.700s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cppExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport.cmake
+[1.701s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.702s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_pyExport.cmake
+[1.702s] -- Up-to-date: /home/aurora/RM25/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.703s] Invoked command in '/home/aurora/RM25/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 /usr/bin/cmake --install /home/aurora/RM25/build/livox_interfaces

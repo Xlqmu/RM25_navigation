@@ -25,14 +25,14 @@ def get_world_config(world_type):
             'y': '7.6',
             'z': '0.2',
             'yaw': '0.0',
-            'world_path': '/home/aurora/RM25/src/rm_robot_description/world/RMUC24_world.world'
+            'world_path': '/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/world/RMUC24_world.world'
         },
         WorldType.RMUL: {
             'x': '4.3',
             'y': '3.35',
             'z': '1.16',
             'yaw': '0.0',
-            'world_path': '/home/aurora/RM25/src/rm_robot_description/world/RMUL25.world'
+            'world_path': '/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/world/RMUL25.world'
             # 'world_path': 'RMUL2024_world/RMUL2024_world_dynamic_obstacles.world'
         }
     }
@@ -40,23 +40,23 @@ def get_world_config(world_type):
 
 def generate_launch_description():
     # Get the launch directory
-    bringup_dir = get_package_share_directory('rm_robot_description')
+    bringup_dir = get_package_share_directory('rm_robot_description_sim')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
     # fastlio_package_share = get_package_share_directory('FAST_LIO')
     # fastlio_launch_dir = os.path.join(fastlio_package_share, 'launch','mapping.launch.py')
     # Specify xacro path
     default_robot_description = Command(['xacro ', os.path.join(
-    get_package_share_directory('rm_robot_description'), 'urdf', 'simulation_waking_robot.xacro')])
+    get_package_share_directory('rm_robot_description_sim'), 'urdf', 'simulation_waking_robot.xacro')])
 
     # Create the launch configuration variables
-    use_sim_time = LaunchConfiguration('use_sim_time')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     use_rviz = LaunchConfiguration('rviz', default='true')
     robot_description = LaunchConfiguration('robot_description')
 
     # Set Gazebo plugin path
     append_enviroment = AppendEnvironmentVariable(
         'GAZEBO_PLUGIN_PATH',
-        os.path.join(os.path.join(get_package_share_directory('rm_robot_description'), 'meshes', 'obstacles', 'obstacle_plugin', 'lib'))
+        os.path.join(os.path.join(get_package_share_directory('rm_robot_description_sim'), 'meshes', 'obstacles', 'obstacle_plugin', 'lib'))
     )
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -104,13 +104,13 @@ def generate_launch_description():
         executable='robot_state_publisher',
         name='robot_state_publisher',
         parameters=[{
-            'use_sim_time': use_sim_time,
+            'use_sim_time': True,
             'robot_description': robot_description
         }],
         output='screen'
     )
 
-    start_rviz_cmd = Node(
+    start_rviz2_cmd = Node(
         condition=IfCondition(use_rviz),
         package='rviz2',
         namespace='',
@@ -118,38 +118,15 @@ def generate_launch_description():
         arguments=['-d' + os.path.join(bringup_dir, 'rviz', 'rviz2.rviz')]
     )
 
-    # 包含 gazebo_ros_factory 节点
-    gazebo_ros_factory = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=['-entity', 'robot', '-topic', 'robot_description'],
-        output='screen'
-    )
 
-# ## 加了map的node，因为没有fixframe
-#      # 添加静态TF发布节点
-#     static_tf_map_to_base = Node(
-#         package='tf2_ros',
-#         executable='static_transform_publisher',
-#         name='static_tf_map_to_base',
-#         arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_link']
-#     )
-
-    # 添加静态TF发布节点 (odom 到 base_link)
-    #static_tf_odom_to_base = Node(
-    #    package='tf2_ros',
-    #    executable='static_transform_publisher',
-    #    name='static_tf_odom_to_base',
-    #    arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_link']
-    #)
-
-    # 包含 fastlio2 启动文件
-    # fastlio_launch = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(fastlio_launch_dir),
-    #     launch_arguments={
-    #         'use_sim_time': use_sim_time,
-    #         # 根据需要传递其他参数
-    #     }.items()
+    # 添加激光雷达驱动节点（示例）
+    # lidar_node = Node(
+    #     package='livox_ros_driver2',  # 替换为实际使用的激光雷达驱动包名
+    #     executable='livox_ros2_driver_node',  # 替换为实际的可执行文件
+    #     name='livox_lidar',
+    #     output='screen',
+    #     parameters=[{'use_sim_time': use_sim_time}],
+    #     remappings=[('/livox/lidar/pointcloud', '/scan')]  # 根据需要调整话题名称
     # )
 
     def create_gazebo_launch_group(world_type):
@@ -164,7 +141,7 @@ def generate_launch_description():
                     package='gazebo_ros',
                     executable='spawn_entity.py',
                     arguments=[
-                        '-entity', 'robot',
+                        '-entity', f'robot_{world_type.lower()}',
                         '-topic', 'robot_description',
                         '-x', world_config['x'],
                         '-y', world_config['y'],
@@ -197,10 +174,10 @@ def generate_launch_description():
     ld.add_action(start_robot_state_publisher_cmd)
     ld.add_action(bringup_RMUL_cmd_group) # type: ignore
     ld.add_action(bringup_RMUC_cmd_group) # type: ignore
-
+    # ld.add_action(lidar_node)
     # Uncomment this line if you want to start RViz
-    ld.add_action(start_rviz_cmd)
-    ld.add_action(gazebo_ros_factory)
+    ld.add_action(start_rviz2_cmd)
+    # ld.add_action(gazebo_ros_factory)
     # ld.add_action(static_tf_map_to_base)
     # ld.add_action(fastlio_launch)
     return ld

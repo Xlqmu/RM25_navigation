@@ -16,9 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__builder.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
   "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__struct.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
   "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__traits.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
+  "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
   "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__builder.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
   "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__struct.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
   "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__traits.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
+  "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.hpp" "/home/aurora/RM25/build/livox_ros_driver2/rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp"
   )
 
 

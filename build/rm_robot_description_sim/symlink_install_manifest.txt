@@ -1,6 +1,8 @@
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/four_omniwheel_robot.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/mid360.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/mid360.xacro
+/home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/omni.sdf
+/home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/omni.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/robot.urdf.xacro
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/sim_robot.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/simulation_waking_robot.xacro
@@ -138,6 +140,9 @@
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/launch/robot,launch.py
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/launch/robot.launch.py
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/launch/robotv2.launch.py
+/home/aurora/RM25/install/rm_robot_description_sim/include/csv_reader.hpp
+/home/aurora/RM25/install/rm_robot_description_sim/include/livox_ode_multiray_shape.h
+/home/aurora/RM25/install/rm_robot_description_sim/include/livox_points_plugin.h
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/launch/build/.built_by
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/launch/build/COLCON_IGNORE
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/launch/install/.colcon_install_layout
@@ -169,6 +174,8 @@
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/four_omniwheel_robot.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/mid360.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/mid360.xacro
+/home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/omni.sdf
+/home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/omni.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/robot.urdf.xacro
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/sim_robot.urdf
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/urdf/simulation_waking_robot.xacro
@@ -265,6 +272,7 @@
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/package.dsv
 /home/aurora/RM25/install/rm_robot_description_sim/share/ament_index/resource_index/packages/rm_robot_description_sim
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/cmake/ament_cmake_export_include_directories-extras.cmake
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/cmake/rm_robot_description_simConfig.cmake
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/cmake/rm_robot_description_simConfig-version.cmake
 /home/aurora/RM25/install/rm_robot_description_sim/share/rm_robot_description_sim/package.xml
