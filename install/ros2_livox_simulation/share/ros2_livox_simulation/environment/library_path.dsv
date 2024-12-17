@@ -1,1 +1,1 @@
-/home/aurora/RM25/build/ros2_livox_simulation/ament_cmake_environment_hooks/library_path.dsv
+prepend-non-duplicate;LD_LIBRARY_PATH;lib

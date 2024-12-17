@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/home/aurora/RM25/build/rm_robot_description_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/build/rm_robot_description_sim -- -j20 -l20
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target rm_robot_description_sim[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o[0m
+[2.052s] [01m[K/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/src/control_robot_keyboard.cpp:[m[K In member function ‘[01m[Kvoid ControlPublisherNode::processKey(char)[m[K’:
+[2.052s] [01m[K/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/src/control_robot_keyboard.cpp:118:28:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kmode[m[K’ set but not used [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Werror=unused-but-set-variable]8;;[m[K]
+[2.052s]   118 |         static ControlMode [01;31m[Kmode[m[K = LINEAR;
+[2.052s]       |                            [01;31m[K^~~~[m[K
+[6.377s] cc1plus: all warnings being treated as errors
+[6.400s] gmake[2]: *** [CMakeFiles/rm_robot_description_sim.dir/build.make:76：CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o] 错误 1
+[6.401s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/rm_robot_description_sim.dir/all] 错误 2
+[6.401s] gmake: *** [Makefile:146：all] 错误 2
+[6.403s] Invoked command in '/home/aurora/RM25/build/rm_robot_description_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/build/rm_robot_description_sim -- -j20 -l20

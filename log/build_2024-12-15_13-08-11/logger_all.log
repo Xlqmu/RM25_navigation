@@ -1,0 +1,334 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ros2_livox_simulation']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ros2_livox_simulation'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x702193b18e50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x702193b189a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x702193b189a0>>, mixin_verb=('build',))
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.157s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurora/RM25'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(imgs) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_interfaces) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_interfaces' with type 'ros.ament_cmake' and name 'livox_interfaces'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/Livox-SDK2) by extension 'python'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_driver/Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_driver/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_localization' with type 'ros.catkin' and name 'rm_localization'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mapping) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_mapping' with type 'ros.ament_cmake' and name 'rm_mapping'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav2_bringup) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_robot_description' with type 'ros.ament_cmake' and name 'rm_robot_description'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/rm_robot_description_sim) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_simulation/rm_robot_description_sim' with type 'ros.ament_cmake' and name 'rm_robot_description_sim'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/ros2_livox_simulation) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_simulation/ros2_livox_simulation' with type 'ros.ament_cmake' and name 'ros2_livox_simulation'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_interfaces' in 'src/livox_interfaces'
+[0.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_ros_driver2' in 'src/rm_driver/livox_ros_driver2'
+[0.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_sdk2' in 'src/rm_driver/Livox-SDK2'
+[0.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rm_localization' in 'src/rm_localization'
+[0.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rm_mapping' in 'src/rm_mapping'
+[0.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rm_robot_description_sim' in 'src/rm_simulation/rm_robot_description_sim'
+[0.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rm_robot_description' in 'src/rm_robot_description'
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aurora/RM25/install/ros2_livox_simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.214s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aurora/RM25/install/rm_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.214s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/aurora/RM25/install/ros2_livox_simulation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.214s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/aurora/RM25/install/rm_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/aurora/RM25/install
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aurora/aurora/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/aurora/ros_ws/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/aurora/RM25_aim/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/aurora/RM25/src/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/aurora/RM25/src/rm_robot_description/launch/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/aurora/turtlebot3_ws/install
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_livox_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurora/RM25/build/ros2_livox_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurora/RM25/install/ros2_livox_simulation', 'merge_install': False, 'path': '/home/aurora/RM25/src/rm_simulation/ros2_livox_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurora/RM25/src/rm_simulation/ros2_livox_simulation' with build type 'ament_cmake'
+[0.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurora/RM25/src/rm_simulation/ros2_livox_simulation'
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_simulation/ros2_livox_simulation -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/ros2_livox_simulation
+[4.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/aurora/RM25/src/rm_simulation/ros2_livox_simulation -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/ros2_livox_simulation
+[4.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/ros2_livox_simulation -- -j20 -l20
+[14.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurora/RM25/build/ros2_livox_simulation -- -j20 -l20
+[14.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurora/RM25/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/ros2_livox_simulation
+[14.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_livox_simulation)
+[14.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurora/RM25/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2 LD_LIBRARY_PATH=/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurora/RM25/build/ros2_livox_simulation
+[14.970s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation' for CMake module files
+[14.970s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation' for CMake config files
+[14.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'cmake_prefix_path')
+[14.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.ps1'
+[14.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.dsv'
+[14.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.sh'
+[14.972s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/lib'
+[14.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'ld_library_path_lib')
+[14.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.ps1'
+[14.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.dsv'
+[14.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.sh'
+[14.974s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/bin'
+[14.974s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/lib/pkgconfig/ros2_livox_simulation.pc'
+[14.974s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/lib/python3.10/site-packages'
+[14.974s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/bin'
+[14.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.ps1'
+[14.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv'
+[14.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.sh'
+[14.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.bash'
+[14.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.zsh'
+[14.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurora/RM25/install/ros2_livox_simulation/share/colcon-core/packages/ros2_livox_simulation)
+[14.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_livox_simulation)
+[14.978s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation' for CMake module files
+[14.978s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation' for CMake config files
+[14.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'cmake_prefix_path')
+[14.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.ps1'
+[14.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.dsv'
+[14.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.sh'
+[14.979s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/lib'
+[14.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'ld_library_path_lib')
+[14.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.ps1'
+[14.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.dsv'
+[14.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.sh'
+[14.979s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/bin'
+[14.979s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/lib/pkgconfig/ros2_livox_simulation.pc'
+[14.980s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/lib/python3.10/site-packages'
+[14.980s] Level 1:colcon.colcon_core.environment:checking '/home/aurora/RM25/install/ros2_livox_simulation/bin'
+[14.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.ps1'
+[14.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv'
+[14.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.sh'
+[14.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.bash'
+[14.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.zsh'
+[14.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurora/RM25/install/ros2_livox_simulation/share/colcon-core/packages/ros2_livox_simulation)
+[14.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.982s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.985s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/install/local_setup.ps1'
+[14.999s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurora/RM25/install/_local_setup_util_ps1.py'
+[15.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/install/setup.ps1'
+[15.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/install/local_setup.sh'
+[15.001s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurora/RM25/install/_local_setup_util_sh.py'
+[15.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/install/setup.sh'
+[15.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/install/local_setup.bash'
+[15.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/install/setup.bash'
+[15.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurora/RM25/install/local_setup.zsh'
+[15.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurora/RM25/install/setup.zsh'

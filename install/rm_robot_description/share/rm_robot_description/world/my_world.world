@@ -1,1 +1,7 @@
-/home/aurora/RM25/src/rm_robot_description/world/my_world.world
+<!-- my_world.world -->
+<sdf version="1.6">
+  <world name="default">
+    <!-- Include Gazebo ROS Factory plugin for spawning entities -->
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+  </world>
+</sdf>

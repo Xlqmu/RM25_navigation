@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target rm_robot_description_sim[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o[0m
+[01m[K/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/src/control_robot_keyboard.cpp:139:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ControlPublisherNode::poseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid ControlPublisherNode::poseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+  139 |     void [01;31m[KposeCallback[m[K(const nav_msgs::msg::Odometry::SharedPtr odom) {
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/src/control_robot_keyboard.cpp:37:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid ControlPublisherNode::poseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+   37 |     void [01;36m[KposeCallback[m[K(const nav_msgs::msg::Odometry::SharedPtr odom) {
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rm_robot_description_sim.dir/build.make:76：CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/rm_robot_description_sim.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/aurora/RM25/build/rm_robot_description_sim
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/rm_robot_description_sim.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/rm_robot_description_sim_uninstall.dir/clean
+clean: CMakeFiles/rm_robot_description_sim.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ rm_robot_description_sim_uninstall: CMakeFiles/rm_robot_description_sim_uninstal
 CMakeFiles/rm_robot_description_sim_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim_uninstall.dir/build.make CMakeFiles/rm_robot_description_sim_uninstall.dir/clean
 .PHONY : CMakeFiles/rm_robot_description_sim_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rm_robot_description_sim.dir
+
+# All Build rule for target.
+CMakeFiles/rm_robot_description_sim.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aurora/RM25/build/rm_robot_description_sim/CMakeFiles --progress-num=1,2 "Built target rm_robot_description_sim"
+.PHONY : CMakeFiles/rm_robot_description_sim.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rm_robot_description_sim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/RM25/build/rm_robot_description_sim/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rm_robot_description_sim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/RM25/build/rm_robot_description_sim/CMakeFiles 0
+.PHONY : CMakeFiles/rm_robot_description_sim.dir/rule
+
+# Convenience name for target.
+rm_robot_description_sim: CMakeFiles/rm_robot_description_sim.dir/rule
+.PHONY : rm_robot_description_sim
+
+# clean rule for target.
+CMakeFiles/rm_robot_description_sim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/clean
+.PHONY : CMakeFiles/rm_robot_description_sim.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,1 +1,2 @@
-/home/aurora/RM25/build/rm_robot_description_sim/ament_cmake_environment_hooks/local_setup.dsv
+source;share/rm_robot_description_sim/environment/ament_prefix_path.sh
+source;share/rm_robot_description_sim/environment/path.sh

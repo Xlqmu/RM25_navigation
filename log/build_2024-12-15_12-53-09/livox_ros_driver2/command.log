@@ -1,0 +1,1 @@
+Invoking command in '/home/aurora/RM25/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble /usr/bin/cmake /home/aurora/RM25/src/rm_driver/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/livox_ros_driver2

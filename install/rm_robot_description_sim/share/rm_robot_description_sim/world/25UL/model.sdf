@@ -1,1 +1,7 @@
-/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/world/25UL/model.sdf
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='25UL'>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

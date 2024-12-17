@@ -1,9 +1,0 @@
-/home/aurora/RM25/build/rm_localization/CMakeFiles/uninstall.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/rm_localization_uninstall.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/test.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/edit_cache.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/rebuild_cache.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/list_install_components.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/install.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/install/local.dir
-/home/aurora/RM25/build/rm_localization/CMakeFiles/install/strip.dir

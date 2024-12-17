@@ -1,4 +1,0 @@
-Invoking command in '/home/aurora/RM25/build/rm_localization': /usr/bin/cmake --build /home/aurora/RM25/build/rm_localization -- -j20 -l20
-Invoked command in '/home/aurora/RM25/build/rm_localization' returned '0': /usr/bin/cmake --build /home/aurora/RM25/build/rm_localization -- -j20 -l20
-Invoking command in '/home/aurora/RM25/build/rm_localization': /usr/bin/cmake --install /home/aurora/RM25/build/rm_localization
-Invoked command in '/home/aurora/RM25/build/rm_localization' returned '0': /usr/bin/cmake --install /home/aurora/RM25/build/rm_localization

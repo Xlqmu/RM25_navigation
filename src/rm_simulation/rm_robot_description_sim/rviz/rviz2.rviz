@@ -8,12 +8,11 @@ Panels:
         - /Status1
         - /PointCloud21
         - /LaserScan1
-        - /LaserScan1/Status1
+        - /LaserScan1/Topic1
         - /TF1
         - /RobotModel1
         - /RobotModel1/Description Topic1
         - /Map1
-        - /Map1/Status1
         - /Map1/Topic1
       Splitter Ratio: 0.5
     Tree Height: 596
@@ -79,10 +78,10 @@ Visualization Manager:
         Value: /camera_sensor/image_raw
       Value: false
       Visibility:
-        "": true
         Grid: true
         Image: true
         LaserScan: true
+        Map: true
         PointCloud2: true
         RobotModel: true
         TF: true
@@ -91,8 +90,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 9.62706470489502
-        Min Value: -0.0572148859500885
+        Max Value: 2.418516159057617
+        Min Value: -0.05783285200595856
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -163,9 +162,11 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        livox_link:
+        dummy:
           Value: true
-        odom:
+        imu_link:
+          Value: true
+        livox_frame:
           Value: true
         wheel_1:
           Value: true
@@ -181,9 +182,11 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        odom:
+        dummy:
           base_link:
-            livox_link:
+            imu_link:
+              {}
+            livox_frame:
               {}
             wheel_1:
               {}
@@ -218,12 +221,16 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        livox_link:
+        dummy:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        imu_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        odom:
+        livox_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -329,18 +336,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.027330167591571808
-        Y: -0.4545077383518219
-        Z: 0.3781740367412567
+        X: -1.9485968351364136
+        Y: -3.0266451835632324
+        Z: 0.4321679472923279
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.592147707939148
+      Pitch: 0.9371474981307983
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.4887309074401855
+      Yaw: 0.3637312650680542
     Saved: ~
 Window Geometry:
   Camera:

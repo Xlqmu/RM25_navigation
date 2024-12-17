@@ -1,0 +1,2 @@
+Invoking command in '/home/aurora/RM25/build/rm_localization': /usr/bin/cmake /home/aurora/RM25/src/rm_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_localization
+Invoked command in '/home/aurora/RM25/build/rm_localization' returned '1': /usr/bin/cmake /home/aurora/RM25/src/rm_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/rm_localization

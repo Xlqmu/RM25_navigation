@@ -1,0 +1,13 @@
+[0.013s] Invoking command in '/home/aurora/RM25/build/rm_robot_description_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/build/rm_robot_description_sim -- -j20 -l20
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target rm_robot_description_sim[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o[0m
+[1.875s] [01m[K/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/src/control_robot_keyboard.cpp:139:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ControlPublisherNode::poseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid ControlPublisherNode::poseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[1.875s]   139 |     void [01;31m[KposeCallback[m[K(const nav_msgs::msg::Odometry::SharedPtr odom) {
+[1.875s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[1.875s] [01m[K/home/aurora/RM25/src/rm_simulation/rm_robot_description_sim/src/control_robot_keyboard.cpp:37:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid ControlPublisherNode::poseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[1.875s]    37 |     void [01;36m[KposeCallback[m[K(const nav_msgs::msg::Odometry::SharedPtr odom) {
+[1.875s]       |          [01;36m[K^~~~~~~~~~~~[m[K
+[3.758s] gmake[2]: *** [CMakeFiles/rm_robot_description_sim.dir/build.make:76：CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o] 错误 1
+[3.758s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/rm_robot_description_sim.dir/all] 错误 2
+[3.759s] gmake: *** [Makefile:146：all] 错误 2
+[3.761s] Invoked command in '/home/aurora/RM25/build/rm_robot_description_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble /usr/bin/cmake --build /home/aurora/RM25/build/rm_robot_description_sim -- -j20 -l20

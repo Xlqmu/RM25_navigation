@@ -197,6 +197,43 @@ rm_robot_description_sim_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim_uninstall.dir/build.make CMakeFiles/rm_robot_description_sim_uninstall.dir/build
 .PHONY : rm_robot_description_sim_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named rm_robot_description_sim
+
+# Build rule for target.
+rm_robot_description_sim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rm_robot_description_sim
+.PHONY : rm_robot_description_sim
+
+# fast build rule for target.
+rm_robot_description_sim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/build
+.PHONY : rm_robot_description_sim/fast
+
+src/control_robot_keyboard.o: src/control_robot_keyboard.cpp.o
+.PHONY : src/control_robot_keyboard.o
+
+# target to build an object file
+src/control_robot_keyboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.o
+.PHONY : src/control_robot_keyboard.cpp.o
+
+src/control_robot_keyboard.i: src/control_robot_keyboard.cpp.i
+.PHONY : src/control_robot_keyboard.i
+
+# target to preprocess a source file
+src/control_robot_keyboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.i
+.PHONY : src/control_robot_keyboard.cpp.i
+
+src/control_robot_keyboard.s: src/control_robot_keyboard.cpp.s
+.PHONY : src/control_robot_keyboard.s
+
+# target to generate assembly for a file
+src/control_robot_keyboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_robot_description_sim.dir/build.make CMakeFiles/rm_robot_description_sim.dir/src/control_robot_keyboard.cpp.s
+.PHONY : src/control_robot_keyboard.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... rm_robot_description_sim_uninstall"
 	@echo "... uninstall"
+	@echo "... rm_robot_description_sim"
+	@echo "... src/control_robot_keyboard.o"
+	@echo "... src/control_robot_keyboard.i"
+	@echo "... src/control_robot_keyboard.s"
 .PHONY : help
 
 

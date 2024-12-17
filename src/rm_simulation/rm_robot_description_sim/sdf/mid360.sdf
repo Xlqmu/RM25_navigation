@@ -24,7 +24,7 @@
     </joint>
 
     <!-- 定义传感器 -->
-    <link name='mid360_sensor_link'>
+    <link name='mid360_link'>
       <sensor name='mid360' type='ray'>
         <pose>0 0 0 0 0 0</pose>
         <update_rate>10</update_rate>
@@ -56,7 +56,7 @@
           </noise>
         </ray>
         <!-- 插件配置 -->
-        <plugin name='mid360_plugin' filename='libgazebo_ros_ray_sensor.so'>
+        <plugin name='mid360_plugin' filename='libros2_livox.so'>
           <topic>/scan</topic>
           <frameName>mid360</frameName>
           <updateRate>10</updateRate>
@@ -66,8 +66,8 @@
 
     <!-- 将传感器链接到主链接 -->
     <joint name='mid360_sensor_joint' type='fixed'>
-      <parent>mid360</parent>
-      <child>mid360_sensor_link</child>
+      <parent>base_link</parent>
+      <child>mid360_link</child>
       <pose>0 0 0 0 0 0</pose>
     </joint>
 

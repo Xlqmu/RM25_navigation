@@ -1,0 +1,358 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.000372] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000381] (-) JobUnselected: {'identifier': 'livox_sdk2'}
+[0.000388] (-) JobUnselected: {'identifier': 'rm_localization'}
+[0.000395] (-) JobUnselected: {'identifier': 'rm_mapping'}
+[0.000402] (-) JobUnselected: {'identifier': 'rm_robot_description'}
+[0.000409] (-) JobUnselected: {'identifier': 'rm_robot_description_sim'}
+[0.000417] (ros2_livox_simulation) JobQueued: {'identifier': 'ros2_livox_simulation', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/aurora/RM25/install/livox_ros_driver2')])}
+[0.000429] (ros2_livox_simulation) JobStarted: {'identifier': 'ros2_livox_simulation'}
+[0.013932] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'cmake'}
+[0.014890] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/aurora/RM25/src/rm_simulation/ros2_livox_simulation', '-DCMAKE_INSTALL_PREFIX=/home/aurora/RM25/install/ros2_livox_simulation'], 'cwd': '/home/aurora/RM25/build/ros2_livox_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'aurora'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/aurora/RM25/install/rm_localization/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aurora/RM25'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1198'), ('SYSTEMD_EXEC_PID', '1397'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6399'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/aurora/install:/home/aurora/ros_ws/install:/home/aurora/RM25_aim/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('http_proxy', 'http://127.0.0.1:7897/'), ('JOURNAL_STREAM', '8:2194'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aurora/RM25/install/rm_localization/lib/x86_64-linux-gnu/pkgconfig:/home/aurora/RM25/install/rm_localization/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.local/bin:/home/aurora/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aurora-Predator-PHN16-71:@/tmp/.ICE-unix/1367,unix/aurora-Predator-PHN16-71:/tmp/.ICE-unix/1367'), ('INVOCATION_ID', '64d24ba4c70f461a8f99001a02d84010'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FUCPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-65fd275e26.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/sdformat_tools:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/aurora/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/RM25/build/ros2_livox_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/aurora/ros_ws/build/sdformat_tools:/home/aurora/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/aurora/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25_aim/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2')]), 'shell': False}
+[0.067530] (ros2_livox_simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099644] (-) TimerEvent: {}
+[0.109454] (ros2_livox_simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.114385] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.182377] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.187566] (ros2_livox_simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.187951] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.188113] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.190923] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199775] (-) TimerEvent: {}
+[0.262620] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.267329] (ros2_livox_simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.267410] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.268190] (ros2_livox_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.270934] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.299883] (-) TimerEvent: {}
+[0.400191] (-) TimerEvent: {}
+[0.401139] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.492360] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500353] (-) TimerEvent: {}
+[0.530974] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.536207] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.543696] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.553276] (ros2_livox_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.566576] (ros2_livox_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600837] (-) TimerEvent: {}
+[0.603709] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.607293] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.683049] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700533] (-) TimerEvent: {}
+[0.707120] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.743005] (ros2_livox_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.753579] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800728] (-) TimerEvent: {}
+[0.823155] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.823515] (ros2_livox_simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.894502] (ros2_livox_simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.895270] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900789] (-) TimerEvent: {}
+[0.935495] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[0.942167] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.943397] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.959837] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.000920] (-) TimerEvent: {}
+[1.076363] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.101164] (-) TimerEvent: {}
+[1.136086] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.158310] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.185968] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.200605] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.201221] (-) TimerEvent: {}
+[1.206211] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.210845] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.211789] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.212634] (ros2_livox_simulation) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.219360] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.235576] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.292275] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.301526] (-) TimerEvent: {}
+[1.304395] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.310817] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.320172] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.320291] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.325136] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.325300] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.329869] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.329985] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.338160] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.338285] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.343377] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.343485] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.351917] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.403435] (-) TimerEvent: {}
+[1.500371] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.502714] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.503008] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.503480] (-) TimerEvent: {}
+[1.518186] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.531173] (ros2_livox_simulation) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.534986] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.551643] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.603647] (-) TimerEvent: {}
+[1.606899] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.616807] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.636578] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.703783] (-) TimerEvent: {}
+[1.707391] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.714215] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.714851] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.733759] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.738190] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.758277] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.804118] (-) TimerEvent: {}
+[1.843262] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.847978] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.848450] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.848814] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.850716] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.852491] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.863605] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.863869] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.866708] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.867204] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.867574] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.871676] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.872227] (ros2_livox_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.904333] (-) TimerEvent: {}
+[1.968218] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.974776] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.990546] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.004537] (-) TimerEvent: {}
+[2.029050] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.036094] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.052258] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.094370] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.094987] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.095344] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.095915] (ros2_livox_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.100093] (ros2_livox_simulation) StdoutLine: {'line': b'-- Gazebo version: 11.14\n'}
+[2.100303] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.104577] (-) TimerEvent: {}
+[2.116443] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.158195] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.165222] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.186181] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.204828] (-) TimerEvent: {}
+[2.260784] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/aurora/RM25/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[2.297710] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.305010] (-) TimerEvent: {}
+[2.314930] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.392812] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.393182] (ros2_livox_simulation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.405244] (-) TimerEvent: {}
+[2.417934] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.434135] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.489948] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.490156] (ros2_livox_simulation) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.505438] (-) TimerEvent: {}
+[2.605762] (-) TimerEvent: {}
+[2.706276] (-) TimerEvent: {}
+[2.806798] (-) TimerEvent: {}
+[2.907285] (-) TimerEvent: {}
+[3.007517] (-) TimerEvent: {}
+[3.107755] (-) TimerEvent: {}
+[3.208062] (-) TimerEvent: {}
+[3.308473] (-) TimerEvent: {}
+[3.408913] (-) TimerEvent: {}
+[3.503424] (ros2_livox_simulation) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.509082] (-) TimerEvent: {}
+[3.518606] (ros2_livox_simulation) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.562577] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.563124] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.609320] (-) TimerEvent: {}
+[3.633971] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.709411] (-) TimerEvent: {}
+[3.765522] (ros2_livox_simulation) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.773487] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.778645] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.809539] (-) TimerEvent: {}
+[3.897751] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.909642] (-) TimerEvent: {}
+[4.010018] (-) TimerEvent: {}
+[4.022913] (ros2_livox_simulation) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.110220] (-) TimerEvent: {}
+[4.144988] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.145663] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.146200] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.146631] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.148310] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.149361] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.149914] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.150165] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.151535] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.152798] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.154375] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.154915] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.155543] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.157204] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.157719] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.158313] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.159047] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.159619] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.160298] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.160788] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.161289] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[4.161473] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[4.161777] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[4.162489] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.163510] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.185765] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.186663] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.186755] (ros2_livox_simulation) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.200320] (ros2_livox_simulation) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono \n'}
+[4.210563] (-) TimerEvent: {}
+[4.273052] (ros2_livox_simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.289638] (ros2_livox_simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[4.294137] (ros2_livox_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/aurora/RM25/build/ros2_livox_simulation\n'}
+[4.310671] (-) TimerEvent: {}
+[4.313774] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[4.315146] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'build'}
+[4.316142] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aurora/RM25/build/ros2_livox_simulation', '--', '-j20', '-l20'], 'cwd': '/home/aurora/RM25/build/ros2_livox_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'aurora'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/aurora/RM25/install/rm_localization/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aurora/RM25'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1198'), ('SYSTEMD_EXEC_PID', '1397'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6399'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/aurora/install:/home/aurora/ros_ws/install:/home/aurora/RM25_aim/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('http_proxy', 'http://127.0.0.1:7897/'), ('JOURNAL_STREAM', '8:2194'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aurora/RM25/install/rm_localization/lib/x86_64-linux-gnu/pkgconfig:/home/aurora/RM25/install/rm_localization/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.local/bin:/home/aurora/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aurora-Predator-PHN16-71:@/tmp/.ICE-unix/1367,unix/aurora-Predator-PHN16-71:/tmp/.ICE-unix/1367'), ('INVOCATION_ID', '64d24ba4c70f461a8f99001a02d84010'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FUCPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-65fd275e26.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/sdformat_tools:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/aurora/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/RM25/build/ros2_livox_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/aurora/ros_ws/build/sdformat_tools:/home/aurora/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/aurora/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25_aim/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2')]), 'shell': False}
+[4.371741] (ros2_livox_simulation) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o\x1b[0m\n'}
+[4.371990] (ros2_livox_simulation) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o\x1b[0m\n'}
+[4.410869] (-) TimerEvent: {}
+[4.511545] (-) TimerEvent: {}
+[4.612067] (-) TimerEvent: {}
+[4.712441] (-) TimerEvent: {}
+[4.812764] (-) TimerEvent: {}
+[4.913432] (-) TimerEvent: {}
+[5.014019] (-) TimerEvent: {}
+[5.114738] (-) TimerEvent: {}
+[5.215325] (-) TimerEvent: {}
+[5.315595] (-) TimerEvent: {}
+[5.415861] (-) TimerEvent: {}
+[5.516178] (-) TimerEvent: {}
+[5.616501] (-) TimerEvent: {}
+[5.716898] (-) TimerEvent: {}
+[5.817448] (-) TimerEvent: {}
+[5.918098] (-) TimerEvent: {}
+[6.018829] (-) TimerEvent: {}
+[6.119559] (-) TimerEvent: {}
+[6.220229] (-) TimerEvent: {}
+[6.320574] (-) TimerEvent: {}
+[6.420913] (-) TimerEvent: {}
+[6.521256] (-) TimerEvent: {}
+[6.621597] (-) TimerEvent: {}
+[6.721906] (-) TimerEvent: {}
+[6.822248] (-) TimerEvent: {}
+[6.922591] (-) TimerEvent: {}
+[7.022931] (-) TimerEvent: {}
+[7.123281] (-) TimerEvent: {}
+[7.223633] (-) TimerEvent: {}
+[7.323940] (-) TimerEvent: {}
+[7.424271] (-) TimerEvent: {}
+[7.524593] (-) TimerEvent: {}
+[7.624819] (-) TimerEvent: {}
+[7.725148] (-) TimerEvent: {}
+[7.825484] (-) TimerEvent: {}
+[7.925736] (-) TimerEvent: {}
+[8.026047] (-) TimerEvent: {}
+[8.126395] (-) TimerEvent: {}
+[8.226702] (-) TimerEvent: {}
+[8.327002] (-) TimerEvent: {}
+[8.427329] (-) TimerEvent: {}
+[8.527556] (-) TimerEvent: {}
+[8.627934] (-) TimerEvent: {}
+[8.728254] (-) TimerEvent: {}
+[8.828594] (-) TimerEvent: {}
+[8.928930] (-) TimerEvent: {}
+[9.029247] (-) TimerEvent: {}
+[9.129499] (-) TimerEvent: {}
+[9.229814] (-) TimerEvent: {}
+[9.330114] (-) TimerEvent: {}
+[9.430364] (-) TimerEvent: {}
+[9.530673] (-) TimerEvent: {}
+[9.630981] (-) TimerEvent: {}
+[9.731319] (-) TimerEvent: {}
+[9.831553] (-) TimerEvent: {}
+[9.931872] (-) TimerEvent: {}
+[10.032347] (-) TimerEvent: {}
+[10.132614] (-) TimerEvent: {}
+[10.232862] (-) TimerEvent: {}
+[10.333240] (-) TimerEvent: {}
+[10.433667] (-) TimerEvent: {}
+[10.534411] (-) TimerEvent: {}
+[10.635028] (-) TimerEvent: {}
+[10.735619] (-) TimerEvent: {}
+[10.836089] (-) TimerEvent: {}
+[10.936680] (-) TimerEvent: {}
+[11.037272] (-) TimerEvent: {}
+[11.137591] (-) TimerEvent: {}
+[11.237882] (-) TimerEvent: {}
+[11.338215] (-) TimerEvent: {}
+[11.438483] (-) TimerEvent: {}
+[11.538753] (-) TimerEvent: {}
+[11.639085] (-) TimerEvent: {}
+[11.739425] (-) TimerEvent: {}
+[11.839761] (-) TimerEvent: {}
+[11.940085] (-) TimerEvent: {}
+[12.040438] (-) TimerEvent: {}
+[12.140754] (-) TimerEvent: {}
+[12.241083] (-) TimerEvent: {}
+[12.341427] (-) TimerEvent: {}
+[12.441764] (-) TimerEvent: {}
+[12.542087] (-) TimerEvent: {}
+[12.642440] (-) TimerEvent: {}
+[12.742784] (-) TimerEvent: {}
+[12.843105] (-) TimerEvent: {}
+[12.943434] (-) TimerEvent: {}
+[13.043769] (-) TimerEvent: {}
+[13.144082] (-) TimerEvent: {}
+[13.244510] (-) TimerEvent: {}
+[13.344863] (-) TimerEvent: {}
+[13.445192] (-) TimerEvent: {}
+[13.545610] (-) TimerEvent: {}
+[13.645848] (-) TimerEvent: {}
+[13.746175] (-) TimerEvent: {}
+[13.846502] (-) TimerEvent: {}
+[13.946844] (-) TimerEvent: {}
+[14.047119] (-) TimerEvent: {}
+[14.113372] (ros2_livox_simulation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros2_livox.so\x1b[0m\n'}
+[14.147343] (-) TimerEvent: {}
+[14.247618] (-) TimerEvent: {}
+[14.347931] (-) TimerEvent: {}
+[14.448661] (-) TimerEvent: {}
+[14.549135] (-) TimerEvent: {}
+[14.649370] (-) TimerEvent: {}
+[14.666702] (ros2_livox_simulation) StdoutLine: {'line': b'[100%] Built target ros2_livox\n'}
+[14.681596] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[14.682245] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'install'}
+[14.694956] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aurora/RM25/build/ros2_livox_simulation'], 'cwd': '/home/aurora/RM25/build/ros2_livox_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'aurora'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/aurora/RM25/install/rm_localization/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/aurora/RM25/install/livox_ros_driver2/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/ros_ws/install/rmoss_gz_cam/lib:/home/aurora/ros_ws/install/rmoss_cam/lib:/home/aurora/ros_ws/install/rmoss_util/lib:/home/aurora/ros_ws/install/rmoss_projectile_motion/lib:/home/aurora/ros_ws/install/rmoss_gz_base/lib:/home/aurora/ros_ws/install/rmoss_base/lib:/home/aurora/ros_ws/install/rmoss_interfaces/lib:/home/aurora/RM25_aim/install/rm_serial_driver/lib:/home/aurora/RM25_aim/install/hik_camera/lib:/home/aurora/RM25_aim/install/armor_tracker/lib:/home/aurora/RM25_aim/install/armor_detector/lib:/home/aurora/RM25_aim/install/auto_aim_interfaces/lib:/home/aurora/RM25/install/ros2_livox_simulation/lib:/home/aurora/RM25/install/livox_sdk2/lib:/home/aurora/RM25/install/livox_interfaces/lib:/home/aurora/RM25/src/install/ros2_livox_simulation/lib:/home/aurora/RM25/src/install/livox_sdk2/lib:/home/aurora/RM25/src/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aurora'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aurora/RM25'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1198'), ('SYSTEMD_EXEC_PID', '1397'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6399'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/aurora/RM25/install:/home/aurora/aurora/install:/home/aurora/ros_ws/install:/home/aurora/RM25_aim/install:/home/aurora/RM25/src/install:/home/aurora/RM25/src/rm_robot_description/launch/install:/home/aurora/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurora'), ('http_proxy', 'http://127.0.0.1:7897/'), ('JOURNAL_STREAM', '8:2194'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aurora/RM25/install/rm_localization/lib/x86_64-linux-gnu/pkgconfig:/home/aurora/RM25/install/rm_localization/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurora'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aurora/.local/bin:/home/aurora/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/aurora/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aurora-Predator-PHN16-71:@/tmp/.ICE-unix/1367,unix/aurora-Predator-PHN16-71:/tmp/.ICE-unix/1367'), ('INVOCATION_ID', '64d24ba4c70f461a8f99001a02d84010'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FUCPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-65fd275e26.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/sdformat_tools:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/aurora/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurora/RM25/build/ros2_livox_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/worlds:/home/aurora/ros_ws/install/rmul24_gazebo_simulator/share/rmul24_gazebo_simulator/resource/models:/home/aurora/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/aurora/ros_ws/build/sdformat_tools:/home/aurora/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/aurora/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25_aim/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aurora/RM25/install/livox_interfaces/local/lib/python3.10/dist-packages:/home/aurora/RM25/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aurora/RM25/install/livox_ros_driver2:/home/aurora/turtlebot3_ws/install/turtlebot3_simulations:/home/aurora/turtlebot3_ws/install/turtlebot3_gazebo:/home/aurora/turtlebot3_ws/install/turtlebot3_fake_node:/home/aurora/ros_ws/install/rmul24_gazebo_simulator:/home/aurora/ros_ws/install/rmoss_gz_cam:/home/aurora/ros_ws/install/rmoss_core:/home/aurora/ros_ws/install/rmoss_cam:/home/aurora/ros_ws/install/rmoss_util:/home/aurora/ros_ws/install/rmoss_projectile_motion:/home/aurora/ros_ws/install/rmoss_gz_bridge:/home/aurora/ros_ws/install/rmoss_gz_base:/home/aurora/ros_ws/install/rmoss_base:/home/aurora/ros_ws/install/rmoss_interfaces:/home/aurora/ros_ws/install/rmoss_gz_resources:/home/aurora/ros_ws/install/rmoss_gz_plugins:/home/aurora/RM25_aim/install/rm_vision_bringup:/home/aurora/RM25_aim/install/rm_serial_driver:/home/aurora/RM25_aim/install/rm_gimbal_description:/home/aurora/RM25_aim/install/hik_camera:/home/aurora/RM25_aim/install/armor_tracker:/home/aurora/RM25_aim/install/armor_detector:/home/aurora/RM25_aim/install/auto_aim_interfaces:/home/aurora/RM25/install/ros2_livox_simulation:/home/aurora/RM25/install/rm_robot_description_sim:/home/aurora/RM25/install/rm_robot_description:/home/aurora/ros_ws/install/sdformat_tools:/opt/ros/humble:/home/aurora/RM25/install/rm_localization:/home/aurora/RM25/install/livox_interfaces:/home/aurora/RM25/src/install/ros2_livox_simulation:/home/aurora/RM25/src/install/rm_robot_description_sim:/home/aurora/RM25/src/install/rm_robot_description:/home/aurora/RM25/src/install/livox_ros_driver2')]), 'shell': False}
+[14.702532] (ros2_livox_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.702802] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/include\n'}
+[14.702859] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/include/ros2_livox\n'}
+[14.703030] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h\n'}
+[14.703085] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp\n'}
+[14.703122] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h\n'}
+[14.703159] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh\n'}
+[14.703191] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv\n'}
+[14.703229] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/lib/libros2_livox.so\n'}
+[14.706053] (ros2_livox_simulation) StdoutLine: {'line': b'-- Set runtime path of "/home/aurora/RM25/install/ros2_livox_simulation/lib/libros2_livox.so" to ""\n'}
+[14.706240] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode\n'}
+[14.706295] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv\n'}
+[14.716286] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf\n'}
+[14.716558] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro\n'}
+[14.716601] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation\n'}
+[14.716632] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation\n'}
+[14.716659] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh\n'}
+[14.716686] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv\n'}
+[14.716713] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh\n'}
+[14.716739] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv\n'}
+[14.716792] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash\n'}
+[14.716838] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh\n'}
+[14.716863] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh\n'}
+[14.716886] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv\n'}
+[14.716930] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv\n'}
+[14.716964] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation\n'}
+[14.716987] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.717009] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.717032] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.717055] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake\n'}
+[14.717077] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake\n'}
+[14.717100] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/aurora/RM25/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml\n'}
+[14.718250] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[14.731497] (ros2_livox_simulation) JobEnded: {'identifier': 'ros2_livox_simulation', 'rc': 0}
+[14.731975] (-) EventReactorShutdown: {}

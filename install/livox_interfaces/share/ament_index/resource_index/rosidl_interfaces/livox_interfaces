@@ -1,1 +1,4 @@
-/home/aurora/RM25/build/livox_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces
+msg/CustomMsg.idl
+msg/CustomMsg.msg
+msg/CustomPoint.idl
+msg/CustomPoint.msg

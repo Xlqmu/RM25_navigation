@@ -6,3 +6,7 @@ find_package(rclcpp REQUIRED)
 find_package(PCL REQUIRED)
 
 ament_package()
+
+install(TARGETS
+	pcd_publisher
+	DESTINATION lib/${PROJECT_NAME})

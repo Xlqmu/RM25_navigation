@@ -1,1 +1,1 @@
-/home/aurora/RM25/build/livox_interfaces/ament_cmake_python/livox_interfaces/livox_interfaces.egg-info/top_level.txt
+livox_interfaces
